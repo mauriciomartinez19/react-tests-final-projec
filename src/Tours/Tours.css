@@ -1,0 +1,136 @@
+.App {
+  background-color: rgb(234, 247, 247);
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(34, 74, 150);
+  text-decoration: underline rgb(131, 203, 236) 5px;
+  margin-bottom: 30px;
+}
+
+.tours-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+  .box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 700px;
+  background-color: rgb(253, 252, 249);
+  color: #0e5f75;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgb(124, 123, 123);
+  
+}
+
+.text-section{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+  .picture{
+  width: 100%; 
+  height: 350px; 
+  object-fit: cover
+}
+
+  .title-price{
+  margin-top: 10px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+  .title-price h5{
+  margin: 8px;
+  font-size: 20px;
+}
+
+.title-price h6{
+  background-color: rgb(231, 243, 243);
+  padding: 5px;
+  margin: 0;
+  font-size: 18px;
+  color: rgb(39, 78, 161);
+}
+
+.box p {
+  margin: 15px;
+  margin-left: 0;
+  font-size: 18px;
+  color: rgb(56, 107, 141);
+}
+
+.btn{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 0px;
+  margin-bottom: 20px;
+  width: 30%;
+  padding: 3px;
+  background-color:rgb(253, 252, 249);
+  color: rgb(197, 48, 48);
+  font-size: 18px;
+  font-weight: 500;
+  border-color: rgb(240, 58, 58);
+  border-width: 1px;
+  border-radius: 5px;
+}
+.btn:hover{
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+.text-btn{
+  margin-bottom: 0px;
+  background-color: transparent;
+  border: transparent;
+  color: rgb(103, 171, 216);
+  padding: 0px;
+  font-size: 16px;
+}
+
+.text-btn:hover{
+  color: rgb(172, 164, 209);
+  cursor: pointer;
+}
+
+.refresh-div {
+ display: flex;
+ justify-content: center; 
+}
+
+.refresh-btn{
+  background-color: rgb(80, 150, 230);
+  border-width: 2px;
+  border-color: #768afc;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  box-shadow: rgb(231, 231, 235) 5px 5px 50px;
+}
+
+.refresh-btn:hover{
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+  color: rgb(39, 78, 161);
+  font-size: 50px;
+  font-weight: 500;
+}
