@@ -1,0 +1,83 @@
+.contact {
+    background-color: rgb(245, 195, 195);
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+}
+
+.input-section{
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(153, 182, 245);
+    border-radius: 50px;
+}
+.input-title{
+    margin-top: 0;
+    color: white;
+    margin-bottom: 0;
+}
+
+input {
+    height: 25px;
+    width: 200px;
+}
+textarea{
+    width: 250px;
+    height: 150px;
+}
+
+button{
+    width: 60px;
+}
+
+.aboutus-section{
+    border-radius: 50px;
+    padding: 25px;
+    width: 500px;
+    height: 500px;
+}
+
+.aboutus-title{
+    color: rgb(255, 255, 255);
+}
+
+.aboutus-subtitle{
+    margin-bottom: 0;
+}
+
+.down-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    height: 300px;
+}
+
+.btn-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btn-aboutus {
+    width: 100px;
+    border: solid rgb(235, 33, 33) 2px;
+    border-radius: 10px;
+    background-color: rgb(229, 151, 151);
+    text-align: left;
+}
+
+.btn-aboutus:hover{
+    color: white;
+    background-color: rgb(192, 198, 201);
+}
