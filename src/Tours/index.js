@@ -4,8 +4,8 @@ import React from 'react';
 
 function ToursPage() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App-tours">
+      <header className="App-header-tours">
         <h2>Our Tours</h2>
       </header>
       <Tour />

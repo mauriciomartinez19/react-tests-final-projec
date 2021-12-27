@@ -8,7 +8,10 @@ const Tour = () => {
     const getTours = () => {
         setIsLoading(true)
         setTours(data)
-        setTimeout(setIsLoading(false), 1000)
+        setTimeout(() => {
+            setIsLoading(false)
+        },
+            1000)
     }
 
     const deleteItem = (id) => {

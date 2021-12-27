@@ -7,19 +7,23 @@ import TopNavbar from './Navbar/TopNavbar';
 
 //Pages
 
-import Home from './Home/Home';
+import HomePage from './Home';
 import MenuPage from './Menu'
-import ToursPage from './Tours/ToursPage';
+import ToursPage from './Tours';
+import ReviewsPage from './Reviews';
 
 
 function App() {
   return (<Router>
     <TopNavbar />
     <Route exact path='/'>
-      <Home />
+      <HomePage />
     </Route>
     <Route path='/menu'>
       <MenuPage />
+    </Route>
+    <Route path='/reviews'>
+      <ReviewsPage />
     </Route>
     <Route path='/tours'>
       <ToursPage />
