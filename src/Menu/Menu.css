@@ -1,0 +1,138 @@
+.App-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f1f5f8;
+  height: 100vh;
+}
+
+.title {
+  color:#0f283d;
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+
+.line{
+    width: 70px;
+    border-bottom: 3px solid rgb(233, 179, 3);
+    display: flex;
+    align-items: center;
+    }
+
+.select-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: rgb(233, 179, 3);
+  font-size: 18px;
+  font-weight: lighter ;
+  margin-top: 40px;
+}
+
+.select-item {
+  color: rgb(233, 179, 3);
+  font-size: 18px;
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.select-item:hover{
+  background-color: #D4AC0D;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-bar {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #D4AC0D;
+  width: 30%;
+  padding: 10px;
+  box-shadow: 5px 5px 5px black;
+  border: solid;
+  border-color: chocolate;
+}
+
+.choose-label{
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}
+
+.choose-input {
+  width: 90%;
+  height: 25px;
+}
+
+.menu{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+
+.menu-section{
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.menu-text{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.title-price{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-title{
+  margin: 0;
+}
+
+.price{
+  margin: 0;
+}
+
+.description{
+  text-align: left;
+}
+
+.menu-line{
+    width: 100%;
+    margin-top: 0;
+    border-top: 2px dotted rgb(182, 182, 181);
+    display: flex;
+    align-items: center;
+}
+
+.picture-menu{
+  border: 3px solid rgb(233, 179, 3);
+  width: 300px;
+  height: 150px; 
+  object-fit: cover
+}
+
+.loading-logo{
+  margin-top: 100px;
+  width: 10%;
+}
