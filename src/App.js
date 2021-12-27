@@ -11,6 +11,7 @@ import HomePage from './Home';
 import MenuPage from './Menu'
 import ToursPage from './Tours';
 import ReviewsPage from './Reviews';
+import Contact from './Contact';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
     </Route>
     <Route path='/tours'>
       <ToursPage />
+    </Route>
+    <Route path='/contact'>
+      <Contact />
     </Route>
   </Router>
   );

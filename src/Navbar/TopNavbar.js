@@ -29,9 +29,7 @@ const TopNavbar = () => {
       <img src={restlogo} className='restlogo' />
       <ul className='list'>
         <Link to='/'>Home</Link>
-        <Link to='/menu'>Menu</Link>
-        <Link to='/reviews'>Reviews</Link>
-        <Link to='/tours'>Tours</Link>
+        <Link to='/contact'>Contact</Link>
       </ul>
     </nav>
   }
