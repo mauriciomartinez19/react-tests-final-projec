@@ -8,19 +8,27 @@
 .sections{
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 150px;
 }
 
 .input-section{
-    padding: 20px;
+    margin-top: 110px;
+    padding: 30px;
     width: 350px;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     background-color: rgb(153, 182, 245);
     border-radius: 50px;
 }
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .input-title{
     margin-top: 0;
     color: white;
@@ -29,19 +37,33 @@
 
 input {
     height: 25px;
-    width: 200px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
 }
 textarea{
-    width: 250px;
+    width: 100%;
     height: 150px;
+    border-radius: 10px;
+    border: none;
 }
 
-button{
-    width: 60px;
+.submit-btn{
+    width: 100px;
+    background-color: rgb(233, 162, 162);
+    border: solid rgb(212, 140, 140);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+    color: rgb(219, 155, 155);
+    background-color: white;
 }
 
 .aboutus-section{
-    border-radius: 50px;
     padding: 25px;
     width: 500px;
     height: 500px;
@@ -49,18 +71,27 @@ button{
 
 .aboutus-title{
     color: rgb(255, 255, 255);
+    font-size: 48px;
+    margin-bottom: 0;
 }
 
 .aboutus-subtitle{
     margin-bottom: 0;
+    font-size: 24px;
+    color: rgb(109, 176, 235);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
 }
 
 .down-section{
+    margin-top: 10px;
+    padding: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 30px;
     height: 300px;
+    background-color: rgb(236, 182, 182);
 }
 
 .btn-box{
@@ -71,13 +102,21 @@ button{
 
 .btn-aboutus {
     width: 100px;
-    border: solid rgb(235, 33, 33) 2px;
-    border-radius: 10px;
-    background-color: rgb(229, 151, 151);
+    border: solid rgb(109, 176, 235);
+    border-radius: 5px;
+    background-color: rgb(153, 182, 245);
     text-align: left;
+    color: white;
+    font-weight: 600;
 }
 
 .btn-aboutus:hover{
-    color: white;
-    background-color: rgb(192, 198, 201);
+    color: rgb(109, 176, 235);
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+p {
+    color: rgb(90, 147, 197);
 }
