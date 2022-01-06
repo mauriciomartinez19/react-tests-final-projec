@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './Tours.css';
-import { data } from './data';
+const url = 'https://course-api.com/react-tours-project'
 const Tour = () => {
     const [tours, setTours] = useState([])
     const [isLoading, setIsLoading] = useState(true)
 
-    const getTours = () => {
+    const getTours = async () => {
         setIsLoading(true)
+        const response = await fetch(url);
+        const data = await response.json()
         setTours(data)
         setTimeout(() => {
             setIsLoading(false)
@@ -49,17 +51,17 @@ const Tour = () => {
         tours.length ? (
             <div className="tours-box">{
                 tours.map((tour) => {
-                    const { id, img, title, paragraph, price } = tour
+                    const { id, image, name, info, price } = tour
                     return (
                         <article key={id} className="box">
-                            <img className='picture' src={img} />
+                            <img className='picture' src={image} />
                             <div className='text-section'>
                                 <div className="title-price">
-                                    <h5>{title}</h5>
+                                    <h5>{name}</h5>
                                     <h6>{price}</h6>
                                 </div>
                                 <ReadMore>
-                                    {paragraph}
+                                    {info}
                                 </ReadMore>
                             </div>
                             <button className='btn' onClick={() => deleteItem(id)}>Not Interested</button>
