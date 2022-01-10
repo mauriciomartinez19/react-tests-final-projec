@@ -1,12 +1,19 @@
 import './Reviews.css';
 import React, { useState, useEffect } from 'react'
-import { data } from './data'
 
 const Cards = () => {
     const [people, setPeople] = useState([])
     const [loading, setLoading] = useState(true)
     const [sliderNumber, setSliderNumber] = useState(0)
     const [person, setPerson] = useState()
+
+    const getReviews = async () => {
+        const response = await fetch('http://localhost:5000/api/reviews-data')
+        const data = await response.json()
+        setPeople(data)
+        setPerson(data[0])
+        setLoading(false)
+    }
 
     const next = () => {
         const newValue = (sliderNumber + 1) % people.length
@@ -23,21 +30,15 @@ const Cards = () => {
     }
 
     const randomNumber = () => {
-        const random = Math.floor(Math.random() * ((data.length) - 0))
+        const random = Math.floor(Math.random() * ((people.length) - 0))
         setSliderNumber(random)
         const activeSlide = people.find((data) => data.id === sliderNumber)
         setPerson(activeSlide)
     }
 
+
     useEffect(() => {
-
-        // TO DO: Fetch people from backend
-        setTimeout(() => {
-            setPeople(data)
-            setPerson(data[0])
-            setLoading(false)
-        }, 500);
-
+        getReviews()
     }, [])
 
     if (loading) {

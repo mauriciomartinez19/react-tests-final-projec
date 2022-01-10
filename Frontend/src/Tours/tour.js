@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Tours.css';
-const url = 'https://course-api.com/react-tours-project'
+const url = 'http://localhost:5000/api/tours-data'
 const Tour = () => {
     const [tours, setTours] = useState([])
     const [isLoading, setIsLoading] = useState(true)
@@ -16,10 +16,14 @@ const Tour = () => {
             1000)
     }
 
-    const deleteItem = (id) => {
-        const newList = tours.filter((tour) => tour.id !== id)
-        setTours(newList)
+    const deleteItem = async (id) => {
+        //const newList = tours.filter((tour) => tour.id !== id)
+        //setTours(newList)
+        const response = await fetch(`http://localhost:5000/api/tours-data/${id}`, { method: 'DELETE' })
+        const data = await response.json()
+        setTours(data.data)
     }
+
 
     const ReadMore = ({ children }) => {
         const text = children;
@@ -37,8 +41,12 @@ const Tour = () => {
         );
     };
 
-    const refreshData = () => {
-        getTours()
+    const refreshData = async () => {
+        //getTours()
+        const response = await fetch('http://localhost:5000/api/tours-data', { method: 'PUT' })
+        const data = await response.json()
+        console.log(data.data)
+        setTours(data.data)
     }
 
     useEffect(() => {
