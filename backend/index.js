@@ -8,10 +8,11 @@ app.use(cors())
 
 const tours = require('./tours/tour-routes')
 const reviews = require('./reviews/reviews-routes')
-
+const contacts = require('./admin-contact/admin-contact-routes')
 
 app.use('/api/tours-data', tours)
 app.use('/api/reviews-data', reviews)
+app.use('/api/admin-contact', contacts)
 
 const PORT = 5000;
 
