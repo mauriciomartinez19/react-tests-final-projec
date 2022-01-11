@@ -12,6 +12,7 @@ import MenuPage from './Menu'
 import ToursPage from './Tours';
 import ReviewsPage from './Reviews';
 import Contact from './Contact';
+import AdminContact from './Admin-Contacts';
 
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
     </Route>
     <Route path='/contact'>
       <Contact />
+    </Route>
+    <Route path='/admin-contacts'>
+      <AdminContact />
     </Route>
   </Router>
   );

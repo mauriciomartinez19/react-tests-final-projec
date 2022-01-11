@@ -6,14 +6,22 @@ const Input = () => {
     const [message, setMessage] = useState('')
     const [sendMes, setSendMes] = useState({})
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
-        const data = { id: new Date().getTime().toString(), name, email, message }
-        setSendMes(data)
-        console.log(data)
+        const mes = { id: new Date().getTime().toString(), name, email, message }
+        setSendMes(mes)
+        console.log(mes)
         setName('')
         setEmail('')
         setMessage('')
+        const reqSettings = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify([{ mes }])
+        }
+        const response = await fetch('http://localhost:5000/api/admin-contact', reqSettings)
+        const data = await response.json()
+        console.log(data)
     }
     return <section className="input-section">
         <h1 className="input-title">Get in Touch!</h1>

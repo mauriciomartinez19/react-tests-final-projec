@@ -30,6 +30,7 @@ const TopNavbar = () => {
       <ul className='list'>
         <Link to='/'>Home</Link>
         <Link to='/contact'>Contact</Link>
+        <Link to='/admin-contacts'>Admin contact</Link>
       </ul>
     </nav>
   }
