@@ -17,13 +17,13 @@ const Contacts = () => {
     return <div>
         {console.log(contacts)}
         {contacts.map((contact) => {
-            const { name, email, msg, id } = contact
+            const { name, email, message, id } = contact
             return (<section key={id} className='item-list'>
                 <br />
                 <ul>
                     <li><h3>{name}</h3></li>
                     <li><h4>{email}</h4></li>
-                    <li><p>{msg}</p></li>
+                    <li><p>{message}</p></li>
                 </ul>
             </section>
             )

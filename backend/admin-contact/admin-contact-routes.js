@@ -1,11 +1,11 @@
 const express = require('express')
 const router = express.Router()
 
-const contacts = [{
+let contacts = [{
     id: 1,
     name: 'Mauricio Martinez',
     email: 'maurimar19@hotmail.com',
-    msg: 'msg 1 de prueba'
+    message: 'msg 1 de prueba'
 }]
 
 router.route('/').get((req, res) => {
@@ -13,10 +13,11 @@ router.route('/').get((req, res) => {
 })
 
 router.route('/').post((req, res) => {
-    const { name, email, msg, id } = req.body
-    const newContact = { id, name, email, msg }
-    let newContacts = [...contacts, newContact]
-    res.status(200).send(newContacts)
+    console.log(req.body)
+    const { name, email, message, id } = req.body
+    const newContact = { id, name, email, message }
+    contacts = [...contacts, newContact]
+    res.status(200).json('SUCCES')
 })
 
 module.exports = router

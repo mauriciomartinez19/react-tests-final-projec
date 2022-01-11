@@ -4,7 +4,7 @@ const Input = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
-    const [sendMes, setSendMes] = useState({})
+    const [sendMes, setSendMes] = useState([])
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -17,11 +17,12 @@ const Input = () => {
         const reqSettings = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify([{ mes }])
+            body: JSON.stringify(sendMes)
         }
         const response = await fetch('http://localhost:5000/api/admin-contact', reqSettings)
         const data = await response.json()
         console.log(data)
+        sendMes([])
     }
     return <section className="input-section">
         <h1 className="input-title">Get in Touch!</h1>
