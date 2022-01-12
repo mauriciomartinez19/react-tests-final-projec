@@ -13,6 +13,7 @@ import ToursPage from './Tours';
 import ReviewsPage from './Reviews';
 import Contact from './Contact';
 import AdminContact from './Admin-Contacts';
+import Countries from './countries';
 
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
     </Route>
     <Route path='/tours'>
       <ToursPage />
+    </Route>
+    <Route path='/countries'>
+      <Countries />
     </Route>
     <Route path='/contact'>
       <Contact />

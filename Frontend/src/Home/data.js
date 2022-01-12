@@ -14,4 +14,9 @@ export const data = [
         img: 'tours.png',
         link: '/tours'
     },
+    {
+        title: 'Countries',
+        img: 'countries.png',
+        link: '/countries'
+    }
 ]
