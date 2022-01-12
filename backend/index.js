@@ -4,9 +4,6 @@ const cors = require('cors')
 const app = express();
 app.use(cors())
 
-// parse form data
-app.use(express.urlencoded({ extended: false }))
-// parse json
 app.use(express.json())
 
 const tours = require('./tours/tour-routes')

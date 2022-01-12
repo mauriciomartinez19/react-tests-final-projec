@@ -1,5 +1,45 @@
+.page{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    gap: 50px;
+}
+
 .item-list{
+display: flex;
+flex-direction: column;
+justify-items: center;
 background-color: rgb(221, 221, 221);
 padding: 20px;
-border-bottom: solid black;
+border: solid rgb(121, 121, 121) 1px;
+width: 350px;
+height: 150px;
+}
+
+.item-list:hover{
+    border: solid rgb(156, 156, 224) 1px;
+    background-color: rgb(206, 205, 205);
+}
+
+.name{
+font-size: 18px;
+color: black;
+text-transform: uppercase;
+}
+
+.email{
+    color: rgb(99, 170, 211);
+    font-weight: 500;
+}
+
+.mes{
+    margin-top: 0;
+    color: black;
 }

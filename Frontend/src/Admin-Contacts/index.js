@@ -2,7 +2,7 @@
 import Contacts from "./contacts"
 
 const AdminContact = () => {
-    return <div>
+    return <div className="page">
         <Contacts />
     </div>
 }
