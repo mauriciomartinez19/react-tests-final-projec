@@ -1,0 +1,1496 @@
+[
+    {
+        "name": "Afghanistan",
+        "firstid": "AF",
+        "secid": "AFG",
+        "key": 4
+    },
+    {
+        "name": "Albania",
+        "firstid": "AL",
+        "secid": "ALB",
+        "key": 8
+    },
+    {
+        "name": "Algeria",
+        "firstid": "DZ",
+        "secid": "DZA",
+        "key": 12
+    },
+    {
+        "name": "American Samoa",
+        "firstid": "AS",
+        "secid": "ASM",
+        "key": 16
+    },
+    {
+        "name": "Andorra",
+        "firstid": "AD",
+        "secid": "AND",
+        "key": 20
+    },
+    {
+        "name": "Angola",
+        "firstid": "AO",
+        "secid": "AGO",
+        "key": 24
+    },
+    {
+        "name": "Anguilla",
+        "firstid": "AI",
+        "secid": "AIA",
+        "key": 660
+    },
+    {
+        "name": "Antarctica",
+        "firstid": "AQ",
+        "secid": "ATA",
+        "key": 10
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "firstid": "AG",
+        "secid": "ATG",
+        "key": 28
+    },
+    {
+        "name": "Argentina",
+        "firstid": "AR",
+        "secid": "ARG",
+        "key": 32
+    },
+    {
+        "name": "Armenia",
+        "firstid": "AM",
+        "secid": "ARM",
+        "key": 51
+    },
+    {
+        "name": "Aruba",
+        "firstid": "AW",
+        "secid": "ABW",
+        "key": 533
+    },
+    {
+        "name": "Australia",
+        "firstid": "AU",
+        "secid": "AUS",
+        "key": 36
+    },
+    {
+        "name": "Austria",
+        "firstid": "AT",
+        "secid": "AUT",
+        "key": 40
+    },
+    {
+        "name": "Azerbaijan",
+        "firstid": "AZ",
+        "secid": "AZE",
+        "key": 31
+    },
+    {
+        "name": "Bahamas (the)",
+        "firstid": "BS",
+        "secid": "BHS",
+        "key": 44
+    },
+    {
+        "name": "Bahrain",
+        "firstid": "BH",
+        "secid": "BHR",
+        "key": 48
+    },
+    {
+        "name": "Bangladesh",
+        "firstid": "BD",
+        "secid": "BGD",
+        "key": 50
+    },
+    {
+        "name": "Barbados",
+        "firstid": "BB",
+        "secid": "BRB",
+        "key": 52
+    },
+    {
+        "name": "Belarus",
+        "firstid": "BY",
+        "secid": "BLR",
+        "key": 112
+    },
+    {
+        "name": "Belgium",
+        "firstid": "BE",
+        "secid": "BEL",
+        "key": 56
+    },
+    {
+        "name": "Belize",
+        "firstid": "BZ",
+        "secid": "BLZ",
+        "key": 84
+    },
+    {
+        "name": "Benin",
+        "firstid": "BJ",
+        "secid": "BEN",
+        "key": 204
+    },
+    {
+        "name": "Bermuda",
+        "firstid": "BM",
+        "secid": "BMU",
+        "key": 60
+    },
+    {
+        "name": "Bhutan",
+        "firstid": "BT",
+        "secid": "BTN",
+        "key": 64
+    },
+    {
+        "name": "Bolivia (Plurinational State of)",
+        "firstid": "BO",
+        "secid": "BOL",
+        "key": 68
+    },
+    {
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "firstid": "BQ",
+        "secid": "BES",
+        "key": 535
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "firstid": "BA",
+        "secid": "BIH",
+        "key": 70
+    },
+    {
+        "name": "Botswana",
+        "firstid": "BW",
+        "secid": "BWA",
+        "key": 72
+    },
+    {
+        "name": "Bouvet Island",
+        "firstid": "BV",
+        "secid": "BVT",
+        "key": 74
+    },
+    {
+        "name": "Brazil",
+        "firstid": "BR",
+        "secid": "BRA",
+        "key": 76
+    },
+    {
+        "name": "British Indian Ocean Territory (the)",
+        "firstid": "IO",
+        "secid": "IOT",
+        "key": 86
+    },
+    {
+        "name": "Brunei Darussalam",
+        "firstid": "BN",
+        "secid": "BRN",
+        "key": 96
+    },
+    {
+        "name": "Bulgaria",
+        "firstid": "BG",
+        "secid": "BGR",
+        "key": 100
+    },
+    {
+        "name": "Burkina Faso",
+        "firstid": "BF",
+        "secid": "BFA",
+        "key": 854
+    },
+    {
+        "name": "Burundi",
+        "firstid": "BI",
+        "secid": "BDI",
+        "key": 108
+    },
+    {
+        "name": "Cabo Verde",
+        "firstid": "CV",
+        "secid": "CPV",
+        "key": 132
+    },
+    {
+        "name": "Cambodia",
+        "firstid": "KH",
+        "secid": "KHM",
+        "key": 116
+    },
+    {
+        "name": "Cameroon",
+        "firstid": "CM",
+        "secid": "CMR",
+        "key": 120
+    },
+    {
+        "name": "Canada",
+        "firstid": "CA",
+        "secid": "CAN",
+        "key": 124
+    },
+    {
+        "name": "Cayman Islands (the)",
+        "firstid": "KY",
+        "secid": "CYM",
+        "key": 136
+    },
+    {
+        "name": "Central African Republic (the)",
+        "firstid": "CF",
+        "secid": "CAF",
+        "key": 140
+    },
+    {
+        "name": "Chad",
+        "firstid": "TD",
+        "secid": "TCD",
+        "key": 148
+    },
+    {
+        "name": "Chile",
+        "firstid": "CL",
+        "secid": "CHL",
+        "key": 152
+    },
+    {
+        "name": "China",
+        "firstid": "CN",
+        "secid": "CHN",
+        "key": 156
+    },
+    {
+        "name": "Christmas Island",
+        "firstid": "CX",
+        "secid": "CXR",
+        "key": 162
+    },
+    {
+        "name": "Cocos (Keeling) Islands (the)",
+        "firstid": "CC",
+        "secid": "CCK",
+        "key": 166
+    },
+    {
+        "name": "Colombia",
+        "firstid": "CO",
+        "secid": "COL",
+        "key": 170
+    },
+    {
+        "name": "Comoros (the)",
+        "firstid": "KM",
+        "secid": "COM",
+        "key": 174
+    },
+    {
+        "name": "Congo (the Democratic Republic of the)",
+        "firstid": "CD",
+        "secid": "COD",
+        "key": 180
+    },
+    {
+        "name": "Congo (the)",
+        "firstid": "CG",
+        "secid": "COG",
+        "key": 178
+    },
+    {
+        "name": "Cook Islands (the)",
+        "firstid": "CK",
+        "secid": "COK",
+        "key": 184
+    },
+    {
+        "name": "Costa Rica",
+        "firstid": "CR",
+        "secid": "CRI",
+        "key": 188
+    },
+    {
+        "name": "Croatia",
+        "firstid": "HR",
+        "secid": "HRV",
+        "key": 191
+    },
+    {
+        "name": "Cuba",
+        "firstid": "CU",
+        "secid": "CUB",
+        "key": 192
+    },
+    {
+        "name": "Curaçao",
+        "firstid": "CW",
+        "secid": "CUW",
+        "key": 531
+    },
+    {
+        "name": "Cyprus",
+        "firstid": "CY",
+        "secid": "CYP",
+        "key": 196
+    },
+    {
+        "name": "Czechia",
+        "firstid": "CZ",
+        "secid": "CZE",
+        "key": 203
+    },
+    {
+        "name": "Côte d'Ivoire",
+        "firstid": "CI",
+        "secid": "CIV",
+        "key": 384
+    },
+    {
+        "name": "Denmark",
+        "firstid": "DK",
+        "secid": "DNK",
+        "key": 208
+    },
+    {
+        "name": "Djibouti",
+        "firstid": "DJ",
+        "secid": "DJI",
+        "key": 262
+    },
+    {
+        "name": "Dominica",
+        "firstid": "DM",
+        "secid": "DMA",
+        "key": 212
+    },
+    {
+        "name": "Dominican Republic (the)",
+        "firstid": "DO",
+        "secid": "DOM",
+        "key": 214
+    },
+    {
+        "name": "Ecuador",
+        "firstid": "EC",
+        "secid": "ECU",
+        "key": 218
+    },
+    {
+        "name": "Egypt",
+        "firstid": "EG",
+        "secid": "EGY",
+        "key": 818
+    },
+    {
+        "name": "El Salvador",
+        "firstid": "SV",
+        "secid": "SLV",
+        "key": 222
+    },
+    {
+        "name": "Equatorial Guinea",
+        "firstid": "GQ",
+        "secid": "GNQ",
+        "key": 226
+    },
+    {
+        "name": "Eritrea",
+        "firstid": "ER",
+        "secid": "ERI",
+        "key": 232
+    },
+    {
+        "name": "Estonia",
+        "firstid": "EE",
+        "secid": "EST",
+        "key": 233
+    },
+    {
+        "name": "Eswatini",
+        "firstid": "SZ",
+        "secid": "SWZ",
+        "key": 748
+    },
+    {
+        "name": "Ethiopia",
+        "firstid": "ET",
+        "secid": "ETH",
+        "key": 231
+    },
+    {
+        "name": "Falkland Islands (the) [Malvinas]",
+        "firstid": "FK",
+        "secid": "FLK",
+        "key": 238
+    },
+    {
+        "name": "Faroe Islands (the)",
+        "firstid": "FO",
+        "secid": "FRO",
+        "key": 234
+    },
+    {
+        "name": "Fiji",
+        "firstid": "FJ",
+        "secid": "FJI",
+        "key": 242
+    },
+    {
+        "name": "Finland",
+        "firstid": "FI",
+        "secid": "FIN",
+        "key": 246
+    },
+    {
+        "name": "France",
+        "firstid": "FR",
+        "secid": "FRA",
+        "key": 250
+    },
+    {
+        "name": "French Guiana",
+        "firstid": "GF",
+        "secid": "GUF",
+        "key": 254
+    },
+    {
+        "name": "French Polynesia",
+        "firstid": "PF",
+        "secid": "PYF",
+        "key": 258
+    },
+    {
+        "name": "French Southern Territories (the)",
+        "firstid": "TF",
+        "secid": "ATF",
+        "key": 260
+    },
+    {
+        "name": "Gabon",
+        "firstid": "GA",
+        "secid": "GAB",
+        "key": 266
+    },
+    {
+        "name": "Gambia (the)",
+        "firstid": "GM",
+        "secid": "GMB",
+        "key": 270
+    },
+    {
+        "name": "Georgia",
+        "firstid": "GE",
+        "secid": "GEO",
+        "key": 268
+    },
+    {
+        "name": "Germany",
+        "firstid": "DE",
+        "secid": "DEU",
+        "key": 276
+    },
+    {
+        "name": "Ghana",
+        "firstid": "GH",
+        "secid": "GHA",
+        "key": 288
+    },
+    {
+        "name": "Gibraltar",
+        "firstid": "GI",
+        "secid": "GIB",
+        "key": 292
+    },
+    {
+        "name": "Greece",
+        "firstid": "GR",
+        "secid": "GRC",
+        "key": 300
+    },
+    {
+        "name": "Greenland",
+        "firstid": "GL",
+        "secid": "GRL",
+        "key": 304
+    },
+    {
+        "name": "Grenada",
+        "firstid": "GD",
+        "secid": "GRD",
+        "key": 308
+    },
+    {
+        "name": "Guadeloupe",
+        "firstid": "GP",
+        "secid": "GLP",
+        "key": 312
+    },
+    {
+        "name": "Guam",
+        "firstid": "GU",
+        "secid": "GUM",
+        "key": 316
+    },
+    {
+        "name": "Guatemala",
+        "firstid": "GT",
+        "secid": "GTM",
+        "key": 320
+    },
+    {
+        "name": "Guernsey",
+        "firstid": "GG",
+        "secid": "GGY",
+        "key": 831
+    },
+    {
+        "name": "Guinea",
+        "firstid": "GN",
+        "secid": "GIN",
+        "key": 324
+    },
+    {
+        "name": "Guinea-Bissau",
+        "firstid": "GW",
+        "secid": "GNB",
+        "key": 624
+    },
+    {
+        "name": "Guyana",
+        "firstid": "GY",
+        "secid": "GUY",
+        "key": 328
+    },
+    {
+        "name": "Haiti",
+        "firstid": "HT",
+        "secid": "HTI",
+        "key": 332
+    },
+    {
+        "name": "Heard Island and McDonald Islands",
+        "firstid": "HM",
+        "secid": "HMD",
+        "key": 334
+    },
+    {
+        "name": "Holy See (the)",
+        "firstid": "VA",
+        "secid": "VAT",
+        "key": 336
+    },
+    {
+        "name": "Honduras",
+        "firstid": "HN",
+        "secid": "HND",
+        "key": 340
+    },
+    {
+        "name": "Hong Kong",
+        "firstid": "HK",
+        "secid": "HKG",
+        "key": 344
+    },
+    {
+        "name": "Hungary",
+        "firstid": "HU",
+        "secid": "HUN",
+        "key": 348
+    },
+    {
+        "name": "Iceland",
+        "firstid": "IS",
+        "secid": "ISL",
+        "key": 352
+    },
+    {
+        "name": "India",
+        "firstid": "IN",
+        "secid": "IND",
+        "key": 356
+    },
+    {
+        "name": "Indonesia",
+        "firstid": "ID",
+        "secid": "IDN",
+        "key": 360
+    },
+    {
+        "name": "Iran (Islamic Republic of)",
+        "firstid": "IR",
+        "secid": "IRN",
+        "key": 364
+    },
+    {
+        "name": "Iraq",
+        "firstid": "IQ",
+        "secid": "IRQ",
+        "key": 368
+    },
+    {
+        "name": "Ireland",
+        "firstid": "IE",
+        "secid": "IRL",
+        "key": 372
+    },
+    {
+        "name": "Isle of Man",
+        "firstid": "IM",
+        "secid": "IMN",
+        "key": 833
+    },
+    {
+        "name": "Israel",
+        "firstid": "IL",
+        "secid": "ISR",
+        "key": 376
+    },
+    {
+        "name": "Italy",
+        "firstid": "IT",
+        "secid": "ITA",
+        "key": 380
+    },
+    {
+        "name": "Jamaica",
+        "firstid": "JM",
+        "secid": "JAM",
+        "key": 388
+    },
+    {
+        "name": "Japan",
+        "firstid": "JP",
+        "secid": "JPN",
+        "key": 392
+    },
+    {
+        "name": "Jersey",
+        "firstid": "JE",
+        "secid": "JEY",
+        "key": 832
+    },
+    {
+        "name": "Jordan",
+        "firstid": "JO",
+        "secid": "JOR",
+        "key": 400
+    },
+    {
+        "name": "Kazakhstan",
+        "firstid": "KZ",
+        "secid": "KAZ",
+        "key": 398
+    },
+    {
+        "name": "Kenya",
+        "firstid": "KE",
+        "secid": "KEN",
+        "key": 404
+    },
+    {
+        "name": "Kiribati",
+        "firstid": "KI",
+        "secid": "KIR",
+        "key": 296
+    },
+    {
+        "name": "Korea (the Democratic People's Republic of)",
+        "firstid": "KP",
+        "secid": "PRK",
+        "key": 408
+    },
+    {
+        "name": "Korea (the Republic of)",
+        "firstid": "KR",
+        "secid": "KOR",
+        "key": 410
+    },
+    {
+        "name": "Kuwait",
+        "firstid": "KW",
+        "secid": "KWT",
+        "key": 414
+    },
+    {
+        "name": "Kyrgyzstan",
+        "firstid": "KG",
+        "secid": "KGZ",
+        "key": 417
+    },
+    {
+        "name": "Lao People's Democratic Republic (the)",
+        "firstid": "LA",
+        "secid": "LAO",
+        "key": 418
+    },
+    {
+        "name": "Latvia",
+        "firstid": "LV",
+        "secid": "LVA",
+        "key": 428
+    },
+    {
+        "name": "Lebanon",
+        "firstid": "LB",
+        "secid": "LBN",
+        "key": 422
+    },
+    {
+        "name": "Lesotho",
+        "firstid": "LS",
+        "secid": "LSO",
+        "key": 426
+    },
+    {
+        "name": "Liberia",
+        "firstid": "LR",
+        "secid": "LBR",
+        "key": 430
+    },
+    {
+        "name": "Libya",
+        "firstid": "LY",
+        "secid": "LBY",
+        "key": 434
+    },
+    {
+        "name": "Liechtenstein",
+        "firstid": "LI",
+        "secid": "LIE",
+        "key": 438
+    },
+    {
+        "name": "Lithuania",
+        "firstid": "LT",
+        "secid": "LTU",
+        "key": 440
+    },
+    {
+        "name": "Luxembourg",
+        "firstid": "LU",
+        "secid": "LUX",
+        "key": 442
+    },
+    {
+        "name": "Macao",
+        "firstid": "MO",
+        "secid": "MAC",
+        "key": 446
+    },
+    {
+        "name": "Madagascar",
+        "firstid": "MG",
+        "secid": "MDG",
+        "key": 450
+    },
+    {
+        "name": "Malawi",
+        "firstid": "MW",
+        "secid": "MWI",
+        "key": 454
+    },
+    {
+        "name": "Malaysia",
+        "firstid": "MY",
+        "secid": "MYS",
+        "key": 458
+    },
+    {
+        "name": "Maldives",
+        "firstid": "MV",
+        "secid": "MDV",
+        "key": 462
+    },
+    {
+        "name": "Mali",
+        "firstid": "ML",
+        "secid": "MLI",
+        "key": 466
+    },
+    {
+        "name": "Malta",
+        "firstid": "MT",
+        "secid": "MLT",
+        "key": 470
+    },
+    {
+        "name": "Marshall Islands (the)",
+        "firstid": "MH",
+        "secid": "MHL",
+        "key": 584
+    },
+    {
+        "name": "Martinique",
+        "firstid": "MQ",
+        "secid": "MTQ",
+        "key": 474
+    },
+    {
+        "name": "Mauritania",
+        "firstid": "MR",
+        "secid": "MRT",
+        "key": 478
+    },
+    {
+        "name": "Mauritius",
+        "firstid": "MU",
+        "secid": "MUS",
+        "key": 480
+    },
+    {
+        "name": "Mayotte",
+        "firstid": "YT",
+        "secid": "MYT",
+        "key": 175
+    },
+    {
+        "name": "Mexico",
+        "firstid": "MX",
+        "secid": "MEX",
+        "key": 484
+    },
+    {
+        "name": "Micronesia (Federated States of)",
+        "firstid": "FM",
+        "secid": "FSM",
+        "key": 583
+    },
+    {
+        "name": "Moldova (the Republic of)",
+        "firstid": "MD",
+        "secid": "MDA",
+        "key": 498
+    },
+    {
+        "name": "Monaco",
+        "firstid": "MC",
+        "secid": "MCO",
+        "key": 492
+    },
+    {
+        "name": "Mongolia",
+        "firstid": "MN",
+        "secid": "MNG",
+        "key": 496
+    },
+    {
+        "name": "Montenegro",
+        "firstid": "ME",
+        "secid": "MNE",
+        "key": 499
+    },
+    {
+        "name": "Montserrat",
+        "firstid": "MS",
+        "secid": "MSR",
+        "key": 500
+    },
+    {
+        "name": "Morocco",
+        "firstid": "MA",
+        "secid": "MAR",
+        "key": 504
+    },
+    {
+        "name": "Mozambique",
+        "firstid": "MZ",
+        "secid": "MOZ",
+        "key": 508
+    },
+    {
+        "name": "Myanmar",
+        "firstid": "MM",
+        "secid": "MMR",
+        "key": 104
+    },
+    {
+        "name": "Namibia",
+        "firstid": "NA",
+        "secid": "NAM",
+        "key": 516
+    },
+    {
+        "name": "Nauru",
+        "firstid": "NR",
+        "secid": "NRU",
+        "key": 520
+    },
+    {
+        "name": "Nepal",
+        "firstid": "NP",
+        "secid": "NPL",
+        "key": 524
+    },
+    {
+        "name": "Netherlands (the)",
+        "firstid": "NL",
+        "secid": "NLD",
+        "key": 528
+    },
+    {
+        "name": "New Caledonia",
+        "firstid": "NC",
+        "secid": "NCL",
+        "key": 540
+    },
+    {
+        "name": "New Zealand",
+        "firstid": "NZ",
+        "secid": "NZL",
+        "key": 554
+    },
+    {
+        "name": "Nicaragua",
+        "firstid": "NI",
+        "secid": "NIC",
+        "key": 558
+    },
+    {
+        "name": "Niger (the)",
+        "firstid": "NE",
+        "secid": "NER",
+        "key": 562
+    },
+    {
+        "name": "Nigeria",
+        "firstid": "NG",
+        "secid": "NGA",
+        "key": 566
+    },
+    {
+        "name": "Niue",
+        "firstid": "NU",
+        "secid": "NIU",
+        "key": 570
+    },
+    {
+        "name": "Norfolk Island",
+        "firstid": "NF",
+        "secid": "NFK",
+        "key": 574
+    },
+    {
+        "name": "Northern Mariana Islands (the)",
+        "firstid": "MP",
+        "secid": "MNP",
+        "key": 580
+    },
+    {
+        "name": "Norway",
+        "firstid": "NO",
+        "secid": "NOR",
+        "key": 578
+    },
+    {
+        "name": "Oman",
+        "firstid": "OM",
+        "secid": "OMN",
+        "key": 512
+    },
+    {
+        "name": "Pakistan",
+        "firstid": "PK",
+        "secid": "PAK",
+        "key": 586
+    },
+    {
+        "name": "Palau",
+        "firstid": "PW",
+        "secid": "PLW",
+        "key": 585
+    },
+    {
+        "name": "Palestine, State of",
+        "firstid": "PS",
+        "secid": "PSE",
+        "key": 275
+    },
+    {
+        "name": "Panama",
+        "firstid": "PA",
+        "secid": "PAN",
+        "key": 591
+    },
+    {
+        "name": "Papua New Guinea",
+        "firstid": "PG",
+        "secid": "PNG",
+        "key": 598
+    },
+    {
+        "name": "Paraguay",
+        "firstid": "PY",
+        "secid": "PRY",
+        "key": 600
+    },
+    {
+        "name": "Peru",
+        "firstid": "PE",
+        "secid": "PER",
+        "key": 604
+    },
+    {
+        "name": "Philippines (the)",
+        "firstid": "PH",
+        "secid": "PHL",
+        "key": 608
+    },
+    {
+        "name": "Pitcairn",
+        "firstid": "PN",
+        "secid": "PCN",
+        "key": 612
+    },
+    {
+        "name": "Poland",
+        "firstid": "PL",
+        "secid": "POL",
+        "key": 616
+    },
+    {
+        "name": "Portugal",
+        "firstid": "PT",
+        "secid": "PRT",
+        "key": 620
+    },
+    {
+        "name": "Puerto Rico",
+        "firstid": "PR",
+        "secid": "PRI",
+        "key": 630
+    },
+    {
+        "name": "Qatar",
+        "firstid": "QA",
+        "secid": "QAT",
+        "key": 634
+    },
+    {
+        "name": "Republic of North Macedonia",
+        "firstid": "MK",
+        "secid": "MKD",
+        "key": 807
+    },
+    {
+        "name": "Romania",
+        "firstid": "RO",
+        "secid": "ROU",
+        "key": 642
+    },
+    {
+        "name": "Russian Federation (the)",
+        "firstid": "RU",
+        "secid": "RUS",
+        "key": 643
+    },
+    {
+        "name": "Rwanda",
+        "firstid": "RW",
+        "secid": "RWA",
+        "key": 646
+    },
+    {
+        "name": "Réunion",
+        "firstid": "RE",
+        "secid": "REU",
+        "key": 638
+    },
+    {
+        "name": "Saint Barthélemy",
+        "firstid": "BL",
+        "secid": "BLM",
+        "key": 652
+    },
+    {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "firstid": "SH",
+        "secid": "SHN",
+        "key": 654
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "firstid": "KN",
+        "secid": "KNA",
+        "key": 659
+    },
+    {
+        "name": "Saint Lucia",
+        "firstid": "LC",
+        "secid": "LCA",
+        "key": 662
+    },
+    {
+        "name": "Saint Martin (French part)",
+        "firstid": "MF",
+        "secid": "MAF",
+        "key": 663
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "firstid": "PM",
+        "secid": "SPM",
+        "key": 666
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "firstid": "VC",
+        "secid": "VCT",
+        "key": 670
+    },
+    {
+        "name": "Samoa",
+        "firstid": "WS",
+        "secid": "WSM",
+        "key": 882
+    },
+    {
+        "name": "San Marino",
+        "firstid": "SM",
+        "secid": "SMR",
+        "key": 674
+    },
+    {
+        "name": "Sao Tome and Principe",
+        "firstid": "ST",
+        "secid": "STP",
+        "key": 678
+    },
+    {
+        "name": "Saudi Arabia",
+        "firstid": "SA",
+        "secid": "SAU",
+        "key": 682
+    },
+    {
+        "name": "Senegal",
+        "firstid": "SN",
+        "secid": "SEN",
+        "key": 686
+    },
+    {
+        "name": "Serbia",
+        "firstid": "RS",
+        "secid": "SRB",
+        "key": 688
+    },
+    {
+        "name": "Seychelles",
+        "firstid": "SC",
+        "secid": "SYC",
+        "key": 690
+    },
+    {
+        "name": "Sierra Leone",
+        "firstid": "SL",
+        "secid": "SLE",
+        "key": 694
+    },
+    {
+        "name": "Singapore",
+        "firstid": "SG",
+        "secid": "SGP",
+        "key": 702
+    },
+    {
+        "name": "Sint Maarten (Dutch part)",
+        "firstid": "SX",
+        "secid": "SXM",
+        "key": 534
+    },
+    {
+        "name": "Slovakia",
+        "firstid": "SK",
+        "secid": "SVK",
+        "key": 703
+    },
+    {
+        "name": "Slovenia",
+        "firstid": "SI",
+        "secid": "SVN",
+        "key": 705
+    },
+    {
+        "name": "Solomon Islands",
+        "firstid": "SB",
+        "secid": "SLB",
+        "key": 90
+    },
+    {
+        "name": "Somalia",
+        "firstid": "SO",
+        "secid": "SOM",
+        "key": 706
+    },
+    {
+        "name": "South Africa",
+        "firstid": "ZA",
+        "secid": "ZAF",
+        "key": 710
+    },
+    {
+        "name": "South Georgia and the South Sandwich Islands",
+        "firstid": "GS",
+        "secid": "SGS",
+        "key": 239
+    },
+    {
+        "name": "South Sudan",
+        "firstid": "SS",
+        "secid": "SSD",
+        "key": 728
+    },
+    {
+        "name": "Spain",
+        "firstid": "ES",
+        "secid": "ESP",
+        "key": 724
+    },
+    {
+        "name": "Sri Lanka",
+        "firstid": "LK",
+        "secid": "LKA",
+        "key": 144
+    },
+    {
+        "name": "Sudan (the)",
+        "firstid": "SD",
+        "secid": "SDN",
+        "key": 729
+    },
+    {
+        "name": "Suriname",
+        "firstid": "SR",
+        "secid": "SUR",
+        "key": 740
+    },
+    {
+        "name": "Svalbard and Jan Mayen",
+        "firstid": "SJ",
+        "secid": "SJM",
+        "key": 744
+    },
+    {
+        "name": "Sweden",
+        "firstid": "SE",
+        "secid": "SWE",
+        "key": 752
+    },
+    {
+        "name": "Switzerland",
+        "firstid": "CH",
+        "secid": "CHE",
+        "key": 756
+    },
+    {
+        "name": "Syrian Arab Republic",
+        "firstid": "SY",
+        "secid": "SYR",
+        "key": 760
+    },
+    {
+        "name": "Taiwan (Province of China)",
+        "firstid": "TW",
+        "secid": "TWN",
+        "key": 158
+    },
+    {
+        "name": "Tajikistan",
+        "firstid": "TJ",
+        "secid": "TJK",
+        "key": 762
+    },
+    {
+        "name": "Tanzania, United Republic of",
+        "firstid": "TZ",
+        "secid": "TZA",
+        "key": 834
+    },
+    {
+        "name": "Thailand",
+        "firstid": "TH",
+        "secid": "THA",
+        "key": 764
+    },
+    {
+        "name": "Timor-Leste",
+        "firstid": "TL",
+        "secid": "TLS",
+        "key": 626
+    },
+    {
+        "name": "Togo",
+        "firstid": "TG",
+        "secid": "TGO",
+        "key": 768
+    },
+    {
+        "name": "Tokelau",
+        "firstid": "TK",
+        "secid": "TKL",
+        "key": 772
+    },
+    {
+        "name": "Tonga",
+        "firstid": "TO",
+        "secid": "TON",
+        "key": 776
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "firstid": "TT",
+        "secid": "TTO",
+        "key": 780
+    },
+    {
+        "name": "Tunisia",
+        "firstid": "TN",
+        "secid": "TUN",
+        "key": 788
+    },
+    {
+        "name": "Turkey",
+        "firstid": "TR",
+        "secid": "TUR",
+        "key": 792
+    },
+    {
+        "name": "Turkmenistan",
+        "firstid": "TM",
+        "secid": "TKM",
+        "key": 795
+    },
+    {
+        "name": "Turks and Caicos Islands (the)",
+        "firstid": "TC",
+        "secid": "TCA",
+        "key": 796
+    },
+    {
+        "name": "Tuvalu",
+        "firstid": "TV",
+        "secid": "TUV",
+        "key": 798
+    },
+    {
+        "name": "Uganda",
+        "firstid": "UG",
+        "secid": "UGA",
+        "key": 800
+    },
+    {
+        "name": "Ukraine",
+        "firstid": "UA",
+        "secid": "UKR",
+        "key": 804
+    },
+    {
+        "name": "United Arab Emirates (the)",
+        "firstid": "AE",
+        "secid": "ARE",
+        "key": 784
+    },
+    {
+        "name": "United Kingdom of Great Britain and Northern Ireland (the)",
+        "firstid": "GB",
+        "secid": "GBR",
+        "key": 826
+    },
+    {
+        "name": "United States Minor Outlying Islands (the)",
+        "firstid": "UM",
+        "secid": "UMI",
+        "key": 581
+    },
+    {
+        "name": "United States of America (the)",
+        "firstid": "US",
+        "secid": "USA",
+        "key": 840
+    },
+    {
+        "name": "Uruguay",
+        "firstid": "UY",
+        "secid": "URY",
+        "key": 858
+    },
+    {
+        "name": "Uzbekistan",
+        "firstid": "UZ",
+        "secid": "UZB",
+        "key": 860
+    },
+    {
+        "name": "Vanuatu",
+        "firstid": "VU",
+        "secid": "VUT",
+        "key": 548
+    },
+    {
+        "name": "Venezuela (Bolivarian Republic of)",
+        "firstid": "VE",
+        "secid": "VEN",
+        "key": 862
+    },
+    {
+        "name": "Viet Nam",
+        "firstid": "VN",
+        "secid": "VNM",
+        "key": 704
+    },
+    {
+        "name": "Virgin Islands (British)",
+        "firstid": "VG",
+        "secid": "VGB",
+        "key": 92
+    },
+    {
+        "name": "Virgin Islands (U.S.)",
+        "firstid": "VI",
+        "secid": "VIR",
+        "key": 850
+    },
+    {
+        "name": "Wallis and Futuna",
+        "firstid": "WF",
+        "secid": "WLF",
+        "key": 876
+    },
+    {
+        "name": "Western Sahara",
+        "firstid": "EH",
+        "secid": "ESH",
+        "key": 732
+    },
+    {
+        "name": "Yemen",
+        "firstid": "YE",
+        "secid": "YEM",
+        "key": 887
+    },
+    {
+        "name": "Zambia",
+        "firstid": "ZM",
+        "secid": "ZMB",
+        "key": 894
+    },
+    {
+        "name": "Zimbabwe",
+        "firstid": "ZW",
+        "secid": "ZWE",
+        "key": 716
+    },
+    {
+        "name": "Åland Islands",
+        "firstid": "AX",
+        "secid": "ALA",
+        "key": 248
+    }
+]

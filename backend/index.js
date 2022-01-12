@@ -9,10 +9,12 @@ app.use(express.json())
 const tours = require('./tours/tour-routes')
 const reviews = require('./reviews/reviews-routes')
 const contacts = require('./admin-contact/admin-contact-routes')
+const countries = require('./countries/countries-routes')
 
 app.use('/api/tours-data', tours)
 app.use('/api/reviews-data', reviews)
 app.use('/api/admin-contact', contacts)
+app.use('/api/countries', countries)
 
 const PORT = 5000;
 
