@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import './countries.css'
+import './countries-reverse.css'
 import Flag from "./flag"
 
 const CountriesHome = () => {
@@ -21,13 +22,10 @@ const CountriesHome = () => {
         return <h1>Is Loading</h1>
     }
     return <div className="CountriesHome">
-        {countries.map((country) => {
-            const { name, firstid, secid, key } = country
+        {countries.map((country, i) => {
             return <Flag
-                name={name}
-                firstid={firstid}
-                secid={secid}
-                key={key} />
+                {...country}
+                key={i} />
         })}
     </div>
 }
