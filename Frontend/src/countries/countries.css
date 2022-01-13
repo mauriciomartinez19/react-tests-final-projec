@@ -93,3 +93,7 @@ p{
     color: black;
     font-weight: 500;
 }
+
+.loading{
+    min-height: 100vh;
+}
