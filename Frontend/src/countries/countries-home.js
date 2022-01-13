@@ -19,7 +19,7 @@ const CountriesHome = () => {
         getCountries()
     }, [])
     if (isLoading) {
-        return <h1>Is Loading</h1>
+        return <h1 className="loading">Is Loading</h1>
     }
     return <div className="CountriesHome">
         {countries.map((country, i) => {
