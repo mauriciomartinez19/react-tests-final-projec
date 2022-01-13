@@ -3,1494 +3,3237 @@
         "name": "Afghanistan",
         "firstid": "AF",
         "secid": "AFG",
-        "key": 4
+        "uncode": 4,
+        "population": 48953159,
+        "price": 4870,
+        "School": 211929,
+        "Co2": 0.153958383,
+        "PBI": 76516,
+        "lifeexp": 88,
+        "Covid": 820907
     },
     {
         "name": "Albania",
         "firstid": "AL",
         "secid": "ALB",
-        "key": 8
+        "uncode": 8,
+        "population": 15839634,
+        "price": 2404,
+        "School": 4533800,
+        "Co2": 0.756264523,
+        "PBI": 23483,
+        "lifeexp": 86,
+        "Covid": 838219
     },
     {
         "name": "Algeria",
         "firstid": "DZ",
         "secid": "DZA",
-        "key": 12
+        "uncode": 12,
+        "population": 48582620,
+        "price": 1231,
+        "School": 4019457,
+        "Co2": 0.727208725,
+        "PBI": 80816,
+        "lifeexp": 79,
+        "Covid": 171036
     },
     {
         "name": "American Samoa",
         "firstid": "AS",
         "secid": "ASM",
-        "key": 16
+        "uncode": 16,
+        "population": 35065241,
+        "price": 4695,
+        "School": 3334125,
+        "Co2": 0.271958097,
+        "PBI": 48843,
+        "lifeexp": 60,
+        "Covid": 883901
     },
     {
         "name": "Andorra",
         "firstid": "AD",
         "secid": "AND",
-        "key": 20
+        "uncode": 20,
+        "population": 36873717,
+        "price": 3653,
+        "School": 4784979,
+        "Co2": 0.207972392,
+        "PBI": 47463,
+        "lifeexp": 76,
+        "Covid": 486166
     },
     {
         "name": "Angola",
         "firstid": "AO",
         "secid": "AGO",
-        "key": 24
+        "uncode": 24,
+        "population": 40241773,
+        "price": 1384,
+        "School": 3390868,
+        "Co2": 0.983134662,
+        "PBI": 16978,
+        "lifeexp": 89,
+        "Covid": 706874
     },
     {
         "name": "Anguilla",
         "firstid": "AI",
         "secid": "AIA",
-        "key": 660
+        "uncode": 660,
+        "population": 17843100,
+        "price": 1125,
+        "School": 4075477,
+        "Co2": 0.814311659,
+        "PBI": 17054,
+        "lifeexp": 77,
+        "Covid": 183979
     },
     {
         "name": "Antarctica",
         "firstid": "AQ",
         "secid": "ATA",
-        "key": 10
+        "uncode": 10,
+        "population": 40894693,
+        "price": 1210,
+        "School": 1092567,
+        "Co2": 0.715013289,
+        "PBI": 65674,
+        "lifeexp": 61,
+        "Covid": 202356
     },
     {
         "name": "Antigua and Barbuda",
         "firstid": "AG",
         "secid": "ATG",
-        "key": 28
+        "uncode": 28,
+        "population": 40647940,
+        "price": 3993,
+        "School": 1186758,
+        "Co2": 0.090252934,
+        "PBI": 84911,
+        "lifeexp": 73,
+        "Covid": 900539
     },
     {
         "name": "Argentina",
         "firstid": "AR",
         "secid": "ARG",
-        "key": 32
+        "uncode": 32,
+        "population": 18832526,
+        "price": 3960,
+        "School": 1555770,
+        "Co2": 0.078386817,
+        "PBI": 94197,
+        "lifeexp": 69,
+        "Covid": 1312039
     },
     {
         "name": "Armenia",
         "firstid": "AM",
         "secid": "ARM",
-        "key": 51
+        "uncode": 51,
+        "population": 22921009,
+        "price": 3085,
+        "School": 2923669,
+        "Co2": 0.664168514,
+        "PBI": 67572,
+        "lifeexp": 64,
+        "Covid": 1450703
     },
     {
         "name": "Aruba",
         "firstid": "AW",
         "secid": "ABW",
-        "key": 533
+        "uncode": 533,
+        "population": 28468404,
+        "price": 3173,
+        "School": 4432804,
+        "Co2": 0.608042379,
+        "PBI": 94292,
+        "lifeexp": 68,
+        "Covid": 1146018
     },
     {
         "name": "Australia",
         "firstid": "AU",
         "secid": "AUS",
-        "key": 36
+        "uncode": 36,
+        "population": 31751858,
+        "price": 1826,
+        "School": 2617329,
+        "Co2": 0.45181071,
+        "PBI": 77041,
+        "lifeexp": 88,
+        "Covid": 1363466
     },
     {
         "name": "Austria",
         "firstid": "AT",
         "secid": "AUT",
-        "key": 40
+        "uncode": 40,
+        "population": 37421026,
+        "price": 1797,
+        "School": 4201273,
+        "Co2": 0.666718676,
+        "PBI": 86498,
+        "lifeexp": 78,
+        "Covid": 1540616
     },
     {
         "name": "Azerbaijan",
         "firstid": "AZ",
         "secid": "AZE",
-        "key": 31
+        "uncode": 31,
+        "population": 34643608,
+        "price": 3474,
+        "School": 4542259,
+        "Co2": 0.498822738,
+        "PBI": 69484,
+        "lifeexp": 81,
+        "Covid": 1157791
     },
     {
         "name": "Bahamas (the)",
         "firstid": "BS",
         "secid": "BHS",
-        "key": 44
+        "uncode": 44,
+        "population": 42755132,
+        "price": 2781,
+        "School": 1387480,
+        "Co2": 0.290475195,
+        "PBI": 91962,
+        "lifeexp": 74,
+        "Covid": 1530350
     },
     {
         "name": "Bahrain",
         "firstid": "BH",
         "secid": "BHR",
-        "key": 48
+        "uncode": 48,
+        "population": 42913489,
+        "price": 4570,
+        "School": 3586846,
+        "Co2": 0.665463098,
+        "PBI": 90516,
+        "lifeexp": 60,
+        "Covid": 1627273
     },
     {
         "name": "Bangladesh",
         "firstid": "BD",
         "secid": "BGD",
-        "key": 50
+        "uncode": 50,
+        "population": 35784831,
+        "price": 3247,
+        "School": 888215,
+        "Co2": 0.218517475,
+        "PBI": 10634,
+        "lifeexp": 86,
+        "Covid": 100809
     },
     {
         "name": "Barbados",
         "firstid": "BB",
         "secid": "BRB",
-        "key": 52
+        "uncode": 52,
+        "population": 31269655,
+        "price": 1754,
+        "School": 2440768,
+        "Co2": 0.733329106,
+        "PBI": 22139,
+        "lifeexp": 83,
+        "Covid": 71470
     },
     {
         "name": "Belarus",
         "firstid": "BY",
         "secid": "BLR",
-        "key": 112
+        "uncode": 112,
+        "population": 24825632,
+        "price": 2431,
+        "School": 1961351,
+        "Co2": 0.392304639,
+        "PBI": 31284,
+        "lifeexp": 68,
+        "Covid": 667332
     },
     {
         "name": "Belgium",
         "firstid": "BE",
         "secid": "BEL",
-        "key": 56
+        "uncode": 56,
+        "population": 39718032,
+        "price": 2169,
+        "School": 1122984,
+        "Co2": 0.132466645,
+        "PBI": 11101,
+        "lifeexp": 74,
+        "Covid": 488956
     },
     {
         "name": "Belize",
         "firstid": "BZ",
         "secid": "BLZ",
-        "key": 84
+        "uncode": 84,
+        "population": 46249694,
+        "price": 1394,
+        "School": 2113164,
+        "Co2": 0.340477223,
+        "PBI": 64251,
+        "lifeexp": 90,
+        "Covid": 295521
     },
     {
         "name": "Benin",
         "firstid": "BJ",
         "secid": "BEN",
-        "key": 204
+        "uncode": 204,
+        "population": 25476319,
+        "price": 2379,
+        "School": 1705481,
+        "Co2": 0.08592758,
+        "PBI": 61323,
+        "lifeexp": 81,
+        "Covid": 1389294
     },
     {
         "name": "Bermuda",
         "firstid": "BM",
         "secid": "BMU",
-        "key": 60
+        "uncode": 60,
+        "population": 24657567,
+        "price": 2752,
+        "School": 1278638,
+        "Co2": 0.991061061,
+        "PBI": 27475,
+        "lifeexp": 72,
+        "Covid": 274997
     },
     {
         "name": "Bhutan",
         "firstid": "BT",
         "secid": "BTN",
-        "key": 64
+        "uncode": 64,
+        "population": 36422809,
+        "price": 1624,
+        "School": 2011967,
+        "Co2": 0.646076835,
+        "PBI": 54715,
+        "lifeexp": 71,
+        "Covid": 389570
     },
     {
         "name": "Bolivia (Plurinational State of)",
         "firstid": "BO",
         "secid": "BOL",
-        "key": 68
+        "uncode": 68,
+        "population": 49558036,
+        "price": 3089,
+        "School": 3007712,
+        "Co2": 0.219098031,
+        "PBI": 73242,
+        "lifeexp": 85,
+        "Covid": 1079163
     },
     {
         "name": "Bonaire, Sint Eustatius and Saba",
         "firstid": "BQ",
         "secid": "BES",
-        "key": 535
+        "uncode": 535,
+        "population": 36766264,
+        "price": 2395,
+        "School": 1007667,
+        "Co2": 0.392684899,
+        "PBI": 97213,
+        "lifeexp": 87,
+        "Covid": 1922586
     },
     {
         "name": "Bosnia and Herzegovina",
         "firstid": "BA",
         "secid": "BIH",
-        "key": 70
+        "uncode": 70,
+        "population": 29731361,
+        "price": 4592,
+        "School": 2430669,
+        "Co2": 0.153349217,
+        "PBI": 39111,
+        "lifeexp": 70,
+        "Covid": 544471
     },
     {
         "name": "Botswana",
         "firstid": "BW",
         "secid": "BWA",
-        "key": 72
+        "uncode": 72,
+        "population": 42637436,
+        "price": 3603,
+        "School": 2540890,
+        "Co2": 0.859243699,
+        "PBI": 15014,
+        "lifeexp": 69,
+        "Covid": 1272414
     },
     {
         "name": "Bouvet Island",
         "firstid": "BV",
         "secid": "BVT",
-        "key": 74
+        "uncode": 74,
+        "population": 14961673,
+        "price": 2687,
+        "School": 3504344,
+        "Co2": 0.217723396,
+        "PBI": 14073,
+        "lifeexp": 82,
+        "Covid": 1928020
     },
     {
         "name": "Brazil",
         "firstid": "BR",
         "secid": "BRA",
-        "key": 76
+        "uncode": 76,
+        "population": 18815877,
+        "price": 3752,
+        "School": 4460124,
+        "Co2": 0.670085052,
+        "PBI": 35034,
+        "lifeexp": 83,
+        "Covid": 1676623
     },
     {
         "name": "British Indian Ocean Territory (the)",
         "firstid": "IO",
         "secid": "IOT",
-        "key": 86
+        "uncode": 86,
+        "population": 21254595,
+        "price": 3488,
+        "School": 3055151,
+        "Co2": 0.733805704,
+        "PBI": 14848,
+        "lifeexp": 69,
+        "Covid": 755476
     },
     {
         "name": "Brunei Darussalam",
         "firstid": "BN",
         "secid": "BRN",
-        "key": 96
+        "uncode": 96,
+        "population": 28904939,
+        "price": 2656,
+        "School": 1876023,
+        "Co2": 0.331770361,
+        "PBI": 31602,
+        "lifeexp": 62,
+        "Covid": 967514
     },
     {
         "name": "Bulgaria",
         "firstid": "BG",
         "secid": "BGR",
-        "key": 100
+        "uncode": 100,
+        "population": 28872587,
+        "price": 2735,
+        "School": 693335,
+        "Co2": 0.19944538,
+        "PBI": 68788,
+        "lifeexp": 88,
+        "Covid": 1018016
     },
     {
         "name": "Burkina Faso",
         "firstid": "BF",
         "secid": "BFA",
-        "key": 854
+        "uncode": 854,
+        "population": 45373448,
+        "price": 4031,
+        "School": 2701399,
+        "Co2": 0.411390798,
+        "PBI": 56999,
+        "lifeexp": 78,
+        "Covid": 1208257
     },
     {
         "name": "Burundi",
         "firstid": "BI",
         "secid": "BDI",
-        "key": 108
+        "uncode": 108,
+        "population": 48128436,
+        "price": 4187,
+        "School": 1715116,
+        "Co2": 0.369780103,
+        "PBI": 44822,
+        "lifeexp": 88,
+        "Covid": 985432
     },
     {
         "name": "Cabo Verde",
         "firstid": "CV",
         "secid": "CPV",
-        "key": 132
+        "uncode": 132,
+        "population": 13506104,
+        "price": 1414,
+        "School": 4175032,
+        "Co2": 0.467095326,
+        "PBI": 43122,
+        "lifeexp": 65,
+        "Covid": 1886204
     },
     {
         "name": "Cambodia",
         "firstid": "KH",
         "secid": "KHM",
-        "key": 116
+        "uncode": 116,
+        "population": 18761812,
+        "price": 4741,
+        "School": 1851565,
+        "Co2": 0.237933618,
+        "PBI": 74099,
+        "lifeexp": 63,
+        "Covid": 1957662
     },
     {
         "name": "Cameroon",
         "firstid": "CM",
         "secid": "CMR",
-        "key": 120
+        "uncode": 120,
+        "population": 16631886,
+        "price": 2267,
+        "School": 1740257,
+        "Co2": 0.962730966,
+        "PBI": 51520,
+        "lifeexp": 83,
+        "Covid": 1116013
     },
     {
         "name": "Canada",
         "firstid": "CA",
         "secid": "CAN",
-        "key": 124
+        "uncode": 124,
+        "population": 31736945,
+        "price": 1444,
+        "School": 1719561,
+        "Co2": 0.71809446,
+        "PBI": 29049,
+        "lifeexp": 74,
+        "Covid": 1425011
     },
     {
         "name": "Cayman Islands (the)",
         "firstid": "KY",
         "secid": "CYM",
-        "key": 136
+        "uncode": 136,
+        "population": 24218501,
+        "price": 4495,
+        "School": 1736280,
+        "Co2": 0.205359739,
+        "PBI": 14151,
+        "lifeexp": 85,
+        "Covid": 376408
     },
     {
         "name": "Central African Republic (the)",
         "firstid": "CF",
         "secid": "CAF",
-        "key": 140
+        "uncode": 140,
+        "population": 46277790,
+        "price": 4486,
+        "School": 2180492,
+        "Co2": 0.037524643,
+        "PBI": 66583,
+        "lifeexp": 81,
+        "Covid": 1540336
     },
     {
         "name": "Chad",
         "firstid": "TD",
         "secid": "TCD",
-        "key": 148
+        "uncode": 148,
+        "population": 23604840,
+        "price": 4714,
+        "School": 420463,
+        "Co2": 0.864569349,
+        "PBI": 23716,
+        "lifeexp": 67,
+        "Covid": 573129
     },
     {
         "name": "Chile",
         "firstid": "CL",
         "secid": "CHL",
-        "key": 152
+        "uncode": 152,
+        "population": 19918747,
+        "price": 4274,
+        "School": 635901,
+        "Co2": 0.800279166,
+        "PBI": 24317,
+        "lifeexp": 62,
+        "Covid": 1809281
     },
     {
         "name": "China",
         "firstid": "CN",
         "secid": "CHN",
-        "key": 156
+        "uncode": 156,
+        "population": 37195841,
+        "price": 3408,
+        "School": 2180522,
+        "Co2": 0.087869983,
+        "PBI": 51431,
+        "lifeexp": 79,
+        "Covid": 326875
     },
     {
         "name": "Christmas Island",
         "firstid": "CX",
         "secid": "CXR",
-        "key": 162
+        "uncode": 162,
+        "population": 32199634,
+        "price": 4303,
+        "School": 779573,
+        "Co2": 0.115714283,
+        "PBI": 95109,
+        "lifeexp": 67,
+        "Covid": 1363260
     },
     {
         "name": "Cocos (Keeling) Islands (the)",
         "firstid": "CC",
         "secid": "CCK",
-        "key": 166
+        "uncode": 166,
+        "population": 26179907,
+        "price": 3134,
+        "School": 2202781,
+        "Co2": 0.92603086,
+        "PBI": 56426,
+        "lifeexp": 61,
+        "Covid": 859475
     },
     {
         "name": "Colombia",
         "firstid": "CO",
         "secid": "COL",
-        "key": 170
+        "uncode": 170,
+        "population": 22352367,
+        "price": 3265,
+        "School": 4629688,
+        "Co2": 0.339347808,
+        "PBI": 56156,
+        "lifeexp": 79,
+        "Covid": 67517
     },
     {
         "name": "Comoros (the)",
         "firstid": "KM",
         "secid": "COM",
-        "key": 174
+        "uncode": 174,
+        "population": 32839123,
+        "price": 1634,
+        "School": 1300519,
+        "Co2": 0.53513103,
+        "PBI": 39217,
+        "lifeexp": 63,
+        "Covid": 397995
     },
     {
         "name": "Congo (the Democratic Republic of the)",
         "firstid": "CD",
         "secid": "COD",
-        "key": 180
+        "uncode": 180,
+        "population": 10908078,
+        "price": 3183,
+        "School": 2117076,
+        "Co2": 0.609539352,
+        "PBI": 13645,
+        "lifeexp": 86,
+        "Covid": 739509
     },
     {
         "name": "Congo (the)",
         "firstid": "CG",
         "secid": "COG",
-        "key": 178
+        "uncode": 178,
+        "population": 32576738,
+        "price": 3289,
+        "School": 468899,
+        "Co2": 0.303701015,
+        "PBI": 26212,
+        "lifeexp": 69,
+        "Covid": 1805556
     },
     {
         "name": "Cook Islands (the)",
         "firstid": "CK",
         "secid": "COK",
-        "key": 184
+        "uncode": 184,
+        "population": 47049487,
+        "price": 2111,
+        "School": 2176533,
+        "Co2": 0.591184665,
+        "PBI": 33785,
+        "lifeexp": 71,
+        "Covid": 267483
     },
     {
         "name": "Costa Rica",
         "firstid": "CR",
         "secid": "CRI",
-        "key": 188
+        "uncode": 188,
+        "population": 41078174,
+        "price": 1719,
+        "School": 4079532,
+        "Co2": 0.612703261,
+        "PBI": 84385,
+        "lifeexp": 69,
+        "Covid": 1990540
     },
     {
         "name": "Croatia",
         "firstid": "HR",
         "secid": "HRV",
-        "key": 191
+        "uncode": 191,
+        "population": 25442212,
+        "price": 4838,
+        "School": 1625059,
+        "Co2": 0.024095712,
+        "PBI": 28400,
+        "lifeexp": 72,
+        "Covid": 192082
     },
     {
         "name": "Cuba",
         "firstid": "CU",
         "secid": "CUB",
-        "key": 192
+        "uncode": 192,
+        "population": 24728953,
+        "price": 1659,
+        "School": 3766399,
+        "Co2": 0.371674126,
+        "PBI": 21069,
+        "lifeexp": 75,
+        "Covid": 451266
     },
     {
         "name": "Curaçao",
         "firstid": "CW",
         "secid": "CUW",
-        "key": 531
+        "uncode": 531,
+        "population": 11697842,
+        "price": 3365,
+        "School": 1215241,
+        "Co2": 0.917134038,
+        "PBI": 55270,
+        "lifeexp": 61,
+        "Covid": 1687750
     },
     {
         "name": "Cyprus",
         "firstid": "CY",
         "secid": "CYP",
-        "key": 196
+        "uncode": 196,
+        "population": 26238262,
+        "price": 2128,
+        "School": 1961909,
+        "Co2": 0.553941363,
+        "PBI": 91868,
+        "lifeexp": 81,
+        "Covid": 924815
     },
     {
         "name": "Czechia",
         "firstid": "CZ",
         "secid": "CZE",
-        "key": 203
+        "uncode": 203,
+        "population": 46426755,
+        "price": 2717,
+        "School": 3480943,
+        "Co2": 0.360525374,
+        "PBI": 22162,
+        "lifeexp": 89,
+        "Covid": 1864846
     },
     {
         "name": "Côte d'Ivoire",
         "firstid": "CI",
         "secid": "CIV",
-        "key": 384
+        "uncode": 384,
+        "population": 29604708,
+        "price": 3874,
+        "School": 4785016,
+        "Co2": 0.386537459,
+        "PBI": 43068,
+        "lifeexp": 83,
+        "Covid": 1500066
     },
     {
         "name": "Denmark",
         "firstid": "DK",
         "secid": "DNK",
-        "key": 208
+        "uncode": 208,
+        "population": 39982584,
+        "price": 3510,
+        "School": 2934551,
+        "Co2": 0.123313131,
+        "PBI": 44547,
+        "lifeexp": 72,
+        "Covid": 319410
     },
     {
         "name": "Djibouti",
         "firstid": "DJ",
         "secid": "DJI",
-        "key": 262
+        "uncode": 262,
+        "population": 20579240,
+        "price": 3920,
+        "School": 539834,
+        "Co2": 0.284374939,
+        "PBI": 87160,
+        "lifeexp": 74,
+        "Covid": 893100
     },
     {
         "name": "Dominica",
         "firstid": "DM",
         "secid": "DMA",
-        "key": 212
+        "uncode": 212,
+        "population": 40553682,
+        "price": 3020,
+        "School": 4438351,
+        "Co2": 0.705558551,
+        "PBI": 78086,
+        "lifeexp": 89,
+        "Covid": 1849189
     },
     {
         "name": "Dominican Republic (the)",
         "firstid": "DO",
         "secid": "DOM",
-        "key": 214
+        "uncode": 214,
+        "population": 19626559,
+        "price": 2953,
+        "School": 3175807,
+        "Co2": 0.115692671,
+        "PBI": 77527,
+        "lifeexp": 88,
+        "Covid": 1205659
     },
     {
         "name": "Ecuador",
         "firstid": "EC",
         "secid": "ECU",
-        "key": 218
+        "uncode": 218,
+        "population": 10414169,
+        "price": 4967,
+        "School": 838736,
+        "Co2": 0.783060674,
+        "PBI": 88809,
+        "lifeexp": 69,
+        "Covid": 432439
     },
     {
         "name": "Egypt",
         "firstid": "EG",
         "secid": "EGY",
-        "key": 818
+        "uncode": 818,
+        "population": 34180316,
+        "price": 4131,
+        "School": 2531426,
+        "Co2": 0.055415897,
+        "PBI": 41141,
+        "lifeexp": 61,
+        "Covid": 521119
     },
     {
         "name": "El Salvador",
         "firstid": "SV",
         "secid": "SLV",
-        "key": 222
+        "uncode": 222,
+        "population": 30712046,
+        "price": 1493,
+        "School": 1567260,
+        "Co2": 0.138805364,
+        "PBI": 74945,
+        "lifeexp": 88,
+        "Covid": 1884000
     },
     {
         "name": "Equatorial Guinea",
         "firstid": "GQ",
         "secid": "GNQ",
-        "key": 226
+        "uncode": 226,
+        "population": 22840280,
+        "price": 1759,
+        "School": 846197,
+        "Co2": 0.698920627,
+        "PBI": 93778,
+        "lifeexp": 63,
+        "Covid": 1497894
     },
     {
         "name": "Eritrea",
         "firstid": "ER",
         "secid": "ERI",
-        "key": 232
+        "uncode": 232,
+        "population": 36660610,
+        "price": 3431,
+        "School": 1105311,
+        "Co2": 0.164546729,
+        "PBI": 65567,
+        "lifeexp": 75,
+        "Covid": 406550
     },
     {
         "name": "Estonia",
         "firstid": "EE",
         "secid": "EST",
-        "key": 233
+        "uncode": 233,
+        "population": 26165009,
+        "price": 3572,
+        "School": 3008322,
+        "Co2": 0.533294499,
+        "PBI": 68135,
+        "lifeexp": 65,
+        "Covid": 1220680
     },
     {
         "name": "Eswatini",
         "firstid": "SZ",
         "secid": "SWZ",
-        "key": 748
+        "uncode": 748,
+        "population": 36719018,
+        "price": 3459,
+        "School": 4269799,
+        "Co2": 0.130331175,
+        "PBI": 58040,
+        "lifeexp": 86,
+        "Covid": 1699729
     },
     {
         "name": "Ethiopia",
         "firstid": "ET",
         "secid": "ETH",
-        "key": 231
+        "uncode": 231,
+        "population": 47770634,
+        "price": 3978,
+        "School": 1548706,
+        "Co2": 0.905044425,
+        "PBI": 79898,
+        "lifeexp": 82,
+        "Covid": 926638
     },
     {
         "name": "Falkland Islands (the) [Malvinas]",
         "firstid": "FK",
         "secid": "FLK",
-        "key": 238
+        "uncode": 238,
+        "population": 16324312,
+        "price": 2456,
+        "School": 3478899,
+        "Co2": 0.149422206,
+        "PBI": 33732,
+        "lifeexp": 63,
+        "Covid": 1653691
     },
     {
         "name": "Faroe Islands (the)",
         "firstid": "FO",
         "secid": "FRO",
-        "key": 234
+        "uncode": 234,
+        "population": 33968233,
+        "price": 3850,
+        "School": 447741,
+        "Co2": 0.130203194,
+        "PBI": 10004,
+        "lifeexp": 78,
+        "Covid": 455965
     },
     {
         "name": "Fiji",
         "firstid": "FJ",
         "secid": "FJI",
-        "key": 242
+        "uncode": 242,
+        "population": 26545468,
+        "price": 1267,
+        "School": 3475565,
+        "Co2": 0.479168152,
+        "PBI": 52750,
+        "lifeexp": 76,
+        "Covid": 596667
     },
     {
         "name": "Finland",
         "firstid": "FI",
         "secid": "FIN",
-        "key": 246
+        "uncode": 246,
+        "population": 41762409,
+        "price": 3288,
+        "School": 2634114,
+        "Co2": 0.741310802,
+        "PBI": 28488,
+        "lifeexp": 73,
+        "Covid": 525274
     },
     {
         "name": "France",
         "firstid": "FR",
         "secid": "FRA",
-        "key": 250
+        "uncode": 250,
+        "population": 41410186,
+        "price": 1687,
+        "School": 4617000,
+        "Co2": 0.393339467,
+        "PBI": 21402,
+        "lifeexp": 81,
+        "Covid": 1708375
     },
     {
         "name": "French Guiana",
         "firstid": "GF",
         "secid": "GUF",
-        "key": 254
+        "uncode": 254,
+        "population": 17683666,
+        "price": 1433,
+        "School": 2449129,
+        "Co2": 0.536214048,
+        "PBI": 93453,
+        "lifeexp": 61,
+        "Covid": 772332
     },
     {
         "name": "French Polynesia",
         "firstid": "PF",
         "secid": "PYF",
-        "key": 258
+        "uncode": 258,
+        "population": 41201840,
+        "price": 1182,
+        "School": 2084967,
+        "Co2": 0.856218454,
+        "PBI": 70285,
+        "lifeexp": 82,
+        "Covid": 771578
     },
     {
         "name": "French Southern Territories (the)",
         "firstid": "TF",
         "secid": "ATF",
-        "key": 260
+        "uncode": 260,
+        "population": 15508325,
+        "price": 2750,
+        "School": 1263225,
+        "Co2": 0.006089478,
+        "PBI": 57766,
+        "lifeexp": 90,
+        "Covid": 460781
     },
     {
         "name": "Gabon",
         "firstid": "GA",
         "secid": "GAB",
-        "key": 266
+        "uncode": 266,
+        "population": 12152073,
+        "price": 3752,
+        "School": 3651828,
+        "Co2": 0.21480799,
+        "PBI": 77564,
+        "lifeexp": 86,
+        "Covid": 1303048
     },
     {
         "name": "Gambia (the)",
         "firstid": "GM",
         "secid": "GMB",
-        "key": 270
+        "uncode": 270,
+        "population": 48955181,
+        "price": 4988,
+        "School": 1681477,
+        "Co2": 0.672845395,
+        "PBI": 25297,
+        "lifeexp": 61,
+        "Covid": 1620629
     },
     {
         "name": "Georgia",
         "firstid": "GE",
         "secid": "GEO",
-        "key": 268
+        "uncode": 268,
+        "population": 31529440,
+        "price": 1016,
+        "School": 1384516,
+        "Co2": 0.000648716,
+        "PBI": 28760,
+        "lifeexp": 76,
+        "Covid": 871550
     },
     {
         "name": "Germany",
         "firstid": "DE",
         "secid": "DEU",
-        "key": 276
+        "uncode": 276,
+        "population": 34705293,
+        "price": 1463,
+        "School": 1683653,
+        "Co2": 0.013616599,
+        "PBI": 35036,
+        "lifeexp": 79,
+        "Covid": 1969394
     },
     {
         "name": "Ghana",
         "firstid": "GH",
         "secid": "GHA",
-        "key": 288
+        "uncode": 288,
+        "population": 29703036,
+        "price": 2308,
+        "School": 4221116,
+        "Co2": 0.349861659,
+        "PBI": 22947,
+        "lifeexp": 87,
+        "Covid": 1404739
     },
     {
         "name": "Gibraltar",
         "firstid": "GI",
         "secid": "GIB",
-        "key": 292
+        "uncode": 292,
+        "population": 29036918,
+        "price": 1627,
+        "School": 164542,
+        "Co2": 0.38721424,
+        "PBI": 38121,
+        "lifeexp": 74,
+        "Covid": 1747594
     },
     {
         "name": "Greece",
         "firstid": "GR",
         "secid": "GRC",
-        "key": 300
+        "uncode": 300,
+        "population": 31283326,
+        "price": 3243,
+        "School": 145710,
+        "Co2": 0.786550308,
+        "PBI": 58307,
+        "lifeexp": 69,
+        "Covid": 1531085
     },
     {
         "name": "Greenland",
         "firstid": "GL",
         "secid": "GRL",
-        "key": 304
+        "uncode": 304,
+        "population": 15923919,
+        "price": 2641,
+        "School": 1755228,
+        "Co2": 0.231513552,
+        "PBI": 33605,
+        "lifeexp": 66,
+        "Covid": 1365102
     },
     {
         "name": "Grenada",
         "firstid": "GD",
         "secid": "GRD",
-        "key": 308
+        "uncode": 308,
+        "population": 30831513,
+        "price": 2335,
+        "School": 3103775,
+        "Co2": 0.787774478,
+        "PBI": 30901,
+        "lifeexp": 70,
+        "Covid": 210696
     },
     {
         "name": "Guadeloupe",
         "firstid": "GP",
         "secid": "GLP",
-        "key": 312
+        "uncode": 312,
+        "population": 44826664,
+        "price": 2783,
+        "School": 1462590,
+        "Co2": 0.146649,
+        "PBI": 72215,
+        "lifeexp": 79,
+        "Covid": 842475
     },
     {
         "name": "Guam",
         "firstid": "GU",
         "secid": "GUM",
-        "key": 316
+        "uncode": 316,
+        "population": 42542677,
+        "price": 2174,
+        "School": 3193951,
+        "Co2": 0.833457891,
+        "PBI": 30677,
+        "lifeexp": 80,
+        "Covid": 234625
     },
     {
         "name": "Guatemala",
         "firstid": "GT",
         "secid": "GTM",
-        "key": 320
+        "uncode": 320,
+        "population": 17749258,
+        "price": 3030,
+        "School": 2735720,
+        "Co2": 0.466574722,
+        "PBI": 22753,
+        "lifeexp": 78,
+        "Covid": 1614483
     },
     {
         "name": "Guernsey",
         "firstid": "GG",
         "secid": "GGY",
-        "key": 831
+        "uncode": 831,
+        "population": 47866790,
+        "price": 1010,
+        "School": 1377249,
+        "Co2": 0.481429161,
+        "PBI": 47433,
+        "lifeexp": 81,
+        "Covid": 313538
     },
     {
         "name": "Guinea",
         "firstid": "GN",
         "secid": "GIN",
-        "key": 324
+        "uncode": 324,
+        "population": 49347998,
+        "price": 3116,
+        "School": 835423,
+        "Co2": 0.621615857,
+        "PBI": 29879,
+        "lifeexp": 84,
+        "Covid": 1751683
     },
     {
         "name": "Guinea-Bissau",
         "firstid": "GW",
         "secid": "GNB",
-        "key": 624
+        "uncode": 624,
+        "population": 44820534,
+        "price": 4065,
+        "School": 684099,
+        "Co2": 0.830275899,
+        "PBI": 32727,
+        "lifeexp": 72,
+        "Covid": 1301034
     },
     {
         "name": "Guyana",
         "firstid": "GY",
         "secid": "GUY",
-        "key": 328
+        "uncode": 328,
+        "population": 39545719,
+        "price": 1128,
+        "School": 2416249,
+        "Co2": 0.445354777,
+        "PBI": 90059,
+        "lifeexp": 75,
+        "Covid": 799481
     },
     {
         "name": "Haiti",
         "firstid": "HT",
         "secid": "HTI",
-        "key": 332
+        "uncode": 332,
+        "population": 42865593,
+        "price": 1145,
+        "School": 3544959,
+        "Co2": 0.373355266,
+        "PBI": 97964,
+        "lifeexp": 82,
+        "Covid": 1378578
     },
     {
         "name": "Heard Island and McDonald Islands",
         "firstid": "HM",
         "secid": "HMD",
-        "key": 334
+        "uncode": 334,
+        "population": 24183769,
+        "price": 4555,
+        "School": 2336689,
+        "Co2": 0.675587737,
+        "PBI": 29609,
+        "lifeexp": 82,
+        "Covid": 1204614
     },
     {
         "name": "Holy See (the)",
         "firstid": "VA",
         "secid": "VAT",
-        "key": 336
+        "uncode": 336,
+        "population": 21830286,
+        "price": 1901,
+        "School": 4916656,
+        "Co2": 0.770639438,
+        "PBI": 35066,
+        "lifeexp": 74,
+        "Covid": 1471373
     },
     {
         "name": "Honduras",
         "firstid": "HN",
         "secid": "HND",
-        "key": 340
+        "uncode": 340,
+        "population": 42896708,
+        "price": 4414,
+        "School": 1399144,
+        "Co2": 0.057644055,
+        "PBI": 52049,
+        "lifeexp": 83,
+        "Covid": 733696
     },
     {
         "name": "Hong Kong",
         "firstid": "HK",
         "secid": "HKG",
-        "key": 344
+        "uncode": 344,
+        "population": 22608900,
+        "price": 3931,
+        "School": 3981851,
+        "Co2": 0.129346552,
+        "PBI": 35448,
+        "lifeexp": 62,
+        "Covid": 539655
     },
     {
         "name": "Hungary",
         "firstid": "HU",
         "secid": "HUN",
-        "key": 348
+        "uncode": 348,
+        "population": 46073730,
+        "price": 2731,
+        "School": 2052010,
+        "Co2": 0.221007419,
+        "PBI": 13419,
+        "lifeexp": 71,
+        "Covid": 950830
     },
     {
         "name": "Iceland",
         "firstid": "IS",
         "secid": "ISL",
-        "key": 352
+        "uncode": 352,
+        "population": 37435542,
+        "price": 1788,
+        "School": 3415749,
+        "Co2": 0.283195743,
+        "PBI": 95635,
+        "lifeexp": 90,
+        "Covid": 838551
     },
     {
         "name": "India",
         "firstid": "IN",
         "secid": "IND",
-        "key": 356
+        "uncode": 356,
+        "population": 31486499,
+        "price": 4890,
+        "School": 2163504,
+        "Co2": 0.682603582,
+        "PBI": 18576,
+        "lifeexp": 63,
+        "Covid": 1405449
     },
     {
         "name": "Indonesia",
         "firstid": "ID",
         "secid": "IDN",
-        "key": 360
+        "uncode": 360,
+        "population": 29938198,
+        "price": 2140,
+        "School": 1775823,
+        "Co2": 0.317408331,
+        "PBI": 57833,
+        "lifeexp": 73,
+        "Covid": 983049
     },
     {
         "name": "Iran (Islamic Republic of)",
         "firstid": "IR",
         "secid": "IRN",
-        "key": 364
+        "uncode": 364,
+        "population": 30816098,
+        "price": 4842,
+        "School": 4399980,
+        "Co2": 0.675037894,
+        "PBI": 43367,
+        "lifeexp": 61,
+        "Covid": 1700242
     },
     {
         "name": "Iraq",
         "firstid": "IQ",
         "secid": "IRQ",
-        "key": 368
+        "uncode": 368,
+        "population": 47700314,
+        "price": 4455,
+        "School": 4036889,
+        "Co2": 0.983460674,
+        "PBI": 61593,
+        "lifeexp": 83,
+        "Covid": 654635
     },
     {
         "name": "Ireland",
         "firstid": "IE",
         "secid": "IRL",
-        "key": 372
+        "uncode": 372,
+        "population": 33549044,
+        "price": 3331,
+        "School": 4678010,
+        "Co2": 0.934119103,
+        "PBI": 94276,
+        "lifeexp": 84,
+        "Covid": 839730
     },
     {
         "name": "Isle of Man",
         "firstid": "IM",
         "secid": "IMN",
-        "key": 833
+        "uncode": 833,
+        "population": 35986235,
+        "price": 1277,
+        "School": 3402508,
+        "Co2": 0.147358854,
+        "PBI": 96002,
+        "lifeexp": 87,
+        "Covid": 1130154
     },
     {
         "name": "Israel",
         "firstid": "IL",
         "secid": "ISR",
-        "key": 376
+        "uncode": 376,
+        "population": 49991595,
+        "price": 2138,
+        "School": 2018606,
+        "Co2": 0.357332619,
+        "PBI": 38177,
+        "lifeexp": 69,
+        "Covid": 420580
     },
     {
         "name": "Italy",
         "firstid": "IT",
         "secid": "ITA",
-        "key": 380
+        "uncode": 380,
+        "population": 16779839,
+        "price": 3631,
+        "School": 2230421,
+        "Co2": 0.164510815,
+        "PBI": 78515,
+        "lifeexp": 86,
+        "Covid": 185568
     },
     {
         "name": "Jamaica",
         "firstid": "JM",
         "secid": "JAM",
-        "key": 388
+        "uncode": 388,
+        "population": 14882263,
+        "price": 1240,
+        "School": 825327,
+        "Co2": 0.907186714,
+        "PBI": 67785,
+        "lifeexp": 65,
+        "Covid": 331581
     },
     {
         "name": "Japan",
         "firstid": "JP",
         "secid": "JPN",
-        "key": 392
+        "uncode": 392,
+        "population": 21766101,
+        "price": 3375,
+        "School": 1615087,
+        "Co2": 0.853976767,
+        "PBI": 90461,
+        "lifeexp": 84,
+        "Covid": 338872
     },
     {
         "name": "Jersey",
         "firstid": "JE",
         "secid": "JEY",
-        "key": 832
+        "uncode": 832,
+        "population": 13103293,
+        "price": 1733,
+        "School": 2271577,
+        "Co2": 0.295050298,
+        "PBI": 83840,
+        "lifeexp": 72,
+        "Covid": 289360
     },
     {
         "name": "Jordan",
         "firstid": "JO",
         "secid": "JOR",
-        "key": 400
+        "uncode": 400,
+        "population": 17125315,
+        "price": 4681,
+        "School": 469141,
+        "Co2": 0.923829751,
+        "PBI": 23390,
+        "lifeexp": 89,
+        "Covid": 108336
     },
     {
         "name": "Kazakhstan",
         "firstid": "KZ",
         "secid": "KAZ",
-        "key": 398
+        "uncode": 398,
+        "population": 45973574,
+        "price": 1412,
+        "School": 4957355,
+        "Co2": 0.679584288,
+        "PBI": 13612,
+        "lifeexp": 67,
+        "Covid": 105731
     },
     {
         "name": "Kenya",
         "firstid": "KE",
         "secid": "KEN",
-        "key": 404
+        "uncode": 404,
+        "population": 17020593,
+        "price": 4285,
+        "School": 3767806,
+        "Co2": 0.3578202,
+        "PBI": 97556,
+        "lifeexp": 75,
+        "Covid": 944850
     },
     {
         "name": "Kiribati",
         "firstid": "KI",
         "secid": "KIR",
-        "key": 296
+        "uncode": 296,
+        "population": 41775977,
+        "price": 1022,
+        "School": 3528852,
+        "Co2": 0.810911712,
+        "PBI": 91286,
+        "lifeexp": 72,
+        "Covid": 1863966
     },
     {
         "name": "Korea (the Democratic People's Republic of)",
         "firstid": "KP",
         "secid": "PRK",
-        "key": 408
+        "uncode": 408,
+        "population": 39375273,
+        "price": 4249,
+        "School": 241431,
+        "Co2": 0.472811193,
+        "PBI": 99708,
+        "lifeexp": 89,
+        "Covid": 308872
     },
     {
         "name": "Korea (the Republic of)",
         "firstid": "KR",
         "secid": "KOR",
-        "key": 410
+        "uncode": 410,
+        "population": 42671974,
+        "price": 4341,
+        "School": 4857702,
+        "Co2": 0.740820149,
+        "PBI": 49466,
+        "lifeexp": 82,
+        "Covid": 1607847
     },
     {
         "name": "Kuwait",
         "firstid": "KW",
         "secid": "KWT",
-        "key": 414
+        "uncode": 414,
+        "population": 17158255,
+        "price": 1029,
+        "School": 1292783,
+        "Co2": 0.87949883,
+        "PBI": 83478,
+        "lifeexp": 65,
+        "Covid": 1167455
     },
     {
         "name": "Kyrgyzstan",
         "firstid": "KG",
         "secid": "KGZ",
-        "key": 417
+        "uncode": 417,
+        "population": 49803455,
+        "price": 1709,
+        "School": 492600,
+        "Co2": 0.089244177,
+        "PBI": 51931,
+        "lifeexp": 84,
+        "Covid": 168086
     },
     {
         "name": "Lao People's Democratic Republic (the)",
         "firstid": "LA",
         "secid": "LAO",
-        "key": 418
+        "uncode": 418,
+        "population": 41178177,
+        "price": 4777,
+        "School": 4339737,
+        "Co2": 0.187884669,
+        "PBI": 69911,
+        "lifeexp": 62,
+        "Covid": 1324259
     },
     {
         "name": "Latvia",
         "firstid": "LV",
         "secid": "LVA",
-        "key": 428
+        "uncode": 428,
+        "population": 11230814,
+        "price": 3560,
+        "School": 336843,
+        "Co2": 0.596185378,
+        "PBI": 87331,
+        "lifeexp": 74,
+        "Covid": 761685
     },
     {
         "name": "Lebanon",
         "firstid": "LB",
         "secid": "LBN",
-        "key": 422
+        "uncode": 422,
+        "population": 41537612,
+        "price": 3669,
+        "School": 4626989,
+        "Co2": 0.590100098,
+        "PBI": 17201,
+        "lifeexp": 76,
+        "Covid": 1151695
     },
     {
         "name": "Lesotho",
         "firstid": "LS",
         "secid": "LSO",
-        "key": 426
+        "uncode": 426,
+        "population": 35570309,
+        "price": 3940,
+        "School": 2504155,
+        "Co2": 0.743498509,
+        "PBI": 57074,
+        "lifeexp": 79,
+        "Covid": 1287812
     },
     {
         "name": "Liberia",
         "firstid": "LR",
         "secid": "LBR",
-        "key": 430
+        "uncode": 430,
+        "population": 45167577,
+        "price": 3458,
+        "School": 733443,
+        "Co2": 0.024435859,
+        "PBI": 51811,
+        "lifeexp": 81,
+        "Covid": 1223553
     },
     {
         "name": "Libya",
         "firstid": "LY",
         "secid": "LBY",
-        "key": 434
+        "uncode": 434,
+        "population": 11215744,
+        "price": 4417,
+        "School": 485569,
+        "Co2": 0.926703926,
+        "PBI": 33910,
+        "lifeexp": 62,
+        "Covid": 392860
     },
     {
         "name": "Liechtenstein",
         "firstid": "LI",
         "secid": "LIE",
-        "key": 438
+        "uncode": 438,
+        "population": 15930431,
+        "price": 3395,
+        "School": 824617,
+        "Co2": 0.592740801,
+        "PBI": 76594,
+        "lifeexp": 62,
+        "Covid": 639320
     },
     {
         "name": "Lithuania",
         "firstid": "LT",
         "secid": "LTU",
-        "key": 440
+        "uncode": 440,
+        "population": 34709036,
+        "price": 2307,
+        "School": 4240896,
+        "Co2": 0.604048776,
+        "PBI": 66446,
+        "lifeexp": 82,
+        "Covid": 725441
     },
     {
         "name": "Luxembourg",
         "firstid": "LU",
         "secid": "LUX",
-        "key": 442
+        "uncode": 442,
+        "population": 48068082,
+        "price": 3292,
+        "School": 2497148,
+        "Co2": 0.960180486,
+        "PBI": 53038,
+        "lifeexp": 76,
+        "Covid": 837491
     },
     {
         "name": "Macao",
         "firstid": "MO",
         "secid": "MAC",
-        "key": 446
+        "uncode": 446,
+        "population": 35588348,
+        "price": 2613,
+        "School": 1107932,
+        "Co2": 0.495318887,
+        "PBI": 67531,
+        "lifeexp": 87,
+        "Covid": 1547801
     },
     {
         "name": "Madagascar",
         "firstid": "MG",
         "secid": "MDG",
-        "key": 450
+        "uncode": 450,
+        "population": 34924682,
+        "price": 3658,
+        "School": 1402284,
+        "Co2": 0.344955933,
+        "PBI": 33926,
+        "lifeexp": 74,
+        "Covid": 420154
     },
     {
         "name": "Malawi",
         "firstid": "MW",
         "secid": "MWI",
-        "key": 454
+        "uncode": 454,
+        "population": 21236616,
+        "price": 2231,
+        "School": 4793673,
+        "Co2": 0.809855882,
+        "PBI": 20495,
+        "lifeexp": 88,
+        "Covid": 1288849
     },
     {
         "name": "Malaysia",
         "firstid": "MY",
         "secid": "MYS",
-        "key": 458
+        "uncode": 458,
+        "population": 14978603,
+        "price": 4881,
+        "School": 1258752,
+        "Co2": 0.397417033,
+        "PBI": 75847,
+        "lifeexp": 81,
+        "Covid": 1505147
     },
     {
         "name": "Maldives",
         "firstid": "MV",
         "secid": "MDV",
-        "key": 462
+        "uncode": 462,
+        "population": 20623321,
+        "price": 2911,
+        "School": 2999191,
+        "Co2": 0.109749247,
+        "PBI": 59082,
+        "lifeexp": 85,
+        "Covid": 1787253
     },
     {
         "name": "Mali",
         "firstid": "ML",
         "secid": "MLI",
-        "key": 466
+        "uncode": 466,
+        "population": 29495706,
+        "price": 4503,
+        "School": 2569911,
+        "Co2": 0.984327218,
+        "PBI": 80996,
+        "lifeexp": 84,
+        "Covid": 1402328
     },
     {
         "name": "Malta",
         "firstid": "MT",
         "secid": "MLT",
-        "key": 470
+        "uncode": 470,
+        "population": 20192440,
+        "price": 1198,
+        "School": 367003,
+        "Co2": 0.396850169,
+        "PBI": 29477,
+        "lifeexp": 73,
+        "Covid": 211237
     },
     {
         "name": "Marshall Islands (the)",
         "firstid": "MH",
         "secid": "MHL",
-        "key": 584
+        "uncode": 584,
+        "population": 33259102,
+        "price": 4975,
+        "School": 4968218,
+        "Co2": 0.840273868,
+        "PBI": 46124,
+        "lifeexp": 76,
+        "Covid": 335830
     },
     {
         "name": "Martinique",
         "firstid": "MQ",
         "secid": "MTQ",
-        "key": 474
+        "uncode": 474,
+        "population": 29691749,
+        "price": 4755,
+        "School": 2031122,
+        "Co2": 0.004097688,
+        "PBI": 48214,
+        "lifeexp": 86,
+        "Covid": 205979
     },
     {
         "name": "Mauritania",
         "firstid": "MR",
         "secid": "MRT",
-        "key": 478
+        "uncode": 478,
+        "population": 19340466,
+        "price": 1691,
+        "School": 187028,
+        "Co2": 0.058409892,
+        "PBI": 66326,
+        "lifeexp": 64,
+        "Covid": 402851
     },
     {
         "name": "Mauritius",
         "firstid": "MU",
         "secid": "MUS",
-        "key": 480
+        "uncode": 480,
+        "population": 28895141,
+        "price": 3124,
+        "School": 3044416,
+        "Co2": 0.740109989,
+        "PBI": 19334,
+        "lifeexp": 65,
+        "Covid": 1391027
     },
     {
         "name": "Mayotte",
         "firstid": "YT",
         "secid": "MYT",
-        "key": 175
+        "uncode": 175,
+        "population": 29914904,
+        "price": 2024,
+        "School": 1759414,
+        "Co2": 0.974245773,
+        "PBI": 46193,
+        "lifeexp": 73,
+        "Covid": 429042
     },
     {
         "name": "Mexico",
         "firstid": "MX",
         "secid": "MEX",
-        "key": 484
+        "uncode": 484,
+        "population": 15133264,
+        "price": 2987,
+        "School": 1471135,
+        "Co2": 0.066595919,
+        "PBI": 54409,
+        "lifeexp": 78,
+        "Covid": 1486065
     },
     {
         "name": "Micronesia (Federated States of)",
         "firstid": "FM",
         "secid": "FSM",
-        "key": 583
+        "uncode": 583,
+        "population": 47382187,
+        "price": 2875,
+        "School": 778274,
+        "Co2": 0.113792673,
+        "PBI": 91356,
+        "lifeexp": 74,
+        "Covid": 177508
     },
     {
         "name": "Moldova (the Republic of)",
         "firstid": "MD",
         "secid": "MDA",
-        "key": 498
+        "uncode": 498,
+        "population": 38189991,
+        "price": 1449,
+        "School": 4211382,
+        "Co2": 0.774982631,
+        "PBI": 98936,
+        "lifeexp": 71,
+        "Covid": 888935
     },
     {
         "name": "Monaco",
         "firstid": "MC",
         "secid": "MCO",
-        "key": 492
+        "uncode": 492,
+        "population": 32283148,
+        "price": 1751,
+        "School": 3230038,
+        "Co2": 0.612563338,
+        "PBI": 65274,
+        "lifeexp": 85,
+        "Covid": 887241
     },
     {
         "name": "Mongolia",
         "firstid": "MN",
         "secid": "MNG",
-        "key": 496
+        "uncode": 496,
+        "population": 11483765,
+        "price": 2362,
+        "School": 3443697,
+        "Co2": 0.473817594,
+        "PBI": 37908,
+        "lifeexp": 74,
+        "Covid": 401444
     },
     {
         "name": "Montenegro",
         "firstid": "ME",
         "secid": "MNE",
-        "key": 499
+        "uncode": 499,
+        "population": 11871723,
+        "price": 4607,
+        "School": 2958842,
+        "Co2": 0.245559141,
+        "PBI": 58225,
+        "lifeexp": 64,
+        "Covid": 1117065
     },
     {
         "name": "Montserrat",
         "firstid": "MS",
         "secid": "MSR",
-        "key": 500
+        "uncode": 500,
+        "population": 17520139,
+        "price": 2720,
+        "School": 2934801,
+        "Co2": 0.413751501,
+        "PBI": 53428,
+        "lifeexp": 78,
+        "Covid": 322305
     },
     {
         "name": "Morocco",
         "firstid": "MA",
         "secid": "MAR",
-        "key": 504
+        "uncode": 504,
+        "population": 22484807,
+        "price": 3895,
+        "School": 4692612,
+        "Co2": 0.102586439,
+        "PBI": 20542,
+        "lifeexp": 70,
+        "Covid": 291505
     },
     {
         "name": "Mozambique",
         "firstid": "MZ",
         "secid": "MOZ",
-        "key": 508
+        "uncode": 508,
+        "population": 15084838,
+        "price": 3791,
+        "School": 886064,
+        "Co2": 0.891846945,
+        "PBI": 44335,
+        "lifeexp": 78,
+        "Covid": 1102523
     },
     {
         "name": "Myanmar",
         "firstid": "MM",
         "secid": "MMR",
-        "key": 104
+        "uncode": 104,
+        "population": 38620455,
+        "price": 2901,
+        "School": 2522882,
+        "Co2": 0.660741773,
+        "PBI": 86854,
+        "lifeexp": 77,
+        "Covid": 1925338
     },
     {
         "name": "Namibia",
         "firstid": "NA",
         "secid": "NAM",
-        "key": 516
+        "uncode": 516,
+        "population": 32080616,
+        "price": 2585,
+        "School": 1316843,
+        "Co2": 0.748114924,
+        "PBI": 22960,
+        "lifeexp": 82,
+        "Covid": 300036
     },
     {
         "name": "Nauru",
         "firstid": "NR",
         "secid": "NRU",
-        "key": 520
+        "uncode": 520,
+        "population": 21885390,
+        "price": 3218,
+        "School": 2140035,
+        "Co2": 0.064499571,
+        "PBI": 63970,
+        "lifeexp": 61,
+        "Covid": 548052
     },
     {
         "name": "Nepal",
         "firstid": "NP",
         "secid": "NPL",
-        "key": 524
+        "uncode": 524,
+        "population": 38823056,
+        "price": 2187,
+        "School": 920695,
+        "Co2": 0.171432734,
+        "PBI": 83366,
+        "lifeexp": 63,
+        "Covid": 663967
     },
     {
         "name": "Netherlands (the)",
         "firstid": "NL",
         "secid": "NLD",
-        "key": 528
+        "uncode": 528,
+        "population": 14131045,
+        "price": 2813,
+        "School": 4981571,
+        "Co2": 0.497752041,
+        "PBI": 20525,
+        "lifeexp": 85,
+        "Covid": 1636762
     },
     {
         "name": "New Caledonia",
         "firstid": "NC",
         "secid": "NCL",
-        "key": 540
+        "uncode": 540,
+        "population": 43639797,
+        "price": 1076,
+        "School": 1290337,
+        "Co2": 0.445239605,
+        "PBI": 41722,
+        "lifeexp": 79,
+        "Covid": 1375745
     },
     {
         "name": "New Zealand",
         "firstid": "NZ",
         "secid": "NZL",
-        "key": 554
+        "uncode": 554,
+        "population": 39700131,
+        "price": 4801,
+        "School": 4506240,
+        "Co2": 0.71752487,
+        "PBI": 70151,
+        "lifeexp": 68,
+        "Covid": 1482182
     },
     {
         "name": "Nicaragua",
         "firstid": "NI",
         "secid": "NIC",
-        "key": 558
+        "uncode": 558,
+        "population": 14474698,
+        "price": 2807,
+        "School": 4149757,
+        "Co2": 0.621888678,
+        "PBI": 53948,
+        "lifeexp": 62,
+        "Covid": 229984
     },
     {
         "name": "Niger (the)",
         "firstid": "NE",
         "secid": "NER",
-        "key": 562
+        "uncode": 562,
+        "population": 44262335,
+        "price": 1983,
+        "School": 1772468,
+        "Co2": 0.10711026,
+        "PBI": 87670,
+        "lifeexp": 68,
+        "Covid": 659703
     },
     {
         "name": "Nigeria",
         "firstid": "NG",
         "secid": "NGA",
-        "key": 566
+        "uncode": 566,
+        "population": 43644773,
+        "price": 3712,
+        "School": 3157452,
+        "Co2": 0.961660721,
+        "PBI": 90810,
+        "lifeexp": 89,
+        "Covid": 1517762
     },
     {
         "name": "Niue",
         "firstid": "NU",
         "secid": "NIU",
-        "key": 570
+        "uncode": 570,
+        "population": 30443059,
+        "price": 3932,
+        "School": 1758420,
+        "Co2": 0.622161079,
+        "PBI": 66247,
+        "lifeexp": 62,
+        "Covid": 1859625
     },
     {
         "name": "Norfolk Island",
         "firstid": "NF",
         "secid": "NFK",
-        "key": 574
+        "uncode": 574,
+        "population": 19734593,
+        "price": 2119,
+        "School": 1304109,
+        "Co2": 0.339433935,
+        "PBI": 98262,
+        "lifeexp": 63,
+        "Covid": 611611
     },
     {
         "name": "Northern Mariana Islands (the)",
         "firstid": "MP",
         "secid": "MNP",
-        "key": 580
+        "uncode": 580,
+        "population": 18838213,
+        "price": 3438,
+        "School": 2333195,
+        "Co2": 0.039835169,
+        "PBI": 45830,
+        "lifeexp": 69,
+        "Covid": 864916
     },
     {
         "name": "Norway",
         "firstid": "NO",
         "secid": "NOR",
-        "key": 578
+        "uncode": 578,
+        "population": 43900940,
+        "price": 4564,
+        "School": 1717320,
+        "Co2": 0.736621807,
+        "PBI": 32760,
+        "lifeexp": 65,
+        "Covid": 794213
     },
     {
         "name": "Oman",
         "firstid": "OM",
         "secid": "OMN",
-        "key": 512
+        "uncode": 512,
+        "population": 30847261,
+        "price": 1865,
+        "School": 4926743,
+        "Co2": 0.968811143,
+        "PBI": 13304,
+        "lifeexp": 72,
+        "Covid": 799562
     },
     {
         "name": "Pakistan",
         "firstid": "PK",
         "secid": "PAK",
-        "key": 586
+        "uncode": 586,
+        "population": 30739289,
+        "price": 2512,
+        "School": 4353914,
+        "Co2": 0.840890033,
+        "PBI": 67606,
+        "lifeexp": 89,
+        "Covid": 508926
     },
     {
         "name": "Palau",
         "firstid": "PW",
         "secid": "PLW",
-        "key": 585
+        "uncode": 585,
+        "population": 41539933,
+        "price": 1650,
+        "School": 2959404,
+        "Co2": 0.056083598,
+        "PBI": 21429,
+        "lifeexp": 89,
+        "Covid": 1061352
     },
     {
         "name": "Palestine, State of",
         "firstid": "PS",
         "secid": "PSE",
-        "key": 275
+        "uncode": 275,
+        "population": 30311831,
+        "price": 4249,
+        "School": 1814742,
+        "Co2": 0.870018311,
+        "PBI": 94067,
+        "lifeexp": 85,
+        "Covid": 665160
     },
     {
         "name": "Panama",
         "firstid": "PA",
         "secid": "PAN",
-        "key": 591
+        "uncode": 591,
+        "population": 43288582,
+        "price": 1286,
+        "School": 2060980,
+        "Co2": 0.410651665,
+        "PBI": 97348,
+        "lifeexp": 84,
+        "Covid": 1111448
     },
     {
         "name": "Papua New Guinea",
         "firstid": "PG",
         "secid": "PNG",
-        "key": 598
+        "uncode": 598,
+        "population": 10895263,
+        "price": 4572,
+        "School": 1441870,
+        "Co2": 0.751759695,
+        "PBI": 54656,
+        "lifeexp": 89,
+        "Covid": 699313
     },
     {
         "name": "Paraguay",
         "firstid": "PY",
         "secid": "PRY",
-        "key": 600
+        "uncode": 600,
+        "population": 42002220,
+        "price": 2520,
+        "School": 3795232,
+        "Co2": 0.908027279,
+        "PBI": 97348,
+        "lifeexp": 89,
+        "Covid": 659583
     },
     {
         "name": "Peru",
         "firstid": "PE",
         "secid": "PER",
-        "key": 604
+        "uncode": 604,
+        "population": 29439178,
+        "price": 1156,
+        "School": 1190674,
+        "Co2": 0.397396921,
+        "PBI": 43098,
+        "lifeexp": 65,
+        "Covid": 1825898
     },
     {
         "name": "Philippines (the)",
         "firstid": "PH",
         "secid": "PHL",
-        "key": 608
+        "uncode": 608,
+        "population": 21960477,
+        "price": 1788,
+        "School": 2679229,
+        "Co2": 0.368721499,
+        "PBI": 72421,
+        "lifeexp": 65,
+        "Covid": 1555396
     },
     {
         "name": "Pitcairn",
         "firstid": "PN",
         "secid": "PCN",
-        "key": 612
+        "uncode": 612,
+        "population": 16009205,
+        "price": 4676,
+        "School": 1200405,
+        "Co2": 0.169912099,
+        "PBI": 34821,
+        "lifeexp": 83,
+        "Covid": 1166881
     },
     {
         "name": "Poland",
         "firstid": "PL",
         "secid": "POL",
-        "key": 616
+        "uncode": 616,
+        "population": 16679319,
+        "price": 3737,
+        "School": 139300,
+        "Co2": 0.064445484,
+        "PBI": 15628,
+        "lifeexp": 64,
+        "Covid": 1058055
     },
     {
         "name": "Portugal",
         "firstid": "PT",
         "secid": "PRT",
-        "key": 620
+        "uncode": 620,
+        "population": 23536807,
+        "price": 1671,
+        "School": 2310526,
+        "Co2": 0.829746686,
+        "PBI": 57874,
+        "lifeexp": 88,
+        "Covid": 868646
     },
     {
         "name": "Puerto Rico",
         "firstid": "PR",
         "secid": "PRI",
-        "key": 630
+        "uncode": 630,
+        "population": 45190480,
+        "price": 1413,
+        "School": 1130905,
+        "Co2": 0.740632693,
+        "PBI": 77301,
+        "lifeexp": 81,
+        "Covid": 730962
     },
     {
         "name": "Qatar",
         "firstid": "QA",
         "secid": "QAT",
-        "key": 634
+        "uncode": 634,
+        "population": 40679420,
+        "price": 4392,
+        "School": 1933656,
+        "Co2": 0.693000797,
+        "PBI": 63943,
+        "lifeexp": 76,
+        "Covid": 1649147
     },
     {
         "name": "Republic of North Macedonia",
         "firstid": "MK",
         "secid": "MKD",
-        "key": 807
+        "uncode": 807,
+        "population": 45522583,
+        "price": 4061,
+        "School": 1533775,
+        "Co2": 0.208938117,
+        "PBI": 80332,
+        "lifeexp": 69,
+        "Covid": 900117
     },
     {
         "name": "Romania",
         "firstid": "RO",
         "secid": "ROU",
-        "key": 642
+        "uncode": 642,
+        "population": 45331834,
+        "price": 3088,
+        "School": 3132585,
+        "Co2": 0.540332837,
+        "PBI": 48312,
+        "lifeexp": 68,
+        "Covid": 933936
     },
     {
         "name": "Russian Federation (the)",
         "firstid": "RU",
         "secid": "RUS",
-        "key": 643
+        "uncode": 643,
+        "population": 46160125,
+        "price": 2770,
+        "School": 3618414,
+        "Co2": 0.858194612,
+        "PBI": 83697,
+        "lifeexp": 66,
+        "Covid": 334347
     },
     {
         "name": "Rwanda",
         "firstid": "RW",
         "secid": "RWA",
-        "key": 646
+        "uncode": 646,
+        "population": 42191455,
+        "price": 2976,
+        "School": 516976,
+        "Co2": 0.894502414,
+        "PBI": 42983,
+        "lifeexp": 68,
+        "Covid": 552436
     },
     {
         "name": "Réunion",
         "firstid": "RE",
         "secid": "REU",
-        "key": 638
+        "uncode": 638,
+        "population": 21220990,
+        "price": 2909,
+        "School": 3073266,
+        "Co2": 0.609840715,
+        "PBI": 69761,
+        "lifeexp": 86,
+        "Covid": 496933
     },
     {
         "name": "Saint Barthélemy",
         "firstid": "BL",
         "secid": "BLM",
-        "key": 652
+        "uncode": 652,
+        "population": 41558599,
+        "price": 1763,
+        "School": 4336184,
+        "Co2": 0.152504951,
+        "PBI": 73586,
+        "lifeexp": 86,
+        "Covid": 710709
     },
     {
         "name": "Saint Helena, Ascension and Tristan da Cunha",
         "firstid": "SH",
         "secid": "SHN",
-        "key": 654
+        "uncode": 654,
+        "population": 13865799,
+        "price": 4221,
+        "School": 4312771,
+        "Co2": 0.763399866,
+        "PBI": 33219,
+        "lifeexp": 62,
+        "Covid": 601739
     },
     {
         "name": "Saint Kitts and Nevis",
         "firstid": "KN",
         "secid": "KNA",
-        "key": 659
+        "uncode": 659,
+        "population": 21951504,
+        "price": 3861,
+        "School": 4273617,
+        "Co2": 0.239982295,
+        "PBI": 76125,
+        "lifeexp": 84,
+        "Covid": 1664804
     },
     {
         "name": "Saint Lucia",
         "firstid": "LC",
         "secid": "LCA",
-        "key": 662
+        "uncode": 662,
+        "population": 12946119,
+        "price": 3938,
+        "School": 4096252,
+        "Co2": 0.564887085,
+        "PBI": 73196,
+        "lifeexp": 69,
+        "Covid": 829707
     },
     {
         "name": "Saint Martin (French part)",
         "firstid": "MF",
         "secid": "MAF",
-        "key": 663
+        "uncode": 663,
+        "population": 35661718,
+        "price": 2669,
+        "School": 1909752,
+        "Co2": 0.486022642,
+        "PBI": 21402,
+        "lifeexp": 81,
+        "Covid": 797882
     },
     {
         "name": "Saint Pierre and Miquelon",
         "firstid": "PM",
         "secid": "SPM",
-        "key": 666
+        "uncode": 666,
+        "population": 26214911,
+        "price": 1029,
+        "School": 3130005,
+        "Co2": 0.888986575,
+        "PBI": 87144,
+        "lifeexp": 83,
+        "Covid": 728828
     },
     {
         "name": "Saint Vincent and the Grenadines",
         "firstid": "VC",
         "secid": "VCT",
-        "key": 670
+        "uncode": 670,
+        "population": 29345028,
+        "price": 3565,
+        "School": 1071218,
+        "Co2": 0.29335823,
+        "PBI": 78765,
+        "lifeexp": 64,
+        "Covid": 495325
     },
     {
         "name": "Samoa",
         "firstid": "WS",
         "secid": "WSM",
-        "key": 882
+        "uncode": 882,
+        "population": 37253063,
+        "price": 3534,
+        "School": 1577492,
+        "Co2": 0.46938289,
+        "PBI": 54111,
+        "lifeexp": 74,
+        "Covid": 1889442
     },
     {
         "name": "San Marino",
         "firstid": "SM",
         "secid": "SMR",
-        "key": 674
+        "uncode": 674,
+        "population": 29990401,
+        "price": 4797,
+        "School": 4282257,
+        "Co2": 0.781728318,
+        "PBI": 83704,
+        "lifeexp": 87,
+        "Covid": 398687
     },
     {
         "name": "Sao Tome and Principe",
         "firstid": "ST",
         "secid": "STP",
-        "key": 678
+        "uncode": 678,
+        "population": 15431425,
+        "price": 4815,
+        "School": 2792878,
+        "Co2": 0.987879815,
+        "PBI": 42628,
+        "lifeexp": 71,
+        "Covid": 1300324
     },
     {
         "name": "Saudi Arabia",
         "firstid": "SA",
         "secid": "SAU",
-        "key": 682
+        "uncode": 682,
+        "population": 41990086,
+        "price": 2918,
+        "School": 2114578,
+        "Co2": 0.973751154,
+        "PBI": 57989,
+        "lifeexp": 70,
+        "Covid": 1182662
     },
     {
         "name": "Senegal",
         "firstid": "SN",
         "secid": "SEN",
-        "key": 686
+        "uncode": 686,
+        "population": 21913323,
+        "price": 3368,
+        "School": 2940187,
+        "Co2": 0.901400655,
+        "PBI": 79923,
+        "lifeexp": 86,
+        "Covid": 695259
     },
     {
         "name": "Serbia",
         "firstid": "RS",
         "secid": "SRB",
-        "key": 688
+        "uncode": 688,
+        "population": 16226640,
+        "price": 1654,
+        "School": 392680,
+        "Co2": 0.790549563,
+        "PBI": 79639,
+        "lifeexp": 70,
+        "Covid": 1602324
     },
     {
         "name": "Seychelles",
         "firstid": "SC",
         "secid": "SYC",
-        "key": 690
+        "uncode": 690,
+        "population": 24583580,
+        "price": 4427,
+        "School": 2638993,
+        "Co2": 0.501635773,
+        "PBI": 76673,
+        "lifeexp": 68,
+        "Covid": 1926233
     },
     {
         "name": "Sierra Leone",
         "firstid": "SL",
         "secid": "SLE",
-        "key": 694
+        "uncode": 694,
+        "population": 20994184,
+        "price": 4628,
+        "School": 2711213,
+        "Co2": 0.79219784,
+        "PBI": 96466,
+        "lifeexp": 76,
+        "Covid": 1878759
     },
     {
         "name": "Singapore",
         "firstid": "SG",
         "secid": "SGP",
-        "key": 702
+        "uncode": 702,
+        "population": 45684534,
+        "price": 3986,
+        "School": 1208676,
+        "Co2": 0.701236248,
+        "PBI": 10486,
+        "lifeexp": 71,
+        "Covid": 1086149
     },
     {
         "name": "Sint Maarten (Dutch part)",
         "firstid": "SX",
         "secid": "SXM",
-        "key": 534
+        "uncode": 534,
+        "population": 42329227,
+        "price": 4509,
+        "School": 143115,
+        "Co2": 0.244178216,
+        "PBI": 20558,
+        "lifeexp": 66,
+        "Covid": 532980
     },
     {
         "name": "Slovakia",
         "firstid": "SK",
         "secid": "SVK",
-        "key": 703
+        "uncode": 703,
+        "population": 46655748,
+        "price": 3424,
+        "School": 794349,
+        "Co2": 0.242404057,
+        "PBI": 24475,
+        "lifeexp": 75,
+        "Covid": 524602
     },
     {
         "name": "Slovenia",
         "firstid": "SI",
         "secid": "SVN",
-        "key": 705
+        "uncode": 705,
+        "population": 48346988,
+        "price": 3301,
+        "School": 2224601,
+        "Co2": 0.318047076,
+        "PBI": 61382,
+        "lifeexp": 75,
+        "Covid": 1739536
     },
     {
         "name": "Solomon Islands",
         "firstid": "SB",
         "secid": "SLB",
-        "key": 90
+        "uncode": 90,
+        "population": 23415337,
+        "price": 2608,
+        "School": 3680088,
+        "Co2": 0.744548825,
+        "PBI": 65765,
+        "lifeexp": 71,
+        "Covid": 966150
     },
     {
         "name": "Somalia",
         "firstid": "SO",
         "secid": "SOM",
-        "key": 706
+        "uncode": 706,
+        "population": 37948331,
+        "price": 4845,
+        "School": 3261767,
+        "Co2": 0.960678502,
+        "PBI": 39981,
+        "lifeexp": 89,
+        "Covid": 85886
     },
     {
         "name": "South Africa",
         "firstid": "ZA",
         "secid": "ZAF",
-        "key": 710
+        "uncode": 710,
+        "population": 21698381,
+        "price": 1642,
+        "School": 337177,
+        "Co2": 0.41116533,
+        "PBI": 65521,
+        "lifeexp": 70,
+        "Covid": 65147
     },
     {
         "name": "South Georgia and the South Sandwich Islands",
         "firstid": "GS",
         "secid": "SGS",
-        "key": 239
+        "uncode": 239,
+        "population": 24539205,
+        "price": 1061,
+        "School": 3784819,
+        "Co2": 0.36086471,
+        "PBI": 51775,
+        "lifeexp": 80,
+        "Covid": 296742
     },
     {
         "name": "South Sudan",
         "firstid": "SS",
         "secid": "SSD",
-        "key": 728
+        "uncode": 728,
+        "population": 15436235,
+        "price": 1534,
+        "School": 3001442,
+        "Co2": 0.611269305,
+        "PBI": 80296,
+        "lifeexp": 70,
+        "Covid": 759826
     },
     {
         "name": "Spain",
         "firstid": "ES",
         "secid": "ESP",
-        "key": 724
+        "uncode": 724,
+        "population": 26403955,
+        "price": 4024,
+        "School": 233430,
+        "Co2": 0.351997303,
+        "PBI": 44405,
+        "lifeexp": 84,
+        "Covid": 843104
     },
     {
         "name": "Sri Lanka",
         "firstid": "LK",
         "secid": "LKA",
-        "key": 144
+        "uncode": 144,
+        "population": 41534188,
+        "price": 1080,
+        "School": 4175673,
+        "Co2": 0.394225906,
+        "PBI": 92959,
+        "lifeexp": 81,
+        "Covid": 905355
     },
     {
         "name": "Sudan (the)",
         "firstid": "SD",
         "secid": "SDN",
-        "key": 729
+        "uncode": 729,
+        "population": 24221593,
+        "price": 1320,
+        "School": 4336785,
+        "Co2": 0.925976599,
+        "PBI": 39056,
+        "lifeexp": 61,
+        "Covid": 498949
     },
     {
         "name": "Suriname",
         "firstid": "SR",
         "secid": "SUR",
-        "key": 740
+        "uncode": 740,
+        "population": 32211273,
+        "price": 2817,
+        "School": 1929368,
+        "Co2": 0.175556179,
+        "PBI": 27528,
+        "lifeexp": 68,
+        "Covid": 1417679
     },
     {
         "name": "Svalbard and Jan Mayen",
         "firstid": "SJ",
         "secid": "SJM",
-        "key": 744
+        "uncode": 744,
+        "population": 39133120,
+        "price": 2454,
+        "School": 1955642,
+        "Co2": 0.182642039,
+        "PBI": 26617,
+        "lifeexp": 90,
+        "Covid": 320497
     },
     {
         "name": "Sweden",
         "firstid": "SE",
         "secid": "SWE",
-        "key": 752
+        "uncode": 752,
+        "population": 36920697,
+        "price": 4128,
+        "School": 3648942,
+        "Co2": 0.044438432,
+        "PBI": 96300,
+        "lifeexp": 87,
+        "Covid": 1523055
     },
     {
         "name": "Switzerland",
         "firstid": "CH",
         "secid": "CHE",
-        "key": 756
+        "uncode": 756,
+        "population": 45759744,
+        "price": 4220,
+        "School": 1253301,
+        "Co2": 0.981583508,
+        "PBI": 50456,
+        "lifeexp": 90,
+        "Covid": 750155
     },
     {
         "name": "Syrian Arab Republic",
         "firstid": "SY",
         "secid": "SYR",
-        "key": 760
+        "uncode": 760,
+        "population": 10344136,
+        "price": 2610,
+        "School": 1538804,
+        "Co2": 0.357488333,
+        "PBI": 32296,
+        "lifeexp": 89,
+        "Covid": 1636853
     },
     {
         "name": "Taiwan (Province of China)",
         "firstid": "TW",
         "secid": "TWN",
-        "key": 158
+        "uncode": 158,
+        "population": 25007980,
+        "price": 2070,
+        "School": 1118414,
+        "Co2": 0.20738908,
+        "PBI": 25355,
+        "lifeexp": 87,
+        "Covid": 1730946
     },
     {
         "name": "Tajikistan",
         "firstid": "TJ",
         "secid": "TJK",
-        "key": 762
+        "uncode": 762,
+        "population": 10065107,
+        "price": 3325,
+        "School": 3597643,
+        "Co2": 0.74206582,
+        "PBI": 74090,
+        "lifeexp": 76,
+        "Covid": 369974
     },
     {
         "name": "Tanzania, United Republic of",
         "firstid": "TZ",
         "secid": "TZA",
-        "key": 834
+        "uncode": 834,
+        "population": 40642146,
+        "price": 3802,
+        "School": 1263453,
+        "Co2": 0.459306582,
+        "PBI": 65818,
+        "lifeexp": 81,
+        "Covid": 115684
     },
     {
         "name": "Thailand",
         "firstid": "TH",
         "secid": "THA",
-        "key": 764
+        "uncode": 764,
+        "population": 27068195,
+        "price": 4174,
+        "School": 4786888,
+        "Co2": 0.351288105,
+        "PBI": 82940,
+        "lifeexp": 81,
+        "Covid": 555358
     },
     {
         "name": "Timor-Leste",
         "firstid": "TL",
         "secid": "TLS",
-        "key": 626
+        "uncode": 626,
+        "population": 34883053,
+        "price": 4157,
+        "School": 93909,
+        "Co2": 0.012457057,
+        "PBI": 98134,
+        "lifeexp": 90,
+        "Covid": 961390
     },
     {
         "name": "Togo",
         "firstid": "TG",
         "secid": "TGO",
-        "key": 768
+        "uncode": 768,
+        "population": 22955266,
+        "price": 2121,
+        "School": 4510165,
+        "Co2": 0.811612666,
+        "PBI": 61858,
+        "lifeexp": 89,
+        "Covid": 1995629
     },
     {
         "name": "Tokelau",
         "firstid": "TK",
         "secid": "TKL",
-        "key": 772
+        "uncode": 772,
+        "population": 17396686,
+        "price": 3337,
+        "School": 1369636,
+        "Co2": 0.902728317,
+        "PBI": 61878,
+        "lifeexp": 62,
+        "Covid": 1976063
     },
     {
         "name": "Tonga",
         "firstid": "TO",
         "secid": "TON",
-        "key": 776
+        "uncode": 776,
+        "population": 28665106,
+        "price": 3508,
+        "School": 2321935,
+        "Co2": 0.645025603,
+        "PBI": 38429,
+        "lifeexp": 61,
+        "Covid": 1173163
     },
     {
         "name": "Trinidad and Tobago",
         "firstid": "TT",
         "secid": "TTO",
-        "key": 780
+        "uncode": 780,
+        "population": 48472202,
+        "price": 2444,
+        "School": 4579021,
+        "Co2": 0.56145055,
+        "PBI": 24771,
+        "lifeexp": 82,
+        "Covid": 1429738
     },
     {
         "name": "Tunisia",
         "firstid": "TN",
         "secid": "TUN",
-        "key": 788
+        "uncode": 788,
+        "population": 35504726,
+        "price": 2343,
+        "School": 4447111,
+        "Co2": 0.86294967,
+        "PBI": 61108,
+        "lifeexp": 72,
+        "Covid": 1363664
     },
     {
-        "name": "Turkey",
+        "name": "Turuncode",
         "firstid": "TR",
         "secid": "TUR",
-        "key": 792
+        "uncode": 792,
+        "population": 10015038,
+        "price": 1148,
+        "School": 1750348,
+        "Co2": 0.664096486,
+        "PBI": 69026,
+        "lifeexp": 69,
+        "Covid": 1930698
     },
     {
         "name": "Turkmenistan",
         "firstid": "TM",
         "secid": "TKM",
-        "key": 795
+        "uncode": 795,
+        "population": 30703936,
+        "price": 4613,
+        "School": 4243543,
+        "Co2": 0.094612222,
+        "PBI": 56638,
+        "lifeexp": 61,
+        "Covid": 1038457
     },
     {
         "name": "Turks and Caicos Islands (the)",
         "firstid": "TC",
         "secid": "TCA",
-        "key": 796
+        "uncode": 796,
+        "population": 27609588,
+        "price": 4649,
+        "School": 3329765,
+        "Co2": 0.837968822,
+        "PBI": 68290,
+        "lifeexp": 68,
+        "Covid": 1713288
     },
     {
         "name": "Tuvalu",
         "firstid": "TV",
         "secid": "TUV",
-        "key": 798
+        "uncode": 798,
+        "population": 23726796,
+        "price": 2367,
+        "School": 4233185,
+        "Co2": 0.555108184,
+        "PBI": 47135,
+        "lifeexp": 63,
+        "Covid": 840205
     },
     {
         "name": "Uganda",
         "firstid": "UG",
         "secid": "UGA",
-        "key": 800
+        "uncode": 800,
+        "population": 25637646,
+        "price": 2826,
+        "School": 4306651,
+        "Co2": 0.32655916,
+        "PBI": 11130,
+        "lifeexp": 68,
+        "Covid": 1510118
     },
     {
         "name": "Ukraine",
         "firstid": "UA",
         "secid": "UKR",
-        "key": 804
+        "uncode": 804,
+        "population": 33645950,
+        "price": 4107,
+        "School": 1511651,
+        "Co2": 0.010510126,
+        "PBI": 91472,
+        "lifeexp": 89,
+        "Covid": 942663
     },
     {
         "name": "United Arab Emirates (the)",
         "firstid": "AE",
         "secid": "ARE",
-        "key": 784
+        "uncode": 784,
+        "population": 18358587,
+        "price": 4873,
+        "School": 1377221,
+        "Co2": 0.338848043,
+        "PBI": 55185,
+        "lifeexp": 87,
+        "Covid": 153643
     },
     {
         "name": "United Kingdom of Great Britain and Northern Ireland (the)",
         "firstid": "GB",
         "secid": "GBR",
-        "key": 826
+        "uncode": 826,
+        "population": 35371508,
+        "price": 4667,
+        "School": 3655019,
+        "Co2": 0.415694253,
+        "PBI": 33484,
+        "lifeexp": 82,
+        "Covid": 1862274
     },
     {
         "name": "United States Minor Outlying Islands (the)",
         "firstid": "UM",
         "secid": "UMI",
-        "key": 581
+        "uncode": 581,
+        "population": 37086018,
+        "price": 1344,
+        "School": 4919989,
+        "Co2": 0.357348381,
+        "PBI": 59802,
+        "lifeexp": 60,
+        "Covid": 1072178
     },
     {
         "name": "United States of America (the)",
         "firstid": "US",
         "secid": "USA",
-        "key": 840
+        "uncode": 840,
+        "population": 15337010,
+        "price": 2688,
+        "School": 3278419,
+        "Co2": 0.243465055,
+        "PBI": 30312,
+        "lifeexp": 84,
+        "Covid": 511007
     },
     {
         "name": "Uruguay",
         "firstid": "UY",
         "secid": "URY",
-        "key": 858
+        "uncode": 858,
+        "population": 29262367,
+        "price": 2447,
+        "School": 2520790,
+        "Co2": 0.399134035,
+        "PBI": 79868,
+        "lifeexp": 74,
+        "Covid": 906412
     },
     {
         "name": "Uzbekistan",
         "firstid": "UZ",
         "secid": "UZB",
-        "key": 860
+        "uncode": 860,
+        "population": 11556821,
+        "price": 4286,
+        "School": 977889,
+        "Co2": 0.394314525,
+        "PBI": 41307,
+        "lifeexp": 77,
+        "Covid": 86090
     },
     {
         "name": "Vanuatu",
         "firstid": "VU",
         "secid": "VUT",
-        "key": 548
+        "uncode": 548,
+        "population": 41498914,
+        "price": 2707,
+        "School": 2538272,
+        "Co2": 0.951018,
+        "PBI": 66803,
+        "lifeexp": 81,
+        "Covid": 1543234
     },
     {
         "name": "Venezuela (Bolivarian Republic of)",
         "firstid": "VE",
         "secid": "VEN",
-        "key": 862
+        "uncode": 862,
+        "population": 27025522,
+        "price": 1200,
+        "School": 3417369,
+        "Co2": 0.506355012,
+        "PBI": 91000,
+        "lifeexp": 88,
+        "Covid": 1869824
     },
     {
         "name": "Viet Nam",
         "firstid": "VN",
         "secid": "VNM",
-        "key": 704
+        "uncode": 704,
+        "population": 26768090,
+        "price": 1605,
+        "School": 1043101,
+        "Co2": 0.219294649,
+        "PBI": 18762,
+        "lifeexp": 90,
+        "Covid": 1190658
     },
     {
         "name": "Virgin Islands (British)",
         "firstid": "VG",
         "secid": "VGB",
-        "key": 92
+        "uncode": 92,
+        "population": 19002050,
+        "price": 4467,
+        "School": 2937694,
+        "Co2": 0.01069217,
+        "PBI": 85444,
+        "lifeexp": 61,
+        "Covid": 1450993
     },
     {
         "name": "Virgin Islands (U.S.)",
         "firstid": "VI",
         "secid": "VIR",
-        "key": 850
+        "uncode": 850,
+        "population": 11184807,
+        "price": 4838,
+        "School": 311665,
+        "Co2": 0.174368663,
+        "PBI": 70360,
+        "lifeexp": 82,
+        "Covid": 1377131
     },
     {
         "name": "Wallis and Futuna",
         "firstid": "WF",
         "secid": "WLF",
-        "key": 876
+        "uncode": 876,
+        "population": 48335721,
+        "price": 2639,
+        "School": 4118732,
+        "Co2": 0.124314028,
+        "PBI": 91047,
+        "lifeexp": 80,
+        "Covid": 744749
     },
     {
         "name": "Western Sahara",
         "firstid": "EH",
         "secid": "ESH",
-        "key": 732
+        "uncode": 732,
+        "population": 18731999,
+        "price": 3084,
+        "School": 3377131,
+        "Co2": 0.525775077,
+        "PBI": 74821,
+        "lifeexp": 69,
+        "Covid": 238191
     },
     {
         "name": "Yemen",
         "firstid": "YE",
         "secid": "YEM",
-        "key": 887
+        "uncode": 887,
+        "population": 23800453,
+        "price": 3114,
+        "School": 1324530,
+        "Co2": 0.046393669,
+        "PBI": 28360,
+        "lifeexp": 68,
+        "Covid": 1949241
     },
     {
         "name": "Zambia",
         "firstid": "ZM",
         "secid": "ZMB",
-        "key": 894
+        "uncode": 894,
+        "population": 29343720,
+        "price": 4599,
+        "School": 3835330,
+        "Co2": 0.603357373,
+        "PBI": 47963,
+        "lifeexp": 65,
+        "Covid": 314214
     },
     {
         "name": "Zimbabwe",
         "firstid": "ZW",
         "secid": "ZWE",
-        "key": 716
+        "uncode": 716,
+        "population": 14695526,
+        "price": 1434,
+        "School": 2153944,
+        "Co2": 0.153112676,
+        "PBI": 91257,
+        "lifeexp": 61,
+        "Covid": 212200
     },
     {
         "name": "Åland Islands",
         "firstid": "AX",
         "secid": "ALA",
-        "key": 248
+        "uncode": 248,
+        "population": 42419639,
+        "price": 1882,
+        "School": 4697217,
+        "Co2": 0.119686889,
+        "PBI": 29568,
+        "lifeexp": 88,
+        "Covid": 292084
     }
 ]
