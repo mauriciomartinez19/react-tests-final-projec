@@ -23,7 +23,12 @@ const Wishlist = () => {
             <button onClick={() => setWishlist(false)}>Close Wishlist</button>
         </div>
     }
-    return <img src={wishIcon} className="wishlist-icon" alt="list-logo" onClick={() => setWishlist(true)} />
+    return <div className="wishlist-zone">
+        <img src={wishIcon} className="wishlist-icon" alt="list-logo" onClick={() => setWishlist(true)} />
+        <div className="red-circle">
+            <h4>5</h4>
+        </div>
+    </div>
 }
 
 
