@@ -1,39 +1,33 @@
 import { useEffect, useState } from "react"
+import './countries.css'
+import Flag from "./flag"
 
 const CountriesHome = () => {
 
     const [countries, setCountries] = useState([])
-    const [showFlag, setShowFlag] = useState(true)
+    const [isLoading, setIsLoading] = useState(true)
 
     const getCountries = async () => {
+        setIsLoading(true)
         const response = await fetch('http://localhost:5000/api/countries')
         const data = await response.json()
         setCountries(data)
+        setIsLoading(false)
     }
     useEffect(() => {
         getCountries()
     }, [])
+    if (isLoading) {
+        return <h1>Is Loading</h1>
+    }
     return <div className="CountriesHome">
-        {countries.map((country, i) => {
-            const { name, firstid, secid, key } = countries[i]
-            return <section key={key} className="country">
-                <img src={`https://countryflagsapi.com/png/${firstid}`} alt={name + ': flag'} />
-                <h1 className="name">{name}</h1>
-                <div className="text-zone">
-                    <div>
-                        <h5>ISO Alpha-2: </h5>
-                        <p>{firstid}</p>
-                    </div>
-                    <div>
-                        <h5>ISO Alpha-3:  </h5>
-                        <p>{secid}</p>
-                    </div>
-                    <div>
-                        <h5>UN code: </h5>
-                        <p>{secid}</p>
-                    </div>
-                </div>
-            </section>
+        {countries.map((country) => {
+            const { name, firstid, secid, key } = country
+            return <Flag
+                name={name}
+                firstid={firstid}
+                secid={secid}
+                key={key} />
         })}
     </div>
 }

@@ -1,0 +1,59 @@
+.countries-page{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 219, 219);
+}
+
+.title{
+    margin-top: 80px;
+}
+
+.CountriesHome{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.country{
+    border: solid black 2px;
+    max-width: 250px;
+    height: 350px;
+    background-color: white;
+}
+
+.flag-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    height: 200px;
+    border-bottom: solid black 1px;
+
+}
+
+.flag{
+   max-width: 250px;
+   border: solid black 1px;
+}
+
+.name{
+ letter-spacing: 1px;
+ margin-bottom: 0px;
+ margin-left: 10px;   
+}
+
+.sub-title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.tag{
+    margin: 10px;
+}
+
+p{
+    margin: 0px;
+}
