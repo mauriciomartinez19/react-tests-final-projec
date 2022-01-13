@@ -3,6 +3,22 @@ import { useState } from "react"
 const FLAG_BASE_URI = 'https://countryflagsapi.com/png/'
 const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PBI, lifeexp, Covid }) => {
     const [showFlag, setShowFlag] = useState(true)
+
+    const addToWishlist = async (e) => {
+        const { value } = e.target
+        const mes = { value }
+        console.log(mes)
+
+        const reqSettings = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(mes)
+        }
+        const response = await fetch('http://localhost:5000/api/countries/wishlist', reqSettings)
+        const data = await response.json()
+        console.log(data)
+    }
+
     if (showFlag) {
         return (<section className="country">
             <div className="flag-box" onClick={() => setShowFlag(!showFlag)}>
@@ -26,7 +42,7 @@ const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PB
                         <p>{uncode}</p>
                     </div>
                 </div>
-                <button className="cart-btn">Add to wishlist</button>
+                <button className="cart-btn" value={uncode} onClick={(e) => addToWishlist(e)}>Add to wishlist</button>
             </div>
         </section>)
     }
