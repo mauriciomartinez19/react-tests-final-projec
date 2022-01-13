@@ -1,0 +1,46 @@
+.wishlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 100px;
+    position: fixed;
+    background-color: white;
+    width: 300px;
+}
+
+.wish-box{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+dl{
+    width: 300px;
+    text-align: left;
+}
+
+dd{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.center{
+    border-bottom: solid;
+    display: flex;
+}
+
+.total-price{
+    text-align: right;
+    font-size: 16px;
+}
+
+.wishlist-icon{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    margin-top: 100px;
+}
+
+.wishlist-icon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

@@ -1,0 +1,72 @@
+.flag-box-reverse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: black solid 1px;
+    height: 110px;
+}
+
+.flag-reverse{
+    display: flex;
+    max-width: 40%;
+    border: solid black 1px;
+    object-fit: contain;
+}
+
+.flag-reverse:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.price-box{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.name-reverse{
+    font-size: 16px;
+}
+
+
+
+
+.price-zone{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: blue;
+}
+
+.price-number{
+    color: blue;
+}
+
+.botton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 278px;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+button{
+    border: transparent;
+    background-color: rgb(148, 147, 148);
+    border-radius: 5px;
+    width: 60%;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
