@@ -6,9 +6,9 @@ const PageCards = () => {
     return (
         <div className="card-home">{
             data.map((page) => {
-                const { title, img, link } = page
-                return (<Link to={link} className="home-link">
-                    <img src={require(`./images/${img}`)} className="picture-home" />
+                const { title, img, link, id } = page
+                return (<Link to={link} className="home-link" key={id}>
+                    <img src={require(`./images/${img}`)} alt='preliminar-web-img' className="picture-home" />
                     <h5>{title}</h5>
                 </Link>)
             })

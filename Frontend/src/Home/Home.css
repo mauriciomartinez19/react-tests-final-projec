@@ -1,6 +1,5 @@
 .home-page{
     background-color: #f8f1f1;
-    height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,8 +12,10 @@
 
 .card-home{
     margin-top: 30px;
+    padding: 20px;
     display: flex;
-    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
     gap: 100px;
 }
 
