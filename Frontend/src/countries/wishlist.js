@@ -5,6 +5,7 @@ import wishIcon from "./wishIcon.png"
 const Wishlist = ({ FLAG_BASE_URI }) => {
     const [wishlistState, setWishlistState] = useState(false)
     const [wishlist, setWishlist] = useState([])
+    const [totalPrice, setTotalPrice] = useState(0)
 
     const getWishlist = async () => {
         const response = await fetch('http://localhost:5000/api/countries/wishlist')
@@ -23,14 +24,15 @@ const Wishlist = ({ FLAG_BASE_URI }) => {
         }
         await fetch('http://localhost:5000/api/countries/wishlist', reqSettings)
     }
-    // const [totalPrice, setTotalPrice] = useState(0)
-    // const price = wishlist.map((country) => country.price)
-    // if (price) {
-    //     setTotalPrice(price.reduce((a, b) => a + b, 0))
-    // }
+
+    const getPrice = () => {
+        const price = wishlist.map((country) => country.price)
+        setTotalPrice(price.reduce((a, b) => a + b, 0))
+    }
 
     useEffect(() => {
         getWishlist()
+        getPrice()
     }, [wishlist])
 
     if (wishlistState) {
@@ -58,7 +60,7 @@ const Wishlist = ({ FLAG_BASE_URI }) => {
                         }
                     </dl>
                 </div>
-                <h5 className="total-price">Total price: $99999</h5>
+                <h5 className="total-price">Total price: ${totalPrice}</h5>
             </div>
             <button onClick={() => setWishlistState(false)}>Close Wishlist</button>
         </div >
