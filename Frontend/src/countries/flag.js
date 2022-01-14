@@ -1,22 +1,11 @@
-import { useState } from "react"
+import { useState, useContext } from "react"
 
+import WishlistContext from "./Context/WishlistContext"
 
 const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PBI, lifeexp, Covid, FLAG_BASE_URI }) => {
     const [showFlag, setShowFlag] = useState(true)
 
-    const addToWishlist = async (e) => {
-        const { value } = e.target
-        const mes = { value }
-
-        const reqSettings = {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(mes)
-        }
-        const response = await fetch('http://localhost:5000/api/countries/wishlist', reqSettings)
-        const data = await response.json()
-        console.log(data)
-    }
+    const wishlistContext = useContext(WishlistContext)
 
     if (showFlag) {
         return (<section className="country">
@@ -41,7 +30,7 @@ const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PB
                         <p>{uncode}</p>
                     </div>
                 </div>
-                <button className="cart-btn" value={uncode} onClick={(e) => addToWishlist(e)}>Add to wishlist</button>
+                <button className="cart-btn" value={uncode} onClick={(e) => wishlistContext.addToWishlist(e)}>Add to wishlist</button>
             </div>
         </section>)
     }

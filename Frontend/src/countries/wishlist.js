@@ -1,29 +1,29 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useContext } from "react"
 import wishIcon from "./wishIcon.png"
+
+import WishlistContext from "./Context/WishlistContext"
 
 
 const Wishlist = ({ FLAG_BASE_URI }) => {
     const [wishlistState, setWishlistState] = useState(false)
-    const [wishlist, setWishlist] = useState([])
     const [totalPrice, setTotalPrice] = useState(0)
+    const [isLoading, setIsLoading] = useState(false)
 
-    const getWishlist = async () => {
-        const response = await fetch('http://localhost:5000/api/countries/wishlist')
-        const data = await response.json()
-        setWishlist(data)
-    }
+    const wishlistContext = useContext(WishlistContext)
+    const { wishlist } = useContext(WishlistContext)
 
-    const deleteItem = async (e) => {
-        const { value } = e.target
-        const mes = { value }
-
-        const reqSettings = {
-            method: 'DELETE',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(mes)
-        }
-        await fetch('http://localhost:5000/api/countries/wishlist', reqSettings)
-    }
+    // const deleteItem = async (e) => {
+    //     const { value } = e.target
+    //     const mes = { value }
+    //     const reqSettings = {
+    //         method: 'DELETE',
+    //         headers: { 'Content-Type': 'application/json' },
+    //         body: JSON.stringify(mes)
+    //     }
+    //     const response = await fetch('http://localhost:5000/api/countries/wishlist', reqSettings)
+    //     const data = response.json()
+    //     console.log(data)
+    // }
 
     const getPrice = () => {
         const price = wishlist.map((country) => country.price)
@@ -31,34 +31,35 @@ const Wishlist = ({ FLAG_BASE_URI }) => {
     }
 
     useEffect(() => {
-        getWishlist()
+        wishlistContext.getWishlist()
         getPrice()
-    }, [wishlist])
+    }, [wishlist.length])
 
     if (wishlistState) {
         return <div className="wishlist">
             <div className="wish-box">
                 <h3>Wishlist</h3>
                 <div className="center">
-                    <dl>
-                        {wishlist.map((item, i) => {
-                            const { name, price, firstid, uncode } = item
-                            return (
-                                <div key={i} className="map-list">
-                                    <div className="text-wish">
-                                        <div className="dt-class">
-                                            <img src={`${FLAG_BASE_URI}${firstid}`} alt={name + ': flag'} className="wish-flag" />
-                                            <dt>{name}</dt>
+                    {isLoading ? <div></div> :
+                        <dl>
+                            {wishlist.map((item, i) => {
+                                const { name, price, firstid, uncode } = item
+                                return (
+                                    <div key={i} className="map-list">
+                                        <div className="text-wish">
+                                            <div className="dt-class">
+                                                <img src={`${FLAG_BASE_URI}${firstid}`} alt={name + ': flag'} className="wish-flag" />
+                                                <dt>{name}</dt>
+                                            </div>
+                                            <dd>Price: ${price}</dd>
                                         </div>
-                                        <dd>Price: ${price}</dd>
+                                        <button className="delete-wish" value={uncode} onClick={(e) => wishlistContext.deleteItem(e)}>Delete</button>
                                     </div>
-                                    <button className="delete-wish" value={uncode} onClick={(e) => deleteItem(e)}>Delete</button>
-                                </div>
-                            )
-                        })
+                                )
+                            })
 
-                        }
-                    </dl>
+                            }
+                        </dl>}
                 </div>
                 <h5 className="total-price">Total price: ${totalPrice}</h5>
             </div>

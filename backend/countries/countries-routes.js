@@ -23,7 +23,7 @@ router.route('/wishlist').post((req, res) => {
 router.route('/wishlist').delete((req, res) => {
     const { value } = req.body
     wishlist = wishlist.filter(country => Number(country.uncode) !== Number(value))
-    res.status(200)
+    res.status(200).json(wishlist)
 })
 
 module.exports = router
