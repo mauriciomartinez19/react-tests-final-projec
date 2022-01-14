@@ -9,6 +9,7 @@
     width: 300px;
     z-index: 9999;
     box-shadow: 3px 3px 5px black;
+    
 }
 
 .wish-box{
@@ -16,7 +17,35 @@
     margin-left: 20px;
 }
 
+.map-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-wish{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.dt-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.wish-flag{
+    width: 20px;
+    height: 15px;
+    border: solid black 1px;
+}
+
 dl{
+    display: flex;
+    flex-direction: column;
     width: 300px;
     text-align: left;
 }
@@ -24,6 +53,11 @@ dl{
 dd{
     text-align: right;
     margin-right: 10px;
+}
+
+.delete-wish{
+    width: 25%;
+    height: 18px;
 }
 
 .center{
