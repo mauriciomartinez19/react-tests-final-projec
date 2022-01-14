@@ -9,6 +9,10 @@ router.route('/').get((req, res) => {
     res.status(200).json(countries)
 })
 
+router.route('/wishlist').get((req, res) => {
+    res.status(200).json(wishlist)
+})
+
 router.route('/wishlist').post((req, res) => {
     const { value } = req.body
     const newCountry = countries.find(country => Number(country.uncode) === Number(value))
@@ -16,5 +20,9 @@ router.route('/wishlist').post((req, res) => {
     res.status(200).json(wishlist)
 })
 
+router.route('/wishlist').delete((req, res) => {
+    const { value } = req.body
+    console.log(value)
+})
 
 module.exports = router

@@ -3,10 +3,12 @@ import './countries.css'
 import './countries-reverse.css'
 import Flag from "./flag"
 
-const CountriesHome = () => {
+const CountriesHome = ({ FLAG_BASE_URI }) => {
 
     const [countries, setCountries] = useState([])
     const [isLoading, setIsLoading] = useState(true)
+
+
 
     const getCountries = async () => {
         setIsLoading(true)
@@ -25,6 +27,7 @@ const CountriesHome = () => {
         {countries.map((country, i) => {
             return <Flag
                 {...country}
+                FLAG_BASE_URI={FLAG_BASE_URI}
                 key={i} />
         })}
     </div>

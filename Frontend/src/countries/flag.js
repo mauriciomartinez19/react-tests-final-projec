@@ -1,13 +1,12 @@
 import { useState } from "react"
 
-const FLAG_BASE_URI = 'https://countryflagsapi.com/png/'
-const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PBI, lifeexp, Covid }) => {
+
+const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PBI, lifeexp, Covid, FLAG_BASE_URI }) => {
     const [showFlag, setShowFlag] = useState(true)
 
     const addToWishlist = async (e) => {
         const { value } = e.target
         const mes = { value }
-        console.log(mes)
 
         const reqSettings = {
             method: 'POST',
