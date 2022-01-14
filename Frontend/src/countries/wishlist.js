@@ -63,7 +63,9 @@ const Wishlist = ({ FLAG_BASE_URI }) => {
                 </div>
                 <h5 className="total-price">Total price: ${totalPrice}</h5>
             </div>
-            <button onClick={() => setWishlistState(false)}>Close Wishlist</button>
+            <div className="close-btn-div">
+                <button onClick={() => setWishlistState(false)} className="close-btn">Close Wishlist</button>
+            </div>
         </div >
     }
     return <div className="wishlist-zone">
