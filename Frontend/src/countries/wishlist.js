@@ -17,10 +17,11 @@ const Wishlist = ({ FLAG_BASE_URI }) => {
         const mes = { value }
 
         const reqSettings = {
+            method: 'DELETE',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(mes)
         }
-        const response = await fetch('http://localhost:5000/api/countries/wishlist', reqSettings)
+        await fetch('http://localhost:5000/api/countries/wishlist', reqSettings)
     }
     // const [totalPrice, setTotalPrice] = useState(0)
     // const price = wishlist.map((country) => country.price)
@@ -39,7 +40,7 @@ const Wishlist = ({ FLAG_BASE_URI }) => {
                 <div className="center">
                     <dl>
                         {wishlist.map((item, i) => {
-                            const { name, price, firstid } = item
+                            const { name, price, firstid, uncode } = item
                             return (
                                 <div key={i} className="map-list">
                                     <div className="text-wish">
@@ -49,7 +50,7 @@ const Wishlist = ({ FLAG_BASE_URI }) => {
                                         </div>
                                         <dd>Price: ${price}</dd>
                                     </div>
-                                    <button className="delete-wish" value={name} onClick={(e) => deleteItem(e)}>Delete</button>
+                                    <button className="delete-wish" value={uncode} onClick={(e) => deleteItem(e)}>Delete</button>
                                 </div>
                             )
                         })
@@ -64,9 +65,12 @@ const Wishlist = ({ FLAG_BASE_URI }) => {
     }
     return <div className="wishlist-zone">
         <img src={wishIcon} className="wishlist-icon" alt="list-logo" onClick={() => setWishlistState(true)} />
-        <div className="red-circle">
-            <h4>5</h4>
-        </div>
+        {wishlist.length ? (
+            <div className="red-circle">
+                <h4>{wishlist.length}</h4>
+            </div>
+        ) : <div></div>}
+
     </div>
 }
 
