@@ -1,3 +1,17 @@
+.country-reverse{
+    border: solid black 1px;
+    width: 250px;
+    transition: 1s;
+    background-color: rgb(216, 201, 216);
+    transition: 1s;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d; 
+}
+
+.flip-reverse{
+    transform: rotateY(180deg);
+}
+
 .flag-box-reverse{
     display: flex;
     flex-direction: row;

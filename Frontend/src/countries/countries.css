@@ -1,7 +1,7 @@
 .countries-page{
     display: flex;
     flex-direction: column;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(197, 185, 185);
 }
 
 .title{
@@ -19,11 +19,17 @@ font-size: 45px;
     justify-content: center;
 }
 
+.flip{
+    backface-visibility: hidden;
+}
+
 .country{
     border: solid black 2px;
-    max-width: 250px;
+    width: 250px;
     background-color: white;
     height: 400px;
+    transition: 1s;
+    transform-style: preserve-3d;
 }
 
 .flag-box{

@@ -1,11 +1,10 @@
 .contact {
     background-color: rgb(245, 195, 195);
     min-height: 100vh;
-
 }
 
 .sections{
-    min-height: 100vh;    
+    min-height: 100vh;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
@@ -23,7 +22,6 @@
     gap: 30px;
     background-color: rgb(153, 182, 245);
     border-radius: 50px;
-    margin-bottom: 60px;
 }
 
 .formulario {
