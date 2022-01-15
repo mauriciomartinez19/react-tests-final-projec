@@ -1,14 +1,16 @@
 .contact {
     background-color: rgb(245, 195, 195);
-    height: 110vh;
-    display: flex;
-    justify-content: center;
+    min-height: 100vh;
+
 }
 
 .sections{
+    min-height: 100vh;    
     display: flex;
-    flex-direction: row;
-    gap: 150px;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
 }
 
 .input-section{
@@ -21,6 +23,7 @@
     gap: 30px;
     background-color: rgb(153, 182, 245);
     border-radius: 50px;
+    margin-bottom: 60px;
 }
 
 .formulario {
