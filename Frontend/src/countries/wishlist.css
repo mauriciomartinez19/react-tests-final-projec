@@ -76,12 +76,15 @@ dd{
 .wishlist-zone{
     position: fixed;
     margin-top: 100px;
+    z-index: 999;
 }
 
 .wishlist-icon{
     transition: 0.5s;
     width: 50px;
     height: 50px;
+    background-color: #d8d2d2;
+    border-radius: 14px;
 }
 
 .wishlist-icon:hover{

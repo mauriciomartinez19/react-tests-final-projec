@@ -12,8 +12,9 @@ const Card = ({ showFlag, children }) => {
 
 const Country = styled.section`
     border: solid black 2px;
+    border-radius:10px;
     width: 250px;
-    background-color: ${props => props.showFlag ? 'white' : 'rgb(209, 228, 245)'};
+    background-color: ${props => props.showFlag ? 'rgb(255,255,255,0.30)' : 'rgb(209, 228, 245,0.30)'};
     height: 400px;
     transition: 1s;
     transform-style: preserve-3d;
