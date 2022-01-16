@@ -1,6 +1,7 @@
 import { useState, useContext } from "react"
 
 import WishlistContext from "./Context/WishlistContext"
+import Card from "./card"
 
 const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PBI, lifeexp, Covid, FLAG_BASE_URI }) => {
     const [showFlag, setShowFlag] = useState(true)
@@ -8,9 +9,7 @@ const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PB
     const wishlistContext = useContext(WishlistContext)
 
     if (showFlag) {
-        return (<section className="country">
-            <div className="flip">
-                <div className="flag-box" onClick={() => setShowFlag(!showFlag)}>
+        return (<Card showFlag={showFlag}>
                     <img src={`${FLAG_BASE_URI}${firstid}`} alt={name + ': flag'} className="flag" />
                 </div>
                 <div className="name-box">
@@ -33,13 +32,10 @@ const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PB
                     </div>
                     <button className="cart-btn" value={uncode} onClick={(e) => wishlistContext.addToWishlist(e)}>Add to wishlist</button>
                 </div>
-            </div>
-        </section>)
+        </Card>)
     }
     return (
-        <section className="country-reverse">
-            <div className="flip-reverse">
-                <div className="flag-box-reverse" onClick={() => setShowFlag(!showFlag)}>
+        <Card showFlag={showFlag}>
                     <div className="price-box">
                         <h1 className="name-reverse">{name}</h1>
                         <div className="price-zone">
@@ -80,8 +76,7 @@ const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PB
                         <button onClick={() => setShowFlag(!showFlag)}>Back to flag</button>
                     </div>
                 </div>
-            </div>
-        </section>
+        </Card>
     )
 }
 
