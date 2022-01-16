@@ -2,7 +2,7 @@
     border: solid black 1px;
     width: 250px;
     transition: 1s;
-    background-color: rgb(216, 201, 216);
+    background-color: rgb(209, 228, 245);
     transition: 1s;
     transform: rotateY(180deg);
     transform-style: preserve-3d; 
