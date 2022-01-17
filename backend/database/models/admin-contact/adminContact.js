@@ -7,4 +7,4 @@ const AdminContact = new Schema({
     message: { type: String, required: true },
 });
 
-module.exports = mongoose.model('Wishlist', AdminContact);
+module.exports = mongoose.model('AdminContact', AdminContact);
