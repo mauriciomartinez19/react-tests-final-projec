@@ -4,6 +4,7 @@ const router = express.Router()
 const countries = require('./countries-data.json')
 
 const Country = require('../../database/models/countries/country')
+const Wishlist = require('../../database/models/countries/wishlist')
 
 let wishlist = []
 
@@ -12,8 +13,10 @@ router.route('/').get(async (req, res) => {
     res.status(200).json(Countries)
 })
 
-router.route('/wishlist').get((req, res) => {
-    res.status(200).json(wishlist)
+router.route('/wishlist').get(async (req, res) => {
+    const Wishlists = await Wishlist.find()
+    console.log(Wishlists)
+    res.status(200).json(Wishlist)
 })
 
 router.route('/wishlist').post((req, res) => {
