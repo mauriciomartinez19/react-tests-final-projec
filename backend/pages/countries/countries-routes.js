@@ -1,12 +1,10 @@
 const express = require('express')
 const router = express.Router()
 
-const countries = require('./countries-data.json')
 
 const Country = require('../../database/models/countries/country')
 const Wishlist = require('../../database/models/countries/wishlist')
 
-let wishlist = []
 
 router.route('/').get(async (req, res) => {
     const Countries = await Country.find();
@@ -21,9 +19,7 @@ router.route('/wishlist').get(async (req, res) => {
 
 router.route('/wishlist').post(async (req, res) => {
     const { value, name } = req.body
-    console.log(value, name)
     const exist = await Wishlist.findOne({ name: name })
-    console.log(exist)
     if (!exist) {
         const { name, price, firstid } = await Country.findById(value)
         const newCountry = new Wishlist({
@@ -41,13 +37,11 @@ router.route('/wishlist').post(async (req, res) => {
     }
 
     const Wishlists = await Wishlist.find()
-    //exist ? wishlist : 
     res.status(200).json(Wishlists)
 })
 
 router.route('/wishlist').delete(async (req, res) => {
     const { value } = req.body
-    console.log(req.body)
     await Wishlist.findByIdAndRemove(value)
     const Wishlists = await Wishlist.find()
     res.status(200).json(Wishlists)
