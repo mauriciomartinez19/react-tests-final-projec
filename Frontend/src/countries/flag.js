@@ -4,12 +4,13 @@ import WishlistContext from "./Context/WishlistContext"
 import Card from "./card"
 
 const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PBI, lifeexp, Covid, FLAG_BASE_URI }) => {
+
     const [showFlag, setShowFlag] = useState(true)
 
     const wishlistContext = useContext(WishlistContext)
 
-    if (showFlag) {
-        return (<Card showFlag={showFlag}>
+    return (<Card showFlag={showFlag}>
+        {showFlag ?
             <FrontFlag
                 turnFlag={() => setShowFlag(!showFlag)}
                 addToWishlist={wishlistContext.addToWishlist}
@@ -18,11 +19,7 @@ const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PB
                 secid={secid}
                 uncode={uncode}
                 FLAG_BASE_URI={FLAG_BASE_URI}
-            />
-        </Card>)
-    }
-    return (
-        <Card showFlag={showFlag}>
+            /> :
             <BackFlag
                 turnFlag={() => setShowFlag(!showFlag)}
                 name={name}
@@ -38,16 +35,16 @@ const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PB
                 Covid={Covid}
                 lifeexp={lifeexp}
             />
-        </Card>
-    )
+        }
+    </Card>)
 }
+
 
 const ImageContainer = styled.div`
     display: flex;
     justify-content:center;
-    align - items: center;
-    width: 250px;
     align-items: center;
+    width: 250px;
     height: 200px;
     border-bottom: solid black 1px;
 `
