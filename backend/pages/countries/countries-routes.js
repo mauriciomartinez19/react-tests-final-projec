@@ -3,10 +3,13 @@ const router = express.Router()
 
 const countries = require('./countries-data.json')
 
+const Country = require('../../database/models/countries/country')
+
 let wishlist = []
 
-router.route('/').get((req, res) => {
-    res.status(200).json(countries)
+router.route('/').get(async (req, res) => {
+    const Countries = await Country.find();
+    res.status(200).json(Countries)
 })
 
 router.route('/wishlist').get((req, res) => {
