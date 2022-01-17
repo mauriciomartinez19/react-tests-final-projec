@@ -16,8 +16,8 @@ const WishlistState = (props) => {
     }
 
     const addToWishlist = async (e) => {
-        const { value } = e.target
-        const mes = { value }
+        const { value, name } = e.target
+        const mes = { value, name }
 
         const reqSettings = {
             method: 'POST',

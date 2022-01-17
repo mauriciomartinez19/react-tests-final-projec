@@ -1,9 +1,9 @@
 import { useState, useContext } from "react"
-import styled, { css } from "styled-components"
+import styled from "styled-components"
 import WishlistContext from "./Context/WishlistContext"
 import Card from "./card"
 
-const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PBI, lifeexp, Covid, FLAG_BASE_URI }) => {
+const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PBI, lifeexp, Covid, _id, FLAG_BASE_URI }) => {
 
     const [showFlag, setShowFlag] = useState(true)
 
@@ -18,6 +18,7 @@ const Flag = ({ name, firstid, secid, uncode, population, price, School, Co2, PB
                 firstid={firstid}
                 secid={secid}
                 uncode={uncode}
+                _id={_id}
                 FLAG_BASE_URI={FLAG_BASE_URI}
             /> :
             <BackFlag
@@ -60,7 +61,7 @@ const Header = styled.div`
 
 export default Flag
 
-const FrontFlag = ({ turnFlag, addToWishlist, name, firstid, secid, uncode, FLAG_BASE_URI, showFlag }) => {
+const FrontFlag = ({ turnFlag, addToWishlist, name, firstid, secid, uncode, FLAG_BASE_URI, showFlag, _id }) => {
     return (<>
         <ImageContainer showFlag={showFlag} onClick={turnFlag}>
             <img src={`${FLAG_BASE_URI}${firstid}`} alt={name + ': flag'} className="flag" />
@@ -83,7 +84,7 @@ const FrontFlag = ({ turnFlag, addToWishlist, name, firstid, secid, uncode, FLAG
                     <p>{uncode}</p>
                 </div>
             </div>
-            <button className="cart-btn" value={uncode} onClick={(e) => addToWishlist(e)}>Add to wishlist</button>
+            <button className="cart-btn" value={_id} name={name} onClick={(e) => addToWishlist(e)}>Add to wishlist</button>
         </div>
     </>
     )

@@ -25,7 +25,7 @@ const Wishlist = ({ FLAG_BASE_URI }) => {
                     {isLoading ? <div></div> :
                         <dl>
                             {wishlist.map((item, i) => {
-                                const { name, price, firstid, uncode, quantity } = item
+                                const { name, price, firstid, _id, quantity } = item
                                 return (
                                     <div key={i} className="map-list">
                                         <div className="text-wish">
@@ -35,7 +35,7 @@ const Wishlist = ({ FLAG_BASE_URI }) => {
                                             </div>
                                             <dd>Price: ${price}</dd>
                                         </div>
-                                        <button className="delete-wish" value={uncode} onClick={(e) => wishlistContext.deleteItem(e)}>Delete</button>
+                                        <button className="delete-wish" value={_id} onClick={(e) => wishlistContext.deleteItem(e)}>Delete</button>
                                     </div>
                                 )
                             })
