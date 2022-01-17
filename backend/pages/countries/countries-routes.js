@@ -19,15 +19,30 @@ router.route('/wishlist').get(async (req, res) => {
     res.status(200).json(Wishlists)
 })
 
-router.route('/wishlist').post((req, res) => {
-    const { value } = req.body
-    const newCountry = countries.find(country => Number(country.uncode) === Number(value))
-    const exist = wishlist.find(country => Number(country.uncode) === Number(value))
-    const quantity = exist?.quantity || 1
-    exist ? exist.quantity++ : newCountry.quantity = quantity
-    exist ? wishlist : wishlist = [...wishlist, { ...newCountry, quantity }]
-    res.status(200).json(wishlist)
-    console.log(wishlist)
+router.route('/wishlist').post(async (req, res) => {
+    const { value, name } = req.body
+    console.log(value, name)
+    const exist = await Wishlist.findOne({ name: name })
+    console.log(exist)
+    if (!exist) {
+        const { name, price, firstid } = await Country.findById(value)
+        const newCountry = new Wishlist({
+            name: name,
+            price: price,
+            firstid: firstid,
+            quantity: 1
+        })
+        await newCountry.save()
+    } else {
+        const newQuantity = exist.quantity + 1
+        const newCountry = await Wishlist.updateOne({ name: name }, { quantity: newQuantity }, {
+            new: true
+        })
+    }
+
+    const Wishlists = await Wishlist.find()
+    //exist ? wishlist : 
+    res.status(200).json(Wishlists)
 })
 
 router.route('/wishlist').delete(async (req, res) => {
