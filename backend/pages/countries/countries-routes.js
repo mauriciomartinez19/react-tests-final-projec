@@ -16,7 +16,7 @@ router.route('/').get(async (req, res) => {
 router.route('/wishlist').get(async (req, res) => {
     const Wishlists = await Wishlist.find()
     console.log(Wishlists)
-    res.status(200).json(Wishlist)
+    res.status(200).json(Wishlists)
 })
 
 router.route('/wishlist').post((req, res) => {
@@ -30,10 +30,12 @@ router.route('/wishlist').post((req, res) => {
     console.log(wishlist)
 })
 
-router.route('/wishlist').delete((req, res) => {
+router.route('/wishlist').delete(async (req, res) => {
     const { value } = req.body
-    wishlist = wishlist.filter(country => Number(country.uncode) !== Number(value))
-    res.status(200).json(wishlist)
+    console.log(req.body)
+    await Wishlist.findByIdAndRemove(value)
+    const Wishlists = await Wishlist.find()
+    res.status(200).json(Wishlists)
 })
 
 module.exports = router
