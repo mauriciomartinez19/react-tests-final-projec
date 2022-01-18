@@ -8,8 +8,11 @@ let contacts = [{
     message: 'msg 1 de prueba'
 }]
 
-router.route('/').get((req, res) => {
-    res.status(200).send(contacts)
+const AdminContact = require('../../database/models/admin-contact/adminContact')
+
+router.route('/').get(async (req, res) => {
+    const adminContacts = await AdminContact.find()
+    res.status(200).send(adminContacts)
 })
 
 router.route('/').post((req, res) => {
