@@ -3,11 +3,11 @@
     position: fixed;
     width: 100%;
     height: 50px;
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(195 195 195 / 38%);
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 .restlogo {
@@ -27,7 +27,6 @@ a {
 }
 
 a:hover{
-    color: beige;
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -37,5 +36,5 @@ a:hover{
     width: 100%;
     height: 35px;
     background-color: rgb(88, 88, 88,0.5);
-    transition: 1s;
+    transition: 0.3s;
 }
