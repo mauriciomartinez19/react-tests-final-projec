@@ -14,7 +14,7 @@ import ReviewsPage from './Reviews';
 import Contact from './Contact';
 import AdminContact from './Admin-Contacts';
 import Countries from './countries';
-
+import Login from './login';
 
 function App() {
   return (<Router>
@@ -39,6 +39,9 @@ function App() {
     </Route>
     <Route path='/admin-contacts'>
       <AdminContact />
+    </Route>
+    <Route path='/login'>
+      <Login />
     </Route>
   </Router>
   );
