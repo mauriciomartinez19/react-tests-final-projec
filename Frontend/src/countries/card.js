@@ -26,7 +26,7 @@ const Flip = styled.div`
     bottom: 0;
     transition: 1s;
     transform-style: preserve-3d;
-    background-color: rgb(255,255,255,0.30);
+    background: linear-gradient(to bottom, #96f790d9,hsl(222deg 91% 73% / 79%),#f9dede);;
     ${props => !props.showFlag && 'transform: rotateY(180deg);'}
 `
 

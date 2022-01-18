@@ -12,7 +12,7 @@ const Countries = () => {
     return (
         <WishlistState>
             <div className="countries-page">
-                <h1 className="title">Select your next trip!!!</h1>
+                <h1 className="title-country">Select your next trip!!!</h1>
                 <Wishlist
                     FLAG_BASE_URI={FLAG_BASE_URI} />
                 <CountriesHome

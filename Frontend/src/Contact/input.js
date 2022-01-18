@@ -37,6 +37,7 @@ const Input = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 required />
             <textarea
+                className="message-input"
                 value={message}
                 placeholder="message"
                 onChange={(e) => setMessage(e.target.value)}
