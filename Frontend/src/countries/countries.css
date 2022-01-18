@@ -1,13 +1,14 @@
 .countries-page{
     display: flex;
     flex-direction: column;
-    background-color: rgb(216, 210, 210);
+    background: linear-gradient(90deg,hsl(0deg 0% 100%), #fff79b);
 }
 
-.title{
+.title-country{
     margin-top: 110px;
     text-align: center;
-    color: rgb(66, 36, 36);
+    color: rgb(127 225 66);
+    margin-bottom: 0;
     font-size: 45px;
 }
 

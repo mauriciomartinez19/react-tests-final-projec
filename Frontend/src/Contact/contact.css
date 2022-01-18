@@ -118,10 +118,8 @@ textarea{
     cursor: pointer;
 }
 
-p {
-    color: rgb(90, 147, 197);
-}
-
-textarea{
-    padding: 10px;
+.message-input{
+    padding: 5px 8px;
+    width: 338px;
+    height: 80px;
 }
