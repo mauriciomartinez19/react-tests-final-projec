@@ -1,0 +1,44 @@
+.login-page{
+background-color: rgb(199, 199, 199);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.login-box{
+background-color: white;
+box-shadow: 5px 5px 10px;
+padding: 40px;
+border: solid rgb(90, 90, 90) 3px;
+border-radius: 30px;
+}
+
+.login-input-box{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.login-text{
+
+}
+
+.login-inptus{
+    border: solid gray 1px;
+}
+
+.login-button-box{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.login-button{
+    height: 30px;
+    background-color: rgb(107, 107, 221);
+    border: rgb(37, 37, 37) solid 1px;
+}
