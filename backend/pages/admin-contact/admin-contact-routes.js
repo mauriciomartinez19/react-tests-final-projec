@@ -15,11 +15,14 @@ router.route('/').get(async (req, res) => {
     res.status(200).send(adminContacts)
 })
 
-router.route('/').post((req, res) => {
-    console.log(req.body)
-    const { name, email, message, id } = req.body
-    const newContact = { id, name, email, message }
-    contacts = [...contacts, newContact]
+router.route('/').post(async (req, res) => {
+    const { name, email, message } = req.body
+    const newContact = new AdminContact({
+        name: name,
+        email: email,
+        message: message
+    })
+    await newContact.save()
     res.status(200).json('SUCCES')
 })
 
