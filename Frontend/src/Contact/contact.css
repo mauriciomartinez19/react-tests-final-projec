@@ -121,3 +121,7 @@ textarea{
 p {
     color: rgb(90, 147, 197);
 }
+
+textarea{
+    padding: 10px;
+}
