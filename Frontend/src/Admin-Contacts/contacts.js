@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './admin-contacts.css'
+import quotation from './images/quotations-marks.png'
 
 const Contacts = () => {
 
@@ -17,11 +18,16 @@ const Contacts = () => {
     return <div className='item'>
         {console.log(contacts)}
         {contacts.map((contact) => {
-            const { name, email, message, id } = contact
-            return (<section key={id} className='item-list'>
-                <h3 className='name'>{name}</h3>
-                <h4 className='email'>{email}</h4>
-                <p className='mes'>{'About the company: ' + message}</p>
+            const { name, email, message, _id } = contact
+            return (<section key={_id} className='item-list'>
+                <div className='title'>
+                    <div>
+                        <h3 className='name'>{name}</h3>
+                        <h4 className='email'>{email}</h4>
+                    </div>
+                    <img src={quotation} alt='quotation-marks' />
+                </div>
+                <p className='mes'>{message}</p>
             </section>
             )
         })}
