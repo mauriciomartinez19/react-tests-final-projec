@@ -18,7 +18,7 @@
 .item-list-admin-contact{
 border-bottom-right-radius: 20px ;
 background: linear-gradient(to bottom, rgb(205 147 249),hsl(217deg 100% 75%));
-border: solid rgb(121, 121, 121) 1px;
+border: none;
 width: 350px;
 min-height: 150px;
 }
