@@ -19,7 +19,7 @@ const Country = styled.section`
 `
 
 const Flip = styled.div`
-    border: solid black 2px;
+    border: solid grey 1px;
     border-radius:10px;
     position: absolute;
     top: 0;

@@ -15,14 +15,23 @@
 
 .CountriesHome{
     margin-top: 60px;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
 }
 
-.flip{
-    backface-visibility: hidden;
+.input-country-div{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.country-input{
+    width: 290px;
+    border: solid gray 1px;
 }
 
 .country{
@@ -34,23 +43,14 @@
     transform-style: preserve-3d;
 }
 
-.flag-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height: 200px;
-    border-bottom: solid black 1px;
-}
-
 .flag-box:hover{
     cursor: pointer;
 }
 
 .flag{
-   max-width: 240px;
-   max-height: 200px;
-   border: solid black 1px;
+   max-width: 220px;
+   max-height: 160px; 
+   border: solid gray 1px;
 }
 
 .flag:hover{
@@ -76,7 +76,7 @@
 
 
 .name-box{
-    height: 60px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +85,8 @@
 .name{
  letter-spacing: 1px;
  margin-bottom: 0px;
- margin-left: 10px;   
+ margin-left: 10px;
+ font-size: 20px;   
 }
 
 .sub-title{

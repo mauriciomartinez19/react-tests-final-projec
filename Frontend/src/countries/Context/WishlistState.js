@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 
 import WishlistContext from "./WishlistContext";
 
@@ -42,11 +42,11 @@ const WishlistState = (props) => {
         refreshWishlist(data)
     }
 
-    const refreshWishlist = (data) => {
+    const refreshWishlist = ((data) => {
         setWishlist(data)
         const price = data.map((country) => country.price * country.quantity)
         setTotalPrice(price.reduce((acc, cur) => acc + cur, 0))
-    }
+    })
 
     return (
         <WishlistContext.Provider

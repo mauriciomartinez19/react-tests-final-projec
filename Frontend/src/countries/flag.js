@@ -47,7 +47,7 @@ const ImageContainer = styled.div`
     align-items: center;
     width: 250px;
     height: 200px;
-    border-bottom: solid black 1px;
+    border-bottom: solid gray 1px;
 `
 const Header = styled.div`
     display: flex;
@@ -56,7 +56,7 @@ const Header = styled.div`
     padding: 5px;
     align-items: center;
     height:110px;
-    border-bottom: solid black 1px;
+    border-bottom: solid gray 1px;
 `
 
 export default Flag
