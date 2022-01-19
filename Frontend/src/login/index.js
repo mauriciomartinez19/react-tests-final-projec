@@ -1,7 +1,7 @@
 import './login.css'
 import { useState } from 'react'
 
-const url = ''
+const url = 'http://localhost:5000/api/login'
 
 const Login = () => {
 
