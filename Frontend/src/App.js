@@ -15,6 +15,7 @@ import Contact from './Contact';
 import AdminContact from './Admin-Contacts';
 import Countries from './countries';
 import Login from './login';
+import Register from './login/register'
 
 function App() {
   return (<Router>
@@ -42,6 +43,9 @@ function App() {
     </Route>
     <Route path='/login'>
       <Login />
+    </Route>
+    <Route path='/register'>
+      <Register />
     </Route>
   </Router>
   );
