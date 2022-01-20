@@ -19,8 +19,12 @@ const Login = () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(mes)
         })
-        const data = response.json()
+        const data = await response.json()
         console.log(data)
+        if (data.user) {
+            alert(`${data.status} Login successful`)
+            window.location.href = 'countries'
+        } else alert(`${data.status}, please try again`)
     }
 
     return <div className="login-page">

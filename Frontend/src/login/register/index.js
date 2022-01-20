@@ -1,7 +1,7 @@
 import './register.css'
 import { useState } from 'react'
 
-const url = 'http://localhost:5000/api/register'
+const url = 'http://localhost:5000/api/login/register'
 
 const Register = () => {
 
@@ -23,7 +23,7 @@ const Register = () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(mes)
         })
-        const data = response.json()
+        const data = await response.json()
         console.log(data)
     }
 
@@ -61,7 +61,7 @@ const Register = () => {
 
             </div>
             <div className='login-button-box'>
-                <button className='login-button'> LogIn</button>
+                <button className='login-button'> Register</button>
             </div>
         </form>
     </div>
