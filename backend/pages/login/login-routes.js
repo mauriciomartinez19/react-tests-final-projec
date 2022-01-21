@@ -1,8 +1,12 @@
 const express = require('express')
 const jwt = require('jsonwebtoken')
+const bcrypt = require('bcrypt');
 const router = express.Router()
 
 const User = require('../../database/models/login/user')
+
+//
+const { validation, hashPassword } = require('./login-controllers')
 
 const users = [
     {
@@ -10,11 +14,13 @@ const users = [
         password: 'testpassword'
     }, {
         userName: 'Pedro',
-        password: 'pedro12345'
+        password: 'pedro123456'
+    }, {
+        userName: 'Jose',
+        password: 'miguel123456'
     }
 ]
-const bcrypt = require('bcrypt');
-const saltRounds = 10;
+
 
 router.route('/').post(async (req, res) => {
     const { userName, password } = req.body
@@ -23,8 +29,8 @@ router.route('/').post(async (req, res) => {
     if (user) {
         const token = jwt.sign(
             {
-                name: user.userName,
-                email: user.email
+                name: user[0].userName,
+                email: user[0].email
             },
             'secret123'
         )
@@ -54,30 +60,5 @@ router.route('/register').post(async (req, res) => {
         res.status(400).json('email already exist')
     }
 })
-
-const hashPassword = async (password, saltRounds) => {
-    const passwordHash = await bcrypt.hash(password, saltRounds)
-    return passwordHash
-}
-
-const validation = async (userName, password) => {
-    const exist = await User.find({ userName: userName })
-    if (exist.length) {
-        const response = await bcrypt.compare(password, exist[0].passwordHash)
-        let mes = ''
-        return (response
-            ? {
-                mes: 'valid user',
-                user: exist
-            }
-            : {
-                mes: 'wrong password',
-                user: undefined
-            })
-    } return {
-        mes: 'user name doesnt exist',
-        user: undefined
-    }
-}
 
 module.exports = router
