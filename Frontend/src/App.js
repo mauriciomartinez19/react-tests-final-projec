@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 // react router
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -18,6 +18,23 @@ import Login from './login';
 import Register from './login/register'
 
 function App() {
+
+  const Authenticate = async () => {
+    const response = await fetch('http://localhost:5000/api/verify', {
+      method: 'POST',
+      headers: {
+        'x-access-token': localStorage.getItem('token')
+      }
+    })
+
+    const data = await response.json()
+    console.log(data)
+  }
+
+  useEffect(() => {
+    Authenticate()
+  })
+
   return (<Router>
     <TopNavbar />
     <Route exact path='/'>
