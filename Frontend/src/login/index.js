@@ -23,7 +23,8 @@ const Login = () => {
         console.log(data)
         if (data.user) {
             alert(`${data.status} Login successful`)
-            window.location.href = 'countries'
+            localStorage.setItem('token', data.user)
+            window.location.href = '/'
         } else alert(`${data.status}, please try again`)
     }
 
