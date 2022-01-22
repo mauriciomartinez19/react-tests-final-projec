@@ -16,7 +16,6 @@ const Contacts = () => {
         getContacts()
     }, [])
     return <div className='item-admin-contact'>
-        {console.log(contacts)}
         {contacts.map((contact) => {
             const { name, email, message, _id } = contact
             return (<section key={_id} className='item-list-admin-contact'>

@@ -24,6 +24,9 @@ const Register = () => {
             body: JSON.stringify(mes)
         })
         const data = await response.json()
+        if (data === 'User registered') {
+            window.location.href = '/login'
+        }
         console.log(data)
     }
 

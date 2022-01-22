@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 // react router
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 
 //Navbar
 import TopNavbar from './Navbar/TopNavbar';
@@ -17,7 +17,11 @@ import Countries from './countries';
 import Login from './login';
 import Register from './login/register'
 
+
 function App() {
+
+  const [isAunthenticated, setIsAuthenticated] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
   const Authenticate = async () => {
     const response = await fetch('http://localhost:5000/api/verify', {
@@ -26,44 +30,72 @@ function App() {
         'x-access-token': localStorage.getItem('token')
       }
     })
-
     const data = await response.json()
     console.log(data)
+    if (data === 'the token is valid') {
+      console.log('im here')
+      setIsAuthenticated(true)
+    } else setIsAuthenticated(false)
+    setIsLoading(false)
   }
+
 
   useEffect(() => {
     Authenticate()
-  })
+  }, [])
+
 
   return (<Router>
-    <TopNavbar />
-    <Route exact path='/'>
-      <HomePage />
-    </Route>
-    <Route path='/menu'>
-      <MenuPage />
-    </Route>
-    <Route path='/reviews'>
-      <ReviewsPage />
-    </Route>
-    <Route path='/tours'>
-      <ToursPage />
-    </Route>
-    <Route path='/countries'>
-      <Countries />
-    </Route>
-    <Route path='/contact'>
-      <Contact />
-    </Route>
-    <Route path='/admin-contacts'>
-      <AdminContact />
-    </Route>
-    <Route path='/login'>
-      <Login />
-    </Route>
-    <Route path='/register'>
-      <Register />
-    </Route>
+    {isLoading
+      ? <h1>isLoading</h1>
+      : <>
+        <TopNavbar />
+        <Route exact path='/'>
+          {isAunthenticated
+            ? <HomePage />
+            : <Redirect to='/login' />}
+        </Route>
+        <Route path='/menu'>
+          {isAunthenticated
+            ? <MenuPage />
+            : <Redirect to='/login' />}
+        </Route>
+        <Route path='/reviews'>
+          {isAunthenticated
+            ? <ReviewsPage />
+            : <Redirect to='/login' />}
+        </Route>
+        <Route path='/tours'>
+          {isAunthenticated
+            ? <ToursPage />
+            : <Redirect to='/login' />}
+        </Route>
+        <Route path='/countries'>
+          {isAunthenticated
+            ? <Countries />
+            : <Redirect to='/login' />}
+        </Route>
+        <Route path='/contact'>
+          {isAunthenticated
+            ? <Contact />
+            : <Redirect to='/login' />}
+        </Route>
+        <Route path='/admin-contacts'>
+          {isAunthenticated
+            ? <AdminContact />
+            : <Redirect to='/login' />}
+        </Route>
+        <Route path='/login'>
+          {isAunthenticated
+            ? <HomePage />
+            : <Login />}
+        </Route>
+        <Route path='/register'>
+          {isAunthenticated
+            ? <HomePage />
+            : <Register />}
+        </Route>
+      </>}
   </Router>
   );
 }

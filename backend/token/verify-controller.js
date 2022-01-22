@@ -8,7 +8,7 @@ const verifyToken = (req, res, next) => {
     }
     try {
         const decoded = jwt.verify(token, 'secret123');
-        console.log(decoded)
+        req.user = decoded
         return next()
     } catch (err) {
         return res.status(401).json("Invalid Token")

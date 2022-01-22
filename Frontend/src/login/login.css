@@ -31,14 +31,25 @@ gap: 20px;
 .login-button-box{
     height: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     margin-top: 20px;
-    margin-bottom: -10px;
 }
 
 .login-button{
-    height: 30px;
+    margin-top: 25px;
     background-color: rgb(107, 107, 221);
     border: rgb(37, 37, 37) solid 1px;
+}
+
+.create-new-account-btn{
+    background-color: rgb(2, 206, 2);
+    border: green solid 1px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
 }

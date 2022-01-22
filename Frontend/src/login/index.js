@@ -1,5 +1,6 @@
 import './login.css'
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const url = 'http://localhost:5000/api/login'
 
@@ -20,12 +21,15 @@ const Login = () => {
             body: JSON.stringify(mes)
         })
         const data = await response.json()
-        console.log(data)
         if (data.user) {
             alert(`${data.status} Login successful`)
             localStorage.setItem('token', data.user)
             window.location.href = '/'
-        } else alert(`${data.status}, please try again`)
+        } else {
+            alert(`${data.status}, please try again`)
+        }
+        setUserName('')
+        setPassword('')
     }
 
     return <div className="login-page">
@@ -35,6 +39,7 @@ const Login = () => {
                     <label className='login-text'>User Name</label>
                     <input className='login-inptus'
                         placeholder='insert your Username'
+                        value={userName}
                         onChange={(e) => setUserName(e.target.value)}
                         type='string' />
                 </div>
@@ -42,12 +47,14 @@ const Login = () => {
                     <label className='login-text'>Password</label>
                     <input className='login-inptus'
                         placeholder='insert your Password'
+                        value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         type='password' />
                 </div>
             </div>
             <div className='login-button-box'>
                 <button className='login-button'> LogIn</button>
+                <Link className='create-new-account-btn' to='/register'>Create a new account</Link>
             </div>
         </form>
     </div>

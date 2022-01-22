@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import jwt_decode from "jwt-decode";
 
-const TopNavbar = () => {
+const TopNavbar = (setIsAuthenticated) => {
 
   const [scrollState, setScrollState] = useState("top")
   const [userName, setUserName] = useState(false)
@@ -13,7 +13,6 @@ const TopNavbar = () => {
   const logout = () => {
     localStorage.removeItem('token')
     setUserName(false)
-    console.log(userName)
   }
 
   useEffect(() => {
@@ -45,7 +44,7 @@ const TopNavbar = () => {
   }, [scrollState, userName])
   if (scrollState === "top") {
     return <nav className="navbar-box">
-      <img src={restlogo} className='restlogo' />
+      <img src={restlogo} className='restlogo' alt='ubuntu-logo' />
       <ul className='list'>
         <Link to='/'>Home</Link>
         <Link to='/contact'>Contact</Link>
@@ -53,7 +52,7 @@ const TopNavbar = () => {
         {userName ? <div>
           <button className="dropbtn" onClick={() => setDropdown(!dropdown)}>{userName}</button>
           {dropdown ? <div className="dropdown-content">
-            <a onClick={() => logout()}>Logout</a>
+            <a href='/' onClick={() => logout()}>Logout</a>
           </div>
             : <></>
           }
@@ -65,7 +64,7 @@ const TopNavbar = () => {
   }
   else {
     return <nav className="navbar-box-bot">
-      <img src={restlogo} className='restlogo' />
+      <img src={restlogo} className='restlogo' alt='ubuntu-logo' />
     </nav>
   }
 }
