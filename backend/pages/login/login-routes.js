@@ -32,7 +32,8 @@ router.route('/').post(async (req, res) => {
                 name: user[0].userName,
                 email: user[0].email
             },
-            'secret123'
+            'secret123',
+            { expiresIn: '20m' }
         )
         res.json({ status: mes, user: token })
     } else res.json({ status: mes, user: false })
