@@ -12,7 +12,8 @@ const CountrySchema = new Schema({
     Co2: { type: Number, required: true },
     PBI: { type: Number, required: true },
     lifeexp: { type: Number, required: true },
-    Covid: { type: Number, required: true }
+    Covid: { type: Number, required: true },
+    users: { type: Array, required: false }
 });
 
 module.exports = mongoose.model('Country', CountrySchema);

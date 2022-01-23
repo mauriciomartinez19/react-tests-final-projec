@@ -30,7 +30,8 @@ router.route('/').post(async (req, res) => {
         const token = jwt.sign(
             {
                 name: user[0].userName,
-                email: user[0].email
+                email: user[0].email,
+                id: user[0]._id
             },
             'secret123',
             { expiresIn: '20m' }

@@ -6,6 +6,7 @@ const WishlistSchema = new Schema({
     firstid: { type: String, required: true },
     price: { type: Number, required: true },
     quantity: { type: Number, required: false },
+    user: { type: String, required: true }
 });
 
 module.exports = mongoose.model('Wishlist', WishlistSchema);

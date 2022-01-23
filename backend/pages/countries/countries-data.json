@@ -10,7 +10,8 @@
         "Co2": 0.153958383,
         "PBI": 76516,
         "lifeexp": 88,
-        "Covid": 820907
+        "Covid": 820907,
+        "users": []
     },
     {
         "name": "Albania",
@@ -23,7 +24,8 @@
         "Co2": 0.756264523,
         "PBI": 23483,
         "lifeexp": 86,
-        "Covid": 838219
+        "Covid": 838219,
+        "users": []
     },
     {
         "name": "Algeria",
@@ -36,7 +38,8 @@
         "Co2": 0.727208725,
         "PBI": 80816,
         "lifeexp": 79,
-        "Covid": 171036
+        "Covid": 171036,
+        "users": []
     },
     {
         "name": "American Samoa",
@@ -49,7 +52,8 @@
         "Co2": 0.271958097,
         "PBI": 48843,
         "lifeexp": 60,
-        "Covid": 883901
+        "Covid": 883901,
+        "users": []
     },
     {
         "name": "Andorra",
@@ -62,7 +66,8 @@
         "Co2": 0.207972392,
         "PBI": 47463,
         "lifeexp": 76,
-        "Covid": 486166
+        "Covid": 486166,
+        "users": []
     },
     {
         "name": "Angola",
@@ -75,7 +80,8 @@
         "Co2": 0.983134662,
         "PBI": 16978,
         "lifeexp": 89,
-        "Covid": 706874
+        "Covid": 706874,
+        "users": []
     },
     {
         "name": "Anguilla",
@@ -88,7 +94,8 @@
         "Co2": 0.814311659,
         "PBI": 17054,
         "lifeexp": 77,
-        "Covid": 183979
+        "Covid": 183979,
+        "users": []
     },
     {
         "name": "Antarctica",
@@ -101,7 +108,8 @@
         "Co2": 0.715013289,
         "PBI": 65674,
         "lifeexp": 61,
-        "Covid": 202356
+        "Covid": 202356,
+        "users": []
     },
     {
         "name": "Antigua and Barbuda",
@@ -114,7 +122,8 @@
         "Co2": 0.090252934,
         "PBI": 84911,
         "lifeexp": 73,
-        "Covid": 900539
+        "Covid": 900539,
+        "users": []
     },
     {
         "name": "Argentina",
@@ -127,7 +136,8 @@
         "Co2": 0.078386817,
         "PBI": 94197,
         "lifeexp": 69,
-        "Covid": 1312039
+        "Covid": 131203,
+        "users": []
     },
     {
         "name": "Armenia",
@@ -140,7 +150,8 @@
         "Co2": 0.664168514,
         "PBI": 67572,
         "lifeexp": 64,
-        "Covid": 1450703
+        "Covid": 145070,
+        "users": []
     },
     {
         "name": "Aruba",
@@ -153,7 +164,8 @@
         "Co2": 0.608042379,
         "PBI": 94292,
         "lifeexp": 68,
-        "Covid": 1146018
+        "Covid": 114601,
+        "users": []
     },
     {
         "name": "Australia",
@@ -166,7 +178,8 @@
         "Co2": 0.45181071,
         "PBI": 77041,
         "lifeexp": 88,
-        "Covid": 1363466
+        "Covid": 136346,
+        "users": []
     },
     {
         "name": "Austria",
@@ -179,7 +192,8 @@
         "Co2": 0.666718676,
         "PBI": 86498,
         "lifeexp": 78,
-        "Covid": 1540616
+        "Covid": 154061,
+        "users": []
     },
     {
         "name": "Azerbaijan",
@@ -192,7 +206,8 @@
         "Co2": 0.498822738,
         "PBI": 69484,
         "lifeexp": 81,
-        "Covid": 1157791
+        "Covid": 115779,
+        "users": []
     },
     {
         "name": "Bahamas (the)",
@@ -205,7 +220,8 @@
         "Co2": 0.290475195,
         "PBI": 91962,
         "lifeexp": 74,
-        "Covid": 1530350
+        "Covid": 153035,
+        "users": []
     },
     {
         "name": "Bahrain",
@@ -218,7 +234,8 @@
         "Co2": 0.665463098,
         "PBI": 90516,
         "lifeexp": 60,
-        "Covid": 1627273
+        "Covid": 162727,
+        "users": []
     },
     {
         "name": "Bangladesh",
@@ -231,7 +248,8 @@
         "Co2": 0.218517475,
         "PBI": 10634,
         "lifeexp": 86,
-        "Covid": 100809
+        "Covid": 100809,
+        "users": []
     },
     {
         "name": "Barbados",
@@ -244,7 +262,8 @@
         "Co2": 0.733329106,
         "PBI": 22139,
         "lifeexp": 83,
-        "Covid": 71470
+        "Covid": 71470,
+        "users": []
     },
     {
         "name": "Belarus",
@@ -257,7 +276,8 @@
         "Co2": 0.392304639,
         "PBI": 31284,
         "lifeexp": 68,
-        "Covid": 667332
+        "Covid": 667332,
+        "users": []
     },
     {
         "name": "Belgium",
@@ -270,7 +290,8 @@
         "Co2": 0.132466645,
         "PBI": 11101,
         "lifeexp": 74,
-        "Covid": 488956
+        "Covid": 488956,
+        "users": []
     },
     {
         "name": "Belize",
@@ -283,7 +304,8 @@
         "Co2": 0.340477223,
         "PBI": 64251,
         "lifeexp": 90,
-        "Covid": 295521
+        "Covid": 295521,
+        "users": []
     },
     {
         "name": "Benin",
@@ -296,7 +318,8 @@
         "Co2": 0.08592758,
         "PBI": 61323,
         "lifeexp": 81,
-        "Covid": 1389294
+        "Covid": 138929,
+        "users": []
     },
     {
         "name": "Bermuda",
@@ -309,7 +332,8 @@
         "Co2": 0.991061061,
         "PBI": 27475,
         "lifeexp": 72,
-        "Covid": 274997
+        "Covid": 274997,
+        "users": []
     },
     {
         "name": "Bhutan",
@@ -322,7 +346,8 @@
         "Co2": 0.646076835,
         "PBI": 54715,
         "lifeexp": 71,
-        "Covid": 389570
+        "Covid": 389570,
+        "users": []
     },
     {
         "name": "Bolivia (Plurinational State of)",
@@ -335,7 +360,8 @@
         "Co2": 0.219098031,
         "PBI": 73242,
         "lifeexp": 85,
-        "Covid": 1079163
+        "Covid": 107916,
+        "users": []
     },
     {
         "name": "Bonaire, Sint Eustatius and Saba",
@@ -348,7 +374,8 @@
         "Co2": 0.392684899,
         "PBI": 97213,
         "lifeexp": 87,
-        "Covid": 1922586
+        "Covid": 192258,
+        "users": []
     },
     {
         "name": "Bosnia and Herzegovina",
@@ -361,7 +388,8 @@
         "Co2": 0.153349217,
         "PBI": 39111,
         "lifeexp": 70,
-        "Covid": 544471
+        "Covid": 544471,
+        "users": []
     },
     {
         "name": "Botswana",
@@ -374,7 +402,8 @@
         "Co2": 0.859243699,
         "PBI": 15014,
         "lifeexp": 69,
-        "Covid": 1272414
+        "Covid": 127241,
+        "users": []
     },
     {
         "name": "Bouvet Island",
@@ -387,7 +416,8 @@
         "Co2": 0.217723396,
         "PBI": 14073,
         "lifeexp": 82,
-        "Covid": 1928020
+        "Covid": 192802,
+        "users": []
     },
     {
         "name": "Brazil",
@@ -400,7 +430,8 @@
         "Co2": 0.670085052,
         "PBI": 35034,
         "lifeexp": 83,
-        "Covid": 1676623
+        "Covid": 167662,
+        "users": []
     },
     {
         "name": "British Indian Ocean Territory (the)",
@@ -413,7 +444,8 @@
         "Co2": 0.733805704,
         "PBI": 14848,
         "lifeexp": 69,
-        "Covid": 755476
+        "Covid": 755476,
+        "users": []
     },
     {
         "name": "Brunei Darussalam",
@@ -426,7 +458,8 @@
         "Co2": 0.331770361,
         "PBI": 31602,
         "lifeexp": 62,
-        "Covid": 967514
+        "Covid": 967514,
+        "users": []
     },
     {
         "name": "Bulgaria",
@@ -439,7 +472,8 @@
         "Co2": 0.19944538,
         "PBI": 68788,
         "lifeexp": 88,
-        "Covid": 1018016
+        "Covid": 101801,
+        "users": []
     },
     {
         "name": "Burkina Faso",
@@ -452,7 +486,8 @@
         "Co2": 0.411390798,
         "PBI": 56999,
         "lifeexp": 78,
-        "Covid": 1208257
+        "Covid": 120825,
+        "users": []
     },
     {
         "name": "Burundi",
@@ -465,7 +500,8 @@
         "Co2": 0.369780103,
         "PBI": 44822,
         "lifeexp": 88,
-        "Covid": 985432
+        "Covid": 985432,
+        "users": []
     },
     {
         "name": "Cabo Verde",
@@ -478,7 +514,8 @@
         "Co2": 0.467095326,
         "PBI": 43122,
         "lifeexp": 65,
-        "Covid": 1886204
+        "Covid": 188620,
+        "users": []
     },
     {
         "name": "Cambodia",
@@ -491,7 +528,8 @@
         "Co2": 0.237933618,
         "PBI": 74099,
         "lifeexp": 63,
-        "Covid": 1957662
+        "Covid": 195766,
+        "users": []
     },
     {
         "name": "Cameroon",
@@ -504,7 +542,8 @@
         "Co2": 0.962730966,
         "PBI": 51520,
         "lifeexp": 83,
-        "Covid": 1116013
+        "Covid": 111601,
+        "users": []
     },
     {
         "name": "Canada",
@@ -517,7 +556,8 @@
         "Co2": 0.71809446,
         "PBI": 29049,
         "lifeexp": 74,
-        "Covid": 1425011
+        "Covid": 142501,
+        "users": []
     },
     {
         "name": "Cayman Islands (the)",
@@ -530,7 +570,8 @@
         "Co2": 0.205359739,
         "PBI": 14151,
         "lifeexp": 85,
-        "Covid": 376408
+        "Covid": 376408,
+        "users": []
     },
     {
         "name": "Central African Republic (the)",
@@ -543,7 +584,8 @@
         "Co2": 0.037524643,
         "PBI": 66583,
         "lifeexp": 81,
-        "Covid": 1540336
+        "Covid": 154033,
+        "users": []
     },
     {
         "name": "Chad",
@@ -556,7 +598,8 @@
         "Co2": 0.864569349,
         "PBI": 23716,
         "lifeexp": 67,
-        "Covid": 573129
+        "Covid": 573129,
+        "users": []
     },
     {
         "name": "Chile",
@@ -569,7 +612,8 @@
         "Co2": 0.800279166,
         "PBI": 24317,
         "lifeexp": 62,
-        "Covid": 1809281
+        "Covid": 180928,
+        "users": []
     },
     {
         "name": "China",
@@ -582,7 +626,8 @@
         "Co2": 0.087869983,
         "PBI": 51431,
         "lifeexp": 79,
-        "Covid": 326875
+        "Covid": 326875,
+        "users": []
     },
     {
         "name": "Christmas Island",
@@ -595,7 +640,8 @@
         "Co2": 0.115714283,
         "PBI": 95109,
         "lifeexp": 67,
-        "Covid": 1363260
+        "Covid": 136326,
+        "users": []
     },
     {
         "name": "Cocos (Keeling) Islands (the)",
@@ -608,7 +654,8 @@
         "Co2": 0.92603086,
         "PBI": 56426,
         "lifeexp": 61,
-        "Covid": 859475
+        "Covid": 859475,
+        "users": []
     },
     {
         "name": "Colombia",
@@ -621,7 +668,8 @@
         "Co2": 0.339347808,
         "PBI": 56156,
         "lifeexp": 79,
-        "Covid": 67517
+        "Covid": 67517,
+        "users": []
     },
     {
         "name": "Comoros (the)",
@@ -634,7 +682,8 @@
         "Co2": 0.53513103,
         "PBI": 39217,
         "lifeexp": 63,
-        "Covid": 397995
+        "Covid": 397995,
+        "users": []
     },
     {
         "name": "Congo (the Democratic Republic of the)",
@@ -647,7 +696,8 @@
         "Co2": 0.609539352,
         "PBI": 13645,
         "lifeexp": 86,
-        "Covid": 739509
+        "Covid": 739509,
+        "users": []
     },
     {
         "name": "Congo (the)",
@@ -660,7 +710,8 @@
         "Co2": 0.303701015,
         "PBI": 26212,
         "lifeexp": 69,
-        "Covid": 1805556
+        "Covid": 180555,
+        "users": []
     },
     {
         "name": "Cook Islands (the)",
@@ -673,7 +724,8 @@
         "Co2": 0.591184665,
         "PBI": 33785,
         "lifeexp": 71,
-        "Covid": 267483
+        "Covid": 267483,
+        "users": []
     },
     {
         "name": "Costa Rica",
@@ -686,7 +738,8 @@
         "Co2": 0.612703261,
         "PBI": 84385,
         "lifeexp": 69,
-        "Covid": 1990540
+        "Covid": 199054,
+        "users": []
     },
     {
         "name": "Croatia",
@@ -699,7 +752,8 @@
         "Co2": 0.024095712,
         "PBI": 28400,
         "lifeexp": 72,
-        "Covid": 192082
+        "Covid": 192082,
+        "users": []
     },
     {
         "name": "Cuba",
@@ -712,7 +766,8 @@
         "Co2": 0.371674126,
         "PBI": 21069,
         "lifeexp": 75,
-        "Covid": 451266
+        "Covid": 451266,
+        "users": []
     },
     {
         "name": "Curaçao",
@@ -725,7 +780,8 @@
         "Co2": 0.917134038,
         "PBI": 55270,
         "lifeexp": 61,
-        "Covid": 1687750
+        "Covid": 168775,
+        "users": []
     },
     {
         "name": "Cyprus",
@@ -738,7 +794,8 @@
         "Co2": 0.553941363,
         "PBI": 91868,
         "lifeexp": 81,
-        "Covid": 924815
+        "Covid": 924815,
+        "users": []
     },
     {
         "name": "Czechia",
@@ -751,7 +808,8 @@
         "Co2": 0.360525374,
         "PBI": 22162,
         "lifeexp": 89,
-        "Covid": 1864846
+        "Covid": 186484,
+        "users": []
     },
     {
         "name": "Côte d'Ivoire",
@@ -764,7 +822,8 @@
         "Co2": 0.386537459,
         "PBI": 43068,
         "lifeexp": 83,
-        "Covid": 1500066
+        "Covid": 150006,
+        "users": []
     },
     {
         "name": "Denmark",
@@ -777,7 +836,8 @@
         "Co2": 0.123313131,
         "PBI": 44547,
         "lifeexp": 72,
-        "Covid": 319410
+        "Covid": 319410,
+        "users": []
     },
     {
         "name": "Djibouti",
@@ -790,7 +850,8 @@
         "Co2": 0.284374939,
         "PBI": 87160,
         "lifeexp": 74,
-        "Covid": 893100
+        "Covid": 893100,
+        "users": []
     },
     {
         "name": "Dominica",
@@ -803,7 +864,8 @@
         "Co2": 0.705558551,
         "PBI": 78086,
         "lifeexp": 89,
-        "Covid": 1849189
+        "Covid": 184918,
+        "users": []
     },
     {
         "name": "Dominican Republic (the)",
@@ -816,7 +878,8 @@
         "Co2": 0.115692671,
         "PBI": 77527,
         "lifeexp": 88,
-        "Covid": 1205659
+        "Covid": 120565,
+        "users": []
     },
     {
         "name": "Ecuador",
@@ -829,7 +892,8 @@
         "Co2": 0.783060674,
         "PBI": 88809,
         "lifeexp": 69,
-        "Covid": 432439
+        "Covid": 432439,
+        "users": []
     },
     {
         "name": "Egypt",
@@ -842,7 +906,8 @@
         "Co2": 0.055415897,
         "PBI": 41141,
         "lifeexp": 61,
-        "Covid": 521119
+        "Covid": 521119,
+        "users": []
     },
     {
         "name": "El Salvador",
@@ -855,7 +920,8 @@
         "Co2": 0.138805364,
         "PBI": 74945,
         "lifeexp": 88,
-        "Covid": 1884000
+        "Covid": 188400,
+        "users": []
     },
     {
         "name": "Equatorial Guinea",
@@ -868,7 +934,8 @@
         "Co2": 0.698920627,
         "PBI": 93778,
         "lifeexp": 63,
-        "Covid": 1497894
+        "Covid": 149789,
+        "users": []
     },
     {
         "name": "Eritrea",
@@ -881,7 +948,8 @@
         "Co2": 0.164546729,
         "PBI": 65567,
         "lifeexp": 75,
-        "Covid": 406550
+        "Covid": 406550,
+        "users": []
     },
     {
         "name": "Estonia",
@@ -894,7 +962,8 @@
         "Co2": 0.533294499,
         "PBI": 68135,
         "lifeexp": 65,
-        "Covid": 1220680
+        "Covid": 122068,
+        "users": []
     },
     {
         "name": "Eswatini",
@@ -907,7 +976,8 @@
         "Co2": 0.130331175,
         "PBI": 58040,
         "lifeexp": 86,
-        "Covid": 1699729
+        "Covid": 169972,
+        "users": []
     },
     {
         "name": "Ethiopia",
@@ -920,7 +990,8 @@
         "Co2": 0.905044425,
         "PBI": 79898,
         "lifeexp": 82,
-        "Covid": 926638
+        "Covid": 926638,
+        "users": []
     },
     {
         "name": "Falkland Islands (the) [Malvinas]",
@@ -933,7 +1004,8 @@
         "Co2": 0.149422206,
         "PBI": 33732,
         "lifeexp": 63,
-        "Covid": 1653691
+        "Covid": 165369,
+        "users": []
     },
     {
         "name": "Faroe Islands (the)",
@@ -946,7 +1018,8 @@
         "Co2": 0.130203194,
         "PBI": 10004,
         "lifeexp": 78,
-        "Covid": 455965
+        "Covid": 455965,
+        "users": []
     },
     {
         "name": "Fiji",
@@ -959,7 +1032,8 @@
         "Co2": 0.479168152,
         "PBI": 52750,
         "lifeexp": 76,
-        "Covid": 596667
+        "Covid": 596667,
+        "users": []
     },
     {
         "name": "Finland",
@@ -972,7 +1046,8 @@
         "Co2": 0.741310802,
         "PBI": 28488,
         "lifeexp": 73,
-        "Covid": 525274
+        "Covid": 525274,
+        "users": []
     },
     {
         "name": "France",
@@ -985,7 +1060,8 @@
         "Co2": 0.393339467,
         "PBI": 21402,
         "lifeexp": 81,
-        "Covid": 1708375
+        "Covid": 170837,
+        "users": []
     },
     {
         "name": "French Guiana",
@@ -998,7 +1074,8 @@
         "Co2": 0.536214048,
         "PBI": 93453,
         "lifeexp": 61,
-        "Covid": 772332
+        "Covid": 772332,
+        "users": []
     },
     {
         "name": "French Polynesia",
@@ -1011,7 +1088,8 @@
         "Co2": 0.856218454,
         "PBI": 70285,
         "lifeexp": 82,
-        "Covid": 771578
+        "Covid": 771578,
+        "users": []
     },
     {
         "name": "French Southern Territories (the)",
@@ -1024,7 +1102,8 @@
         "Co2": 0.006089478,
         "PBI": 57766,
         "lifeexp": 90,
-        "Covid": 460781
+        "Covid": 460781,
+        "users": []
     },
     {
         "name": "Gabon",
@@ -1037,7 +1116,8 @@
         "Co2": 0.21480799,
         "PBI": 77564,
         "lifeexp": 86,
-        "Covid": 1303048
+        "Covid": 130304,
+        "users": []
     },
     {
         "name": "Gambia (the)",
@@ -1050,7 +1130,8 @@
         "Co2": 0.672845395,
         "PBI": 25297,
         "lifeexp": 61,
-        "Covid": 1620629
+        "Covid": 162062,
+        "users": []
     },
     {
         "name": "Georgia",
@@ -1063,7 +1144,8 @@
         "Co2": 0.000648716,
         "PBI": 28760,
         "lifeexp": 76,
-        "Covid": 871550
+        "Covid": 871550,
+        "users": []
     },
     {
         "name": "Germany",
@@ -1076,7 +1158,8 @@
         "Co2": 0.013616599,
         "PBI": 35036,
         "lifeexp": 79,
-        "Covid": 1969394
+        "Covid": 196939,
+        "users": []
     },
     {
         "name": "Ghana",
@@ -1089,7 +1172,8 @@
         "Co2": 0.349861659,
         "PBI": 22947,
         "lifeexp": 87,
-        "Covid": 1404739
+        "Covid": 140473,
+        "users": []
     },
     {
         "name": "Gibraltar",
@@ -1102,7 +1186,8 @@
         "Co2": 0.38721424,
         "PBI": 38121,
         "lifeexp": 74,
-        "Covid": 1747594
+        "Covid": 174759,
+        "users": []
     },
     {
         "name": "Greece",
@@ -1115,7 +1200,8 @@
         "Co2": 0.786550308,
         "PBI": 58307,
         "lifeexp": 69,
-        "Covid": 1531085
+        "Covid": 153108,
+        "users": []
     },
     {
         "name": "Greenland",
@@ -1128,7 +1214,8 @@
         "Co2": 0.231513552,
         "PBI": 33605,
         "lifeexp": 66,
-        "Covid": 1365102
+        "Covid": 136510,
+        "users": []
     },
     {
         "name": "Grenada",
@@ -1141,7 +1228,8 @@
         "Co2": 0.787774478,
         "PBI": 30901,
         "lifeexp": 70,
-        "Covid": 210696
+        "Covid": 210696,
+        "users": []
     },
     {
         "name": "Guadeloupe",
@@ -1154,7 +1242,8 @@
         "Co2": 0.146649,
         "PBI": 72215,
         "lifeexp": 79,
-        "Covid": 842475
+        "Covid": 842475,
+        "users": []
     },
     {
         "name": "Guam",
@@ -1167,7 +1256,8 @@
         "Co2": 0.833457891,
         "PBI": 30677,
         "lifeexp": 80,
-        "Covid": 234625
+        "Covid": 234625,
+        "users": []
     },
     {
         "name": "Guatemala",
@@ -1180,7 +1270,8 @@
         "Co2": 0.466574722,
         "PBI": 22753,
         "lifeexp": 78,
-        "Covid": 1614483
+        "Covid": 161448,
+        "users": []
     },
     {
         "name": "Guernsey",
@@ -1193,7 +1284,8 @@
         "Co2": 0.481429161,
         "PBI": 47433,
         "lifeexp": 81,
-        "Covid": 313538
+        "Covid": 313538,
+        "users": []
     },
     {
         "name": "Guinea",
@@ -1206,7 +1298,8 @@
         "Co2": 0.621615857,
         "PBI": 29879,
         "lifeexp": 84,
-        "Covid": 1751683
+        "Covid": 175168,
+        "users": []
     },
     {
         "name": "Guinea-Bissau",
@@ -1219,7 +1312,8 @@
         "Co2": 0.830275899,
         "PBI": 32727,
         "lifeexp": 72,
-        "Covid": 1301034
+        "Covid": 130103,
+        "users": []
     },
     {
         "name": "Guyana",
@@ -1232,7 +1326,8 @@
         "Co2": 0.445354777,
         "PBI": 90059,
         "lifeexp": 75,
-        "Covid": 799481
+        "Covid": 799481,
+        "users": []
     },
     {
         "name": "Haiti",
@@ -1245,7 +1340,8 @@
         "Co2": 0.373355266,
         "PBI": 97964,
         "lifeexp": 82,
-        "Covid": 1378578
+        "Covid": 137857,
+        "users": []
     },
     {
         "name": "Heard Island and McDonald Islands",
@@ -1258,7 +1354,8 @@
         "Co2": 0.675587737,
         "PBI": 29609,
         "lifeexp": 82,
-        "Covid": 1204614
+        "Covid": 120461,
+        "users": []
     },
     {
         "name": "Holy See (the)",
@@ -1271,7 +1368,8 @@
         "Co2": 0.770639438,
         "PBI": 35066,
         "lifeexp": 74,
-        "Covid": 1471373
+        "Covid": 147137,
+        "users": []
     },
     {
         "name": "Honduras",
@@ -1284,7 +1382,8 @@
         "Co2": 0.057644055,
         "PBI": 52049,
         "lifeexp": 83,
-        "Covid": 733696
+        "Covid": 733696,
+        "users": []
     },
     {
         "name": "Hong Kong",
@@ -1297,7 +1396,8 @@
         "Co2": 0.129346552,
         "PBI": 35448,
         "lifeexp": 62,
-        "Covid": 539655
+        "Covid": 539655,
+        "users": []
     },
     {
         "name": "Hungary",
@@ -1310,7 +1410,8 @@
         "Co2": 0.221007419,
         "PBI": 13419,
         "lifeexp": 71,
-        "Covid": 950830
+        "Covid": 950830,
+        "users": []
     },
     {
         "name": "Iceland",
@@ -1323,7 +1424,8 @@
         "Co2": 0.283195743,
         "PBI": 95635,
         "lifeexp": 90,
-        "Covid": 838551
+        "Covid": 838551,
+        "users": []
     },
     {
         "name": "India",
@@ -1336,7 +1438,8 @@
         "Co2": 0.682603582,
         "PBI": 18576,
         "lifeexp": 63,
-        "Covid": 1405449
+        "Covid": 140544,
+        "users": []
     },
     {
         "name": "Indonesia",
@@ -1349,7 +1452,8 @@
         "Co2": 0.317408331,
         "PBI": 57833,
         "lifeexp": 73,
-        "Covid": 983049
+        "Covid": 983049,
+        "users": []
     },
     {
         "name": "Iran (Islamic Republic of)",
@@ -1362,7 +1466,8 @@
         "Co2": 0.675037894,
         "PBI": 43367,
         "lifeexp": 61,
-        "Covid": 1700242
+        "Covid": 170024,
+        "users": []
     },
     {
         "name": "Iraq",
@@ -1375,7 +1480,8 @@
         "Co2": 0.983460674,
         "PBI": 61593,
         "lifeexp": 83,
-        "Covid": 654635
+        "Covid": 654635,
+        "users": []
     },
     {
         "name": "Ireland",
@@ -1388,7 +1494,8 @@
         "Co2": 0.934119103,
         "PBI": 94276,
         "lifeexp": 84,
-        "Covid": 839730
+        "Covid": 839730,
+        "users": []
     },
     {
         "name": "Isle of Man",
@@ -1401,7 +1508,8 @@
         "Co2": 0.147358854,
         "PBI": 96002,
         "lifeexp": 87,
-        "Covid": 1130154
+        "Covid": 113015,
+        "users": []
     },
     {
         "name": "Israel",
@@ -1414,7 +1522,8 @@
         "Co2": 0.357332619,
         "PBI": 38177,
         "lifeexp": 69,
-        "Covid": 420580
+        "Covid": 420580,
+        "users": []
     },
     {
         "name": "Italy",
@@ -1427,7 +1536,8 @@
         "Co2": 0.164510815,
         "PBI": 78515,
         "lifeexp": 86,
-        "Covid": 185568
+        "Covid": 185568,
+        "users": []
     },
     {
         "name": "Jamaica",
@@ -1440,7 +1550,8 @@
         "Co2": 0.907186714,
         "PBI": 67785,
         "lifeexp": 65,
-        "Covid": 331581
+        "Covid": 331581,
+        "users": []
     },
     {
         "name": "Japan",
@@ -1453,7 +1564,8 @@
         "Co2": 0.853976767,
         "PBI": 90461,
         "lifeexp": 84,
-        "Covid": 338872
+        "Covid": 338872,
+        "users": []
     },
     {
         "name": "Jersey",
@@ -1466,7 +1578,8 @@
         "Co2": 0.295050298,
         "PBI": 83840,
         "lifeexp": 72,
-        "Covid": 289360
+        "Covid": 289360,
+        "users": []
     },
     {
         "name": "Jordan",
@@ -1479,7 +1592,8 @@
         "Co2": 0.923829751,
         "PBI": 23390,
         "lifeexp": 89,
-        "Covid": 108336
+        "Covid": 108336,
+        "users": []
     },
     {
         "name": "Kazakhstan",
@@ -1492,7 +1606,8 @@
         "Co2": 0.679584288,
         "PBI": 13612,
         "lifeexp": 67,
-        "Covid": 105731
+        "Covid": 105731,
+        "users": []
     },
     {
         "name": "Kenya",
@@ -1505,7 +1620,8 @@
         "Co2": 0.3578202,
         "PBI": 97556,
         "lifeexp": 75,
-        "Covid": 944850
+        "Covid": 944850,
+        "users": []
     },
     {
         "name": "Kiribati",
@@ -1518,7 +1634,8 @@
         "Co2": 0.810911712,
         "PBI": 91286,
         "lifeexp": 72,
-        "Covid": 1863966
+        "Covid": 186396,
+        "users": []
     },
     {
         "name": "Korea (the Democratic People's Republic of)",
@@ -1531,7 +1648,8 @@
         "Co2": 0.472811193,
         "PBI": 99708,
         "lifeexp": 89,
-        "Covid": 308872
+        "Covid": 308872,
+        "users": []
     },
     {
         "name": "Korea (the Republic of)",
@@ -1544,7 +1662,8 @@
         "Co2": 0.740820149,
         "PBI": 49466,
         "lifeexp": 82,
-        "Covid": 1607847
+        "Covid": 160784,
+        "users": []
     },
     {
         "name": "Kuwait",
@@ -1557,7 +1676,8 @@
         "Co2": 0.87949883,
         "PBI": 83478,
         "lifeexp": 65,
-        "Covid": 1167455
+        "Covid": 116745,
+        "users": []
     },
     {
         "name": "Kyrgyzstan",
@@ -1570,7 +1690,8 @@
         "Co2": 0.089244177,
         "PBI": 51931,
         "lifeexp": 84,
-        "Covid": 168086
+        "Covid": 168086,
+        "users": []
     },
     {
         "name": "Lao People's Democratic Republic (the)",
@@ -1583,7 +1704,8 @@
         "Co2": 0.187884669,
         "PBI": 69911,
         "lifeexp": 62,
-        "Covid": 1324259
+        "Covid": 132425,
+        "users": []
     },
     {
         "name": "Latvia",
@@ -1596,7 +1718,8 @@
         "Co2": 0.596185378,
         "PBI": 87331,
         "lifeexp": 74,
-        "Covid": 761685
+        "Covid": 761685,
+        "users": []
     },
     {
         "name": "Lebanon",
@@ -1609,7 +1732,8 @@
         "Co2": 0.590100098,
         "PBI": 17201,
         "lifeexp": 76,
-        "Covid": 1151695
+        "Covid": 115169,
+        "users": []
     },
     {
         "name": "Lesotho",
@@ -1622,7 +1746,8 @@
         "Co2": 0.743498509,
         "PBI": 57074,
         "lifeexp": 79,
-        "Covid": 1287812
+        "Covid": 128781,
+        "users": []
     },
     {
         "name": "Liberia",
@@ -1635,7 +1760,8 @@
         "Co2": 0.024435859,
         "PBI": 51811,
         "lifeexp": 81,
-        "Covid": 1223553
+        "Covid": 122355,
+        "users": []
     },
     {
         "name": "Libya",
@@ -1648,7 +1774,8 @@
         "Co2": 0.926703926,
         "PBI": 33910,
         "lifeexp": 62,
-        "Covid": 392860
+        "Covid": 392860,
+        "users": []
     },
     {
         "name": "Liechtenstein",
@@ -1661,7 +1788,8 @@
         "Co2": 0.592740801,
         "PBI": 76594,
         "lifeexp": 62,
-        "Covid": 639320
+        "Covid": 639320,
+        "users": []
     },
     {
         "name": "Lithuania",
@@ -1674,7 +1802,8 @@
         "Co2": 0.604048776,
         "PBI": 66446,
         "lifeexp": 82,
-        "Covid": 725441
+        "Covid": 725441,
+        "users": []
     },
     {
         "name": "Luxembourg",
@@ -1687,7 +1816,8 @@
         "Co2": 0.960180486,
         "PBI": 53038,
         "lifeexp": 76,
-        "Covid": 837491
+        "Covid": 837491,
+        "users": []
     },
     {
         "name": "Macao",
@@ -1700,7 +1830,8 @@
         "Co2": 0.495318887,
         "PBI": 67531,
         "lifeexp": 87,
-        "Covid": 1547801
+        "Covid": 154780,
+        "users": []
     },
     {
         "name": "Madagascar",
@@ -1713,7 +1844,8 @@
         "Co2": 0.344955933,
         "PBI": 33926,
         "lifeexp": 74,
-        "Covid": 420154
+        "Covid": 420154,
+        "users": []
     },
     {
         "name": "Malawi",
@@ -1726,7 +1858,8 @@
         "Co2": 0.809855882,
         "PBI": 20495,
         "lifeexp": 88,
-        "Covid": 1288849
+        "Covid": 128884,
+        "users": []
     },
     {
         "name": "Malaysia",
@@ -1739,7 +1872,8 @@
         "Co2": 0.397417033,
         "PBI": 75847,
         "lifeexp": 81,
-        "Covid": 1505147
+        "Covid": 150514,
+        "users": []
     },
     {
         "name": "Maldives",
@@ -1752,7 +1886,8 @@
         "Co2": 0.109749247,
         "PBI": 59082,
         "lifeexp": 85,
-        "Covid": 1787253
+        "Covid": 178725,
+        "users": []
     },
     {
         "name": "Mali",
@@ -1765,7 +1900,8 @@
         "Co2": 0.984327218,
         "PBI": 80996,
         "lifeexp": 84,
-        "Covid": 1402328
+        "Covid": 140232,
+        "users": []
     },
     {
         "name": "Malta",
@@ -1778,7 +1914,8 @@
         "Co2": 0.396850169,
         "PBI": 29477,
         "lifeexp": 73,
-        "Covid": 211237
+        "Covid": 211237,
+        "users": []
     },
     {
         "name": "Marshall Islands (the)",
@@ -1791,7 +1928,8 @@
         "Co2": 0.840273868,
         "PBI": 46124,
         "lifeexp": 76,
-        "Covid": 335830
+        "Covid": 335830,
+        "users": []
     },
     {
         "name": "Martinique",
@@ -1804,7 +1942,8 @@
         "Co2": 0.004097688,
         "PBI": 48214,
         "lifeexp": 86,
-        "Covid": 205979
+        "Covid": 205979,
+        "users": []
     },
     {
         "name": "Mauritania",
@@ -1817,7 +1956,8 @@
         "Co2": 0.058409892,
         "PBI": 66326,
         "lifeexp": 64,
-        "Covid": 402851
+        "Covid": 402851,
+        "users": []
     },
     {
         "name": "Mauritius",
@@ -1830,7 +1970,8 @@
         "Co2": 0.740109989,
         "PBI": 19334,
         "lifeexp": 65,
-        "Covid": 1391027
+        "Covid": 139102,
+        "users": []
     },
     {
         "name": "Mayotte",
@@ -1843,7 +1984,8 @@
         "Co2": 0.974245773,
         "PBI": 46193,
         "lifeexp": 73,
-        "Covid": 429042
+        "Covid": 429042,
+        "users": []
     },
     {
         "name": "Mexico",
@@ -1856,7 +1998,8 @@
         "Co2": 0.066595919,
         "PBI": 54409,
         "lifeexp": 78,
-        "Covid": 1486065
+        "Covid": 148606,
+        "users": []
     },
     {
         "name": "Micronesia (Federated States of)",
@@ -1869,7 +2012,8 @@
         "Co2": 0.113792673,
         "PBI": 91356,
         "lifeexp": 74,
-        "Covid": 177508
+        "Covid": 177508,
+        "users": []
     },
     {
         "name": "Moldova (the Republic of)",
@@ -1882,7 +2026,8 @@
         "Co2": 0.774982631,
         "PBI": 98936,
         "lifeexp": 71,
-        "Covid": 888935
+        "Covid": 888935,
+        "users": []
     },
     {
         "name": "Monaco",
@@ -1895,7 +2040,8 @@
         "Co2": 0.612563338,
         "PBI": 65274,
         "lifeexp": 85,
-        "Covid": 887241
+        "Covid": 887241,
+        "users": []
     },
     {
         "name": "Mongolia",
@@ -1908,7 +2054,8 @@
         "Co2": 0.473817594,
         "PBI": 37908,
         "lifeexp": 74,
-        "Covid": 401444
+        "Covid": 401444,
+        "users": []
     },
     {
         "name": "Montenegro",
@@ -1921,7 +2068,8 @@
         "Co2": 0.245559141,
         "PBI": 58225,
         "lifeexp": 64,
-        "Covid": 1117065
+        "Covid": 111706,
+        "users": []
     },
     {
         "name": "Montserrat",
@@ -1934,7 +2082,8 @@
         "Co2": 0.413751501,
         "PBI": 53428,
         "lifeexp": 78,
-        "Covid": 322305
+        "Covid": 322305,
+        "users": []
     },
     {
         "name": "Morocco",
@@ -1947,7 +2096,8 @@
         "Co2": 0.102586439,
         "PBI": 20542,
         "lifeexp": 70,
-        "Covid": 291505
+        "Covid": 291505,
+        "users": []
     },
     {
         "name": "Mozambique",
@@ -1960,7 +2110,8 @@
         "Co2": 0.891846945,
         "PBI": 44335,
         "lifeexp": 78,
-        "Covid": 1102523
+        "Covid": 110252,
+        "users": []
     },
     {
         "name": "Myanmar",
@@ -1973,7 +2124,8 @@
         "Co2": 0.660741773,
         "PBI": 86854,
         "lifeexp": 77,
-        "Covid": 1925338
+        "Covid": 192533,
+        "users": []
     },
     {
         "name": "Namibia",
@@ -1986,7 +2138,8 @@
         "Co2": 0.748114924,
         "PBI": 22960,
         "lifeexp": 82,
-        "Covid": 300036
+        "Covid": 300036,
+        "users": []
     },
     {
         "name": "Nauru",
@@ -1999,7 +2152,8 @@
         "Co2": 0.064499571,
         "PBI": 63970,
         "lifeexp": 61,
-        "Covid": 548052
+        "Covid": 548052,
+        "users": []
     },
     {
         "name": "Nepal",
@@ -2012,7 +2166,8 @@
         "Co2": 0.171432734,
         "PBI": 83366,
         "lifeexp": 63,
-        "Covid": 663967
+        "Covid": 663967,
+        "users": []
     },
     {
         "name": "Netherlands (the)",
@@ -2025,7 +2180,8 @@
         "Co2": 0.497752041,
         "PBI": 20525,
         "lifeexp": 85,
-        "Covid": 1636762
+        "Covid": 163676,
+        "users": []
     },
     {
         "name": "New Caledonia",
@@ -2038,7 +2194,8 @@
         "Co2": 0.445239605,
         "PBI": 41722,
         "lifeexp": 79,
-        "Covid": 1375745
+        "Covid": 137574,
+        "users": []
     },
     {
         "name": "New Zealand",
@@ -2051,7 +2208,8 @@
         "Co2": 0.71752487,
         "PBI": 70151,
         "lifeexp": 68,
-        "Covid": 1482182
+        "Covid": 148218,
+        "users": []
     },
     {
         "name": "Nicaragua",
@@ -2064,7 +2222,8 @@
         "Co2": 0.621888678,
         "PBI": 53948,
         "lifeexp": 62,
-        "Covid": 229984
+        "Covid": 229984,
+        "users": []
     },
     {
         "name": "Niger (the)",
@@ -2077,7 +2236,8 @@
         "Co2": 0.10711026,
         "PBI": 87670,
         "lifeexp": 68,
-        "Covid": 659703
+        "Covid": 659703,
+        "users": []
     },
     {
         "name": "Nigeria",
@@ -2090,7 +2250,8 @@
         "Co2": 0.961660721,
         "PBI": 90810,
         "lifeexp": 89,
-        "Covid": 1517762
+        "Covid": 151776,
+        "users": []
     },
     {
         "name": "Niue",
@@ -2103,7 +2264,8 @@
         "Co2": 0.622161079,
         "PBI": 66247,
         "lifeexp": 62,
-        "Covid": 1859625
+        "Covid": 185962,
+        "users": []
     },
     {
         "name": "Norfolk Island",
@@ -2116,7 +2278,8 @@
         "Co2": 0.339433935,
         "PBI": 98262,
         "lifeexp": 63,
-        "Covid": 611611
+        "Covid": 611611,
+        "users": []
     },
     {
         "name": "Northern Mariana Islands (the)",
@@ -2129,7 +2292,8 @@
         "Co2": 0.039835169,
         "PBI": 45830,
         "lifeexp": 69,
-        "Covid": 864916
+        "Covid": 864916,
+        "users": []
     },
     {
         "name": "Norway",
@@ -2142,7 +2306,8 @@
         "Co2": 0.736621807,
         "PBI": 32760,
         "lifeexp": 65,
-        "Covid": 794213
+        "Covid": 794213,
+        "users": []
     },
     {
         "name": "Oman",
@@ -2155,7 +2320,8 @@
         "Co2": 0.968811143,
         "PBI": 13304,
         "lifeexp": 72,
-        "Covid": 799562
+        "Covid": 799562,
+        "users": []
     },
     {
         "name": "Pakistan",
@@ -2168,7 +2334,8 @@
         "Co2": 0.840890033,
         "PBI": 67606,
         "lifeexp": 89,
-        "Covid": 508926
+        "Covid": 508926,
+        "users": []
     },
     {
         "name": "Palau",
@@ -2181,7 +2348,8 @@
         "Co2": 0.056083598,
         "PBI": 21429,
         "lifeexp": 89,
-        "Covid": 1061352
+        "Covid": 106135,
+        "users": []
     },
     {
         "name": "Palestine, State of",
@@ -2194,7 +2362,8 @@
         "Co2": 0.870018311,
         "PBI": 94067,
         "lifeexp": 85,
-        "Covid": 665160
+        "Covid": 665160,
+        "users": []
     },
     {
         "name": "Panama",
@@ -2207,7 +2376,8 @@
         "Co2": 0.410651665,
         "PBI": 97348,
         "lifeexp": 84,
-        "Covid": 1111448
+        "Covid": 111144,
+        "users": []
     },
     {
         "name": "Papua New Guinea",
@@ -2220,7 +2390,8 @@
         "Co2": 0.751759695,
         "PBI": 54656,
         "lifeexp": 89,
-        "Covid": 699313
+        "Covid": 699313,
+        "users": []
     },
     {
         "name": "Paraguay",
@@ -2233,7 +2404,8 @@
         "Co2": 0.908027279,
         "PBI": 97348,
         "lifeexp": 89,
-        "Covid": 659583
+        "Covid": 659583,
+        "users": []
     },
     {
         "name": "Peru",
@@ -2246,7 +2418,8 @@
         "Co2": 0.397396921,
         "PBI": 43098,
         "lifeexp": 65,
-        "Covid": 1825898
+        "Covid": 182589,
+        "users": []
     },
     {
         "name": "Philippines (the)",
@@ -2259,7 +2432,8 @@
         "Co2": 0.368721499,
         "PBI": 72421,
         "lifeexp": 65,
-        "Covid": 1555396
+        "Covid": 155539,
+        "users": []
     },
     {
         "name": "Pitcairn",
@@ -2272,7 +2446,8 @@
         "Co2": 0.169912099,
         "PBI": 34821,
         "lifeexp": 83,
-        "Covid": 1166881
+        "Covid": 116688,
+        "users": []
     },
     {
         "name": "Poland",
@@ -2285,7 +2460,8 @@
         "Co2": 0.064445484,
         "PBI": 15628,
         "lifeexp": 64,
-        "Covid": 1058055
+        "Covid": 105805,
+        "users": []
     },
     {
         "name": "Portugal",
@@ -2298,7 +2474,8 @@
         "Co2": 0.829746686,
         "PBI": 57874,
         "lifeexp": 88,
-        "Covid": 868646
+        "Covid": 868646,
+        "users": []
     },
     {
         "name": "Puerto Rico",
@@ -2311,7 +2488,8 @@
         "Co2": 0.740632693,
         "PBI": 77301,
         "lifeexp": 81,
-        "Covid": 730962
+        "Covid": 730962,
+        "users": []
     },
     {
         "name": "Qatar",
@@ -2324,7 +2502,8 @@
         "Co2": 0.693000797,
         "PBI": 63943,
         "lifeexp": 76,
-        "Covid": 1649147
+        "Covid": 164914,
+        "users": []
     },
     {
         "name": "Republic of North Macedonia",
@@ -2337,7 +2516,8 @@
         "Co2": 0.208938117,
         "PBI": 80332,
         "lifeexp": 69,
-        "Covid": 900117
+        "Covid": 900117,
+        "users": []
     },
     {
         "name": "Romania",
@@ -2350,7 +2530,8 @@
         "Co2": 0.540332837,
         "PBI": 48312,
         "lifeexp": 68,
-        "Covid": 933936
+        "Covid": 933936,
+        "users": []
     },
     {
         "name": "Russian Federation (the)",
@@ -2363,7 +2544,8 @@
         "Co2": 0.858194612,
         "PBI": 83697,
         "lifeexp": 66,
-        "Covid": 334347
+        "Covid": 334347,
+        "users": []
     },
     {
         "name": "Rwanda",
@@ -2376,7 +2558,8 @@
         "Co2": 0.894502414,
         "PBI": 42983,
         "lifeexp": 68,
-        "Covid": 552436
+        "Covid": 552436,
+        "users": []
     },
     {
         "name": "Réunion",
@@ -2389,7 +2572,8 @@
         "Co2": 0.609840715,
         "PBI": 69761,
         "lifeexp": 86,
-        "Covid": 496933
+        "Covid": 496933,
+        "users": []
     },
     {
         "name": "Saint Barthélemy",
@@ -2402,7 +2586,8 @@
         "Co2": 0.152504951,
         "PBI": 73586,
         "lifeexp": 86,
-        "Covid": 710709
+        "Covid": 710709,
+        "users": []
     },
     {
         "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -2415,7 +2600,8 @@
         "Co2": 0.763399866,
         "PBI": 33219,
         "lifeexp": 62,
-        "Covid": 601739
+        "Covid": 601739,
+        "users": []
     },
     {
         "name": "Saint Kitts and Nevis",
@@ -2428,7 +2614,8 @@
         "Co2": 0.239982295,
         "PBI": 76125,
         "lifeexp": 84,
-        "Covid": 1664804
+        "Covid": 166480,
+        "users": []
     },
     {
         "name": "Saint Lucia",
@@ -2441,7 +2628,8 @@
         "Co2": 0.564887085,
         "PBI": 73196,
         "lifeexp": 69,
-        "Covid": 829707
+        "Covid": 829707,
+        "users": []
     },
     {
         "name": "Saint Martin (French part)",
@@ -2454,7 +2642,8 @@
         "Co2": 0.486022642,
         "PBI": 21402,
         "lifeexp": 81,
-        "Covid": 797882
+        "Covid": 797882,
+        "users": []
     },
     {
         "name": "Saint Pierre and Miquelon",
@@ -2467,7 +2656,8 @@
         "Co2": 0.888986575,
         "PBI": 87144,
         "lifeexp": 83,
-        "Covid": 728828
+        "Covid": 728828,
+        "users": []
     },
     {
         "name": "Saint Vincent and the Grenadines",
@@ -2480,7 +2670,8 @@
         "Co2": 0.29335823,
         "PBI": 78765,
         "lifeexp": 64,
-        "Covid": 495325
+        "Covid": 495325,
+        "users": []
     },
     {
         "name": "Samoa",
@@ -2493,7 +2684,8 @@
         "Co2": 0.46938289,
         "PBI": 54111,
         "lifeexp": 74,
-        "Covid": 1889442
+        "Covid": 188944,
+        "users": []
     },
     {
         "name": "San Marino",
@@ -2506,7 +2698,8 @@
         "Co2": 0.781728318,
         "PBI": 83704,
         "lifeexp": 87,
-        "Covid": 398687
+        "Covid": 398687,
+        "users": []
     },
     {
         "name": "Sao Tome and Principe",
@@ -2519,7 +2712,8 @@
         "Co2": 0.987879815,
         "PBI": 42628,
         "lifeexp": 71,
-        "Covid": 1300324
+        "Covid": 130032,
+        "users": []
     },
     {
         "name": "Saudi Arabia",
@@ -2532,7 +2726,8 @@
         "Co2": 0.973751154,
         "PBI": 57989,
         "lifeexp": 70,
-        "Covid": 1182662
+        "Covid": 118266,
+        "users": []
     },
     {
         "name": "Senegal",
@@ -2545,7 +2740,8 @@
         "Co2": 0.901400655,
         "PBI": 79923,
         "lifeexp": 86,
-        "Covid": 695259
+        "Covid": 695259,
+        "users": []
     },
     {
         "name": "Serbia",
@@ -2558,7 +2754,8 @@
         "Co2": 0.790549563,
         "PBI": 79639,
         "lifeexp": 70,
-        "Covid": 1602324
+        "Covid": 160232,
+        "users": []
     },
     {
         "name": "Seychelles",
@@ -2571,7 +2768,8 @@
         "Co2": 0.501635773,
         "PBI": 76673,
         "lifeexp": 68,
-        "Covid": 1926233
+        "Covid": 192623,
+        "users": []
     },
     {
         "name": "Sierra Leone",
@@ -2584,7 +2782,8 @@
         "Co2": 0.79219784,
         "PBI": 96466,
         "lifeexp": 76,
-        "Covid": 1878759
+        "Covid": 187875,
+        "users": []
     },
     {
         "name": "Singapore",
@@ -2597,7 +2796,8 @@
         "Co2": 0.701236248,
         "PBI": 10486,
         "lifeexp": 71,
-        "Covid": 1086149
+        "Covid": 108614,
+        "users": []
     },
     {
         "name": "Sint Maarten (Dutch part)",
@@ -2610,7 +2810,8 @@
         "Co2": 0.244178216,
         "PBI": 20558,
         "lifeexp": 66,
-        "Covid": 532980
+        "Covid": 532980,
+        "users": []
     },
     {
         "name": "Slovakia",
@@ -2623,7 +2824,8 @@
         "Co2": 0.242404057,
         "PBI": 24475,
         "lifeexp": 75,
-        "Covid": 524602
+        "Covid": 524602,
+        "users": []
     },
     {
         "name": "Slovenia",
@@ -2636,7 +2838,8 @@
         "Co2": 0.318047076,
         "PBI": 61382,
         "lifeexp": 75,
-        "Covid": 1739536
+        "Covid": 173953,
+        "users": []
     },
     {
         "name": "Solomon Islands",
@@ -2649,7 +2852,8 @@
         "Co2": 0.744548825,
         "PBI": 65765,
         "lifeexp": 71,
-        "Covid": 966150
+        "Covid": 966150,
+        "users": []
     },
     {
         "name": "Somalia",
@@ -2662,7 +2866,8 @@
         "Co2": 0.960678502,
         "PBI": 39981,
         "lifeexp": 89,
-        "Covid": 85886
+        "Covid": 85886,
+        "users": []
     },
     {
         "name": "South Africa",
@@ -2675,7 +2880,8 @@
         "Co2": 0.41116533,
         "PBI": 65521,
         "lifeexp": 70,
-        "Covid": 65147
+        "Covid": 65147,
+        "users": []
     },
     {
         "name": "South Georgia and the South Sandwich Islands",
@@ -2688,7 +2894,8 @@
         "Co2": 0.36086471,
         "PBI": 51775,
         "lifeexp": 80,
-        "Covid": 296742
+        "Covid": 296742,
+        "users": []
     },
     {
         "name": "South Sudan",
@@ -2701,7 +2908,8 @@
         "Co2": 0.611269305,
         "PBI": 80296,
         "lifeexp": 70,
-        "Covid": 759826
+        "Covid": 759826,
+        "users": []
     },
     {
         "name": "Spain",
@@ -2714,7 +2922,8 @@
         "Co2": 0.351997303,
         "PBI": 44405,
         "lifeexp": 84,
-        "Covid": 843104
+        "Covid": 843104,
+        "users": []
     },
     {
         "name": "Sri Lanka",
@@ -2727,7 +2936,8 @@
         "Co2": 0.394225906,
         "PBI": 92959,
         "lifeexp": 81,
-        "Covid": 905355
+        "Covid": 905355,
+        "users": []
     },
     {
         "name": "Sudan (the)",
@@ -2740,7 +2950,8 @@
         "Co2": 0.925976599,
         "PBI": 39056,
         "lifeexp": 61,
-        "Covid": 498949
+        "Covid": 498949,
+        "users": []
     },
     {
         "name": "Suriname",
@@ -2753,7 +2964,8 @@
         "Co2": 0.175556179,
         "PBI": 27528,
         "lifeexp": 68,
-        "Covid": 1417679
+        "Covid": 141767,
+        "users": []
     },
     {
         "name": "Svalbard and Jan Mayen",
@@ -2766,7 +2978,8 @@
         "Co2": 0.182642039,
         "PBI": 26617,
         "lifeexp": 90,
-        "Covid": 320497
+        "Covid": 320497,
+        "users": []
     },
     {
         "name": "Sweden",
@@ -2779,7 +2992,8 @@
         "Co2": 0.044438432,
         "PBI": 96300,
         "lifeexp": 87,
-        "Covid": 1523055
+        "Covid": 152305,
+        "users": []
     },
     {
         "name": "Switzerland",
@@ -2792,7 +3006,8 @@
         "Co2": 0.981583508,
         "PBI": 50456,
         "lifeexp": 90,
-        "Covid": 750155
+        "Covid": 750155,
+        "users": []
     },
     {
         "name": "Syrian Arab Republic",
@@ -2805,7 +3020,8 @@
         "Co2": 0.357488333,
         "PBI": 32296,
         "lifeexp": 89,
-        "Covid": 1636853
+        "Covid": 163685,
+        "users": []
     },
     {
         "name": "Taiwan (Province of China)",
@@ -2818,7 +3034,8 @@
         "Co2": 0.20738908,
         "PBI": 25355,
         "lifeexp": 87,
-        "Covid": 1730946
+        "Covid": 173094,
+        "users": []
     },
     {
         "name": "Tajikistan",
@@ -2831,7 +3048,8 @@
         "Co2": 0.74206582,
         "PBI": 74090,
         "lifeexp": 76,
-        "Covid": 369974
+        "Covid": 369974,
+        "users": []
     },
     {
         "name": "Tanzania, United Republic of",
@@ -2844,7 +3062,8 @@
         "Co2": 0.459306582,
         "PBI": 65818,
         "lifeexp": 81,
-        "Covid": 115684
+        "Covid": 115684,
+        "users": []
     },
     {
         "name": "Thailand",
@@ -2857,7 +3076,8 @@
         "Co2": 0.351288105,
         "PBI": 82940,
         "lifeexp": 81,
-        "Covid": 555358
+        "Covid": 555358,
+        "users": []
     },
     {
         "name": "Timor-Leste",
@@ -2870,7 +3090,8 @@
         "Co2": 0.012457057,
         "PBI": 98134,
         "lifeexp": 90,
-        "Covid": 961390
+        "Covid": 961390,
+        "users": []
     },
     {
         "name": "Togo",
@@ -2883,7 +3104,8 @@
         "Co2": 0.811612666,
         "PBI": 61858,
         "lifeexp": 89,
-        "Covid": 1995629
+        "Covid": 199562,
+        "users": []
     },
     {
         "name": "Tokelau",
@@ -2896,7 +3118,8 @@
         "Co2": 0.902728317,
         "PBI": 61878,
         "lifeexp": 62,
-        "Covid": 1976063
+        "Covid": 197606,
+        "users": []
     },
     {
         "name": "Tonga",
@@ -2909,7 +3132,8 @@
         "Co2": 0.645025603,
         "PBI": 38429,
         "lifeexp": 61,
-        "Covid": 1173163
+        "Covid": 117316,
+        "users": []
     },
     {
         "name": "Trinidad and Tobago",
@@ -2922,7 +3146,8 @@
         "Co2": 0.56145055,
         "PBI": 24771,
         "lifeexp": 82,
-        "Covid": 1429738
+        "Covid": 142973,
+        "users": []
     },
     {
         "name": "Tunisia",
@@ -2935,7 +3160,8 @@
         "Co2": 0.86294967,
         "PBI": 61108,
         "lifeexp": 72,
-        "Covid": 1363664
+        "Covid": 136366,
+        "users": []
     },
     {
         "name": "Turuncode",
@@ -2948,7 +3174,8 @@
         "Co2": 0.664096486,
         "PBI": 69026,
         "lifeexp": 69,
-        "Covid": 1930698
+        "Covid": 193069,
+        "users": []
     },
     {
         "name": "Turkmenistan",
@@ -2961,7 +3188,8 @@
         "Co2": 0.094612222,
         "PBI": 56638,
         "lifeexp": 61,
-        "Covid": 1038457
+        "Covid": 103845,
+        "users": []
     },
     {
         "name": "Turks and Caicos Islands (the)",
@@ -2974,7 +3202,8 @@
         "Co2": 0.837968822,
         "PBI": 68290,
         "lifeexp": 68,
-        "Covid": 1713288
+        "Covid": 171328,
+        "users": []
     },
     {
         "name": "Tuvalu",
@@ -2987,7 +3216,8 @@
         "Co2": 0.555108184,
         "PBI": 47135,
         "lifeexp": 63,
-        "Covid": 840205
+        "Covid": 840205,
+        "users": []
     },
     {
         "name": "Uganda",
@@ -3000,7 +3230,8 @@
         "Co2": 0.32655916,
         "PBI": 11130,
         "lifeexp": 68,
-        "Covid": 1510118
+        "Covid": 151011,
+        "users": []
     },
     {
         "name": "Ukraine",
@@ -3013,7 +3244,8 @@
         "Co2": 0.010510126,
         "PBI": 91472,
         "lifeexp": 89,
-        "Covid": 942663
+        "Covid": 942663,
+        "users": []
     },
     {
         "name": "United Arab Emirates (the)",
@@ -3026,7 +3258,8 @@
         "Co2": 0.338848043,
         "PBI": 55185,
         "lifeexp": 87,
-        "Covid": 153643
+        "Covid": 153643,
+        "users": []
     },
     {
         "name": "United Kingdom of Great Britain and Northern Ireland (the)",
@@ -3039,7 +3272,8 @@
         "Co2": 0.415694253,
         "PBI": 33484,
         "lifeexp": 82,
-        "Covid": 1862274
+        "Covid": 186227,
+        "users": []
     },
     {
         "name": "United States Minor Outlying Islands (the)",
@@ -3052,7 +3286,8 @@
         "Co2": 0.357348381,
         "PBI": 59802,
         "lifeexp": 60,
-        "Covid": 1072178
+        "Covid": 107217,
+        "users": []
     },
     {
         "name": "United States of America (the)",
@@ -3065,7 +3300,8 @@
         "Co2": 0.243465055,
         "PBI": 30312,
         "lifeexp": 84,
-        "Covid": 511007
+        "Covid": 511007,
+        "users": []
     },
     {
         "name": "Uruguay",
@@ -3078,7 +3314,8 @@
         "Co2": 0.399134035,
         "PBI": 79868,
         "lifeexp": 74,
-        "Covid": 906412
+        "Covid": 906412,
+        "users": []
     },
     {
         "name": "Uzbekistan",
@@ -3091,7 +3328,8 @@
         "Co2": 0.394314525,
         "PBI": 41307,
         "lifeexp": 77,
-        "Covid": 86090
+        "Covid": 86090,
+        "users": []
     },
     {
         "name": "Vanuatu",
@@ -3104,7 +3342,8 @@
         "Co2": 0.951018,
         "PBI": 66803,
         "lifeexp": 81,
-        "Covid": 1543234
+        "Covid": 154323,
+        "users": []
     },
     {
         "name": "Venezuela (Bolivarian Republic of)",
@@ -3117,7 +3356,8 @@
         "Co2": 0.506355012,
         "PBI": 91000,
         "lifeexp": 88,
-        "Covid": 1869824
+        "Covid": 186982,
+        "users": []
     },
     {
         "name": "Viet Nam",
@@ -3130,7 +3370,8 @@
         "Co2": 0.219294649,
         "PBI": 18762,
         "lifeexp": 90,
-        "Covid": 1190658
+        "Covid": 119065,
+        "users": []
     },
     {
         "name": "Virgin Islands (British)",
@@ -3143,7 +3384,8 @@
         "Co2": 0.01069217,
         "PBI": 85444,
         "lifeexp": 61,
-        "Covid": 1450993
+        "Covid": 145099,
+        "users": []
     },
     {
         "name": "Virgin Islands (U.S.)",
@@ -3156,7 +3398,8 @@
         "Co2": 0.174368663,
         "PBI": 70360,
         "lifeexp": 82,
-        "Covid": 1377131
+        "Covid": 137713,
+        "users": []
     },
     {
         "name": "Wallis and Futuna",
@@ -3169,7 +3412,8 @@
         "Co2": 0.124314028,
         "PBI": 91047,
         "lifeexp": 80,
-        "Covid": 744749
+        "Covid": 744749,
+        "users": []
     },
     {
         "name": "Western Sahara",
@@ -3182,7 +3426,8 @@
         "Co2": 0.525775077,
         "PBI": 74821,
         "lifeexp": 69,
-        "Covid": 238191
+        "Covid": 238191,
+        "users": []
     },
     {
         "name": "Yemen",
@@ -3195,7 +3440,8 @@
         "Co2": 0.046393669,
         "PBI": 28360,
         "lifeexp": 68,
-        "Covid": 1949241
+        "Covid": 194924,
+        "users": []
     },
     {
         "name": "Zambia",
@@ -3208,7 +3454,8 @@
         "Co2": 0.603357373,
         "PBI": 47963,
         "lifeexp": 65,
-        "Covid": 314214
+        "Covid": 314214,
+        "users": []
     },
     {
         "name": "Zimbabwe",
@@ -3221,7 +3468,8 @@
         "Co2": 0.153112676,
         "PBI": 91257,
         "lifeexp": 61,
-        "Covid": 212200
+        "Covid": 212200,
+        "users": []
     },
     {
         "name": "Åland Islands",
@@ -3234,6 +3482,7 @@
         "Co2": 0.119686889,
         "PBI": 29568,
         "lifeexp": 88,
-        "Covid": 292084
+        "Covid": 292084,
+        "users": []
     }
 ]
