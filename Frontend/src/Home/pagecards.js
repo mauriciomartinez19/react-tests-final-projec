@@ -8,7 +8,7 @@ const PageCards = () => {
             data.map((page) => {
                 const { title, img, link, id } = page
                 return (<Link to={link} className="home-link" key={id}>
-                    <img src={require(`./images/${img}`)} alt='preliminar-web-img' className="picture-home" />
+                    <img src={img} alt='preliminar-web-img' className="picture-home" />
                     <h5>{title}</h5>
                 </Link>)
             })

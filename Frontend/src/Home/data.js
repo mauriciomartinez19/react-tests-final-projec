@@ -2,25 +2,25 @@ export const data = [
     {
         id: 1,
         title: 'Menu',
-        img: 'menu.png',
+        img: './images/homePage/menu.png',
         link: '/menu'
     },
     {
         id: 2,
         title: 'Reviews',
-        img: 'reviews.png',
+        img: './images/homePage/reviews.png',
         link: '/reviews'
     },
     {
         id: 3,
         title: 'Tours',
-        img: 'tours.png',
+        img: './images/homePage/tours.png',
         link: '/tours'
     },
     {
         id: 4,
         title: 'Countries',
-        img: 'countries.png',
+        img: './images/homePage/countries.png',
         link: '/countries'
     }
 ]
