@@ -48,14 +48,16 @@ const TopNavbar = () => {
       <Link to='/'>Home</Link>
       <Link to='/contact'>Contact</Link>
       <Link to='/admin-contacts'>Testimonial</Link>
-      {userName ? <div>
-        <button className="dropbtn" onClick={() => setDropdown(!dropdown)}>{userName}</button>
-        {dropdown ? <div className="dropdown-content">
-          <a href='/' onClick={() => logout()}>Logout</a>
+      {userName ? <div className='drop-down-box'>
+        <button className="dropbtn">{userName}</button>
+        <div className='help-drop-box'>
+          <div className="dropdown-content">
+            <div className='link-box'>
+              <a href='/'> my Profile</a>
+              <a href='/' onClick={() => logout()}>Logout</a>
+            </div>
+          </div>
         </div>
-          : <></>
-        }
-
       </div>
         : <Link to='/login'>Sign Up</Link>}
     </ul>
@@ -67,7 +69,7 @@ const NavbarBox = styled.nav`
     position: fixed;
     width: 100%;
     height:${props => props.scrollState ? '50px' : '35px'};
-    background-color: ${props => props.scrollState ? 'transparent' : 'rgb(265 265 265 / 90%)'};
+    background-color: ${props => props.scrollState ? '#ffffff3b' : 'rgb(265 265 265 /90%)'};
     display: flex;
     align-items: center;
     justify-content: space-between;
