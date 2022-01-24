@@ -1,5 +1,4 @@
 import './center.css'
-import arrow from './images/down-arrow.png'
 
 const Center = () => {
     return <>
@@ -9,7 +8,7 @@ const Center = () => {
             </div>
             <div className='scroll-down'>
                 <a href='#pagecards'>
-                    <img src={arrow} alt='scroll-down-arrow' className='scroll-down-arrow' />
+                    <img src='./images/homePage/down-arrow.png' alt='scroll-down-arrow' className='scroll-down-arrow' />
                 </a>
             </div>
         </div>

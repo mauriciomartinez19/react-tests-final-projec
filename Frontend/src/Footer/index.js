@@ -1,5 +1,4 @@
 import './footer.css'
-import arrow from '../Home/images/down-arrow.png'
 import { footerImage } from './footerImage'
 
 const Footer = () => {
@@ -27,7 +26,7 @@ const Footer = () => {
             </div>
             <div className='arrow-icon-footer'>
                 <a href='#top'>
-                    <img src={arrow} alt='scroll-down-arrow' className='scroll-up-arrow' />
+                    <img src='./images/homePage/down-arrow.png' alt='scroll-down-arrow' className='scroll-up-arrow' />
                 </a>
             </div>
         </div>
