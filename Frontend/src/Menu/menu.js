@@ -5,7 +5,7 @@ import './Menu.css';
 
 const Menu = ({ showFood }) => {
     return (<>
-        <div className='center'>
+        <div>
             <div className='menu'>
                 {showFood.map((food) => {
                     const { id, title, price, description, img } = food

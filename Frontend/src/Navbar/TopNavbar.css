@@ -41,14 +41,13 @@
     cursor: pointer;
 }
 
-a {
+.list a {
     color: rgb(77, 50, 0);
     text-decoration: none;
 }
 
-a:hover{
+.list a:hover{
     cursor: pointer;
-    transform: scale(1.1);
 }
 
 .link-box a{

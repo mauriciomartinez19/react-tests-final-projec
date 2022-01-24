@@ -39,6 +39,10 @@
     filter: contrast(800%) invert(80%) sepia(50%) hue-rotate(120deg); 
 }
 
+.scroll-down-arrow:hover{
+    transform: scale(1.1);
+}
+
 html{
     scroll-behavior: smooth;
 }
