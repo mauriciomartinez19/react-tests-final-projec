@@ -22,7 +22,8 @@ const Input = () => {
         console.log(data)
     }
     return <section className="input-section">
-        <h1 className="input-title">Get in Touch!</h1>
+        <h1 className="input-title">Did you work with me?</h1>
+        <h1 className="input-subtitle">Give your review!</h1>
         <form className="formulario" onSubmit={handleSubmit}>
             <input
                 type='text'

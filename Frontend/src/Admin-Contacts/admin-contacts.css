@@ -1,5 +1,5 @@
 .page-admin-contact{
-    background: linear-gradient(70deg, #c76099,hsl(0deg 0% 100%));
+    background: linear-gradient(hsl(193deg 31% 73%) 10%,#010122);
     min-height: 100vh;
 }
 
@@ -16,9 +16,9 @@
 }
 
 .item-list-admin-contact{
-border-bottom-right-radius: 20px ;
-background: linear-gradient(to bottom, rgb(205 147 249),hsl(217deg 100% 75%));
-border: none;
+border-bottom-right-radius: 20px;
+background: linear-gradient(to bottom, rgb(186 211 218) 30%,hsl(238deg 80% 8%)90%);
+border: solid 2px #414a62;
 width: 350px;
 min-height: 150px;
 }
@@ -43,6 +43,7 @@ min-height: 150px;
 
 .name-admin-contact{
 margin-top: 10px;
+text-shadow: 2px 5px 11px black;
 margin-left: 0;
 margin-bottom: 0;
 padding-left: 20px;
