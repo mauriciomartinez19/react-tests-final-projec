@@ -1,0 +1,67 @@
+.footer-box{
+    height: 100px;
+    background-color: #010125;
+}
+
+.center-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.icons-social-media-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    gap: 20px;
+}
+
+.media-icons{
+    width: 30px;
+    height: 30px;
+}
+
+.links-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.links-footer a{
+    color: white;
+}
+
+.footer-bot-box{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-top: solid white 2px;
+}
+
+.my-name-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.my-name{
+    color: white;
+    margin: 0;
+}
+
+.my-email{
+    color: white;
+    margin: 0;
+}
+
+.scroll-up-arrow{
+    height: 60px;
+    width: 60px;
+    transform: rotate(180deg);
+}

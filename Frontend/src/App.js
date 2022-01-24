@@ -16,6 +16,7 @@ import AdminContact from './Admin-Contacts';
 import Countries from './countries';
 import Login from './login';
 import Register from './login/register'
+import Footer from './Footer'
 
 
 function App() {
@@ -95,6 +96,7 @@ function App() {
             ? <HomePage />
             : <Register />}
         </Route>
+        <Footer />
       </>}
   </Router>
   );
