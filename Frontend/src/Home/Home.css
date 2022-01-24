@@ -1,5 +1,5 @@
 .home-page{
-    background: linear-gradient(45deg, #c6cb7f,hsl(36deg 100% 92%));
+    background: linear-gradient(#010125 60%,hsl(193deg 31% 73%));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,24 @@
     margin-bottom: 0px;
     color: rgb(158 201 101);
     text-shadow:0 0 3px #b9f371, 0 0 5px #d7b15b
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mern-stack-title{
+    text-underline-offset: 10px;
+    font-size: 40px;
+    background-color: transparent;
+    color: #77b0c7;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-shadow: 20px 14px 20px #032967;
 }
 
 .card-home{

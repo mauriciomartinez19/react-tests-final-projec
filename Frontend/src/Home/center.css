@@ -1,0 +1,44 @@
+.back-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 100%;
+    background-image: url("./images/center-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.learning-text-box{
+    position: absolute;
+    border: solid #021150 20px;
+    padding: 30px;
+}
+
+.learning-text{
+    color: #021150;
+    font-size: 100px;
+    margin: 0;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.scroll-down{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 30px;
+    margin-right: 5rem;
+    width: 100%;
+}
+
+.scroll-down-arrow{
+    height: 100px;
+    width: 100px; 
+    filter: contrast(800%) invert(80%) sepia(50%) hue-rotate(120deg); 
+}
+
+html{
+    scroll-behavior: smooth;
+}

@@ -1,13 +1,14 @@
 import './Home.css';
 import PageCards from './pagecards';
+import Center from './center';
 
 const Home = () => {
     return <div className='home-page'>
-        <br />
-        <h1 className='react-testing'>React Testing to Learn</h1>
-        <article className='card'>
+        <Center />
+        <div className='card' id='pagecards' >
+            <h1 className='mern-stack-title'>MERN Stack Projects</h1>
             <PageCards />
-        </article>
+        </div>
 
     </div>
 }
