@@ -1,5 +1,5 @@
 .login-page{
-background-color: rgb(199, 199, 199);
+background: linear-gradient(hsl(193deg 31% 73%) 10%,#010122);
 height: 100vh;
 display: flex;
 justify-content: center;
@@ -7,10 +7,10 @@ align-items: center;
 }
 
 .login-box{
-background-color: white;
+background-color: #c4dfe7;
 box-shadow: 5px 5px 10px;
 padding: 40px;
-border: solid rgb(90, 90, 90) 3px;
+border: solid #010122 3px;
 border-radius: 30px;
 }
 
