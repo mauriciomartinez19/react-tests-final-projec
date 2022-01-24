@@ -1,5 +1,4 @@
 import './TopNavbar.css'
-import restlogo from './restlogo.png'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import jwt_decode from "jwt-decode";
@@ -9,7 +8,6 @@ const TopNavbar = () => {
 
   const [scrollState, setScrollState] = useState(true)
   const [userName, setUserName] = useState(false)
-  const [dropdown, setDropdown] = useState(false)
 
   const logout = () => {
     localStorage.removeItem('token')
@@ -43,7 +41,7 @@ const TopNavbar = () => {
     }
   }, [scrollState, userName])
   return <NavbarBox scrollState={scrollState}>
-    <img src={restlogo} className='restlogo' alt='ubuntu-logo' />
+    <img src='./images/restlogo.png' className='restlogo' alt='ubuntu-logo' />
     <ul className='list'>
       <Link to='/'>Home</Link>
       <Link to='/contact'>Contact</Link>

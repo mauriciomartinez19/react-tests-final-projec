@@ -19,6 +19,9 @@ import Register from './login/register'
 import Footer from './Footer'
 
 
+//Loading page
+import Loading from './Loading/loading';
+
 function App() {
 
   const [isAunthenticated, setIsAuthenticated] = useState(false)
@@ -37,7 +40,11 @@ function App() {
       console.log('im here')
       setIsAuthenticated(true)
     } else setIsAuthenticated(false)
-    setIsLoading(false)
+    setTimeout(() => {
+      setIsLoading(false)
+    }
+      , 2500)
+
   }
 
 
@@ -48,7 +55,7 @@ function App() {
 
   return (<Router>
     {isLoading
-      ? <h1>isLoading</h1>
+      ? <Loading />
       : <>
         <TopNavbar />
         <Route exact path='/'>

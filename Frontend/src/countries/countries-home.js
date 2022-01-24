@@ -3,6 +3,8 @@ import './countries.css'
 import './countries-reverse.css'
 import Flag from "./flag"
 
+import Loading from "../Loading/loading"
+
 const CountriesHome = ({ FLAG_BASE_URI }) => {
 
     const [countries, setCountries] = useState([])
@@ -30,16 +32,14 @@ const CountriesHome = ({ FLAG_BASE_URI }) => {
     useEffect(() => {
         getCountries()
     }, [])
-    // if (isLoading) {
-    //     return <h1 className="loading">Is Loading</h1>
-    // }
     return <div>
-        <div className="input-country-div">
-            <input className="country-input" placeholder="search your country" onChange={handleChange} />
-        </div>
-        <div className="CountriesHome">
-            {isLoading ? <h1 className="loading">Is Loading</h1> :
-                showCountries ?
+        {isLoading ? <Loading /> : <>
+            <h1 className="title-country">Select your next trip!!!</h1>
+            <div className="input-country-div">
+                <input className="country-input" placeholder="search your country" onChange={handleChange} />
+            </div>
+            <div className="CountriesHome">
+                {showCountries ?
                     (showCountries.map((country, i) => {
                         return <Flag
                             {...country}
@@ -47,7 +47,8 @@ const CountriesHome = ({ FLAG_BASE_URI }) => {
                             key={i} />
                     })) :
                     <h1>No hay coincidencias</h1>}
-        </div>
+            </div>
+        </>}
     </div>
 }
 
