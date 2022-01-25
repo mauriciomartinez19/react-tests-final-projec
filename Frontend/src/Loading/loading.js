@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import './loading.css'
 
 const Loading = () => {

@@ -32,11 +32,13 @@ const CountriesHome = ({ FLAG_BASE_URI }) => {
     useEffect(() => {
         getCountries()
     }, [])
-    return <div>
+    return <>
         {isLoading ? <Loading /> : <>
-            <h1 className="title-country">Select your next trip!!!</h1>
-            <div className="input-country-div">
-                <input className="country-input" placeholder="search your country" onChange={handleChange} />
+            <div className="header-country-page">
+                <h1 className="title-country">Find your trip!</h1>
+                <div className="input-country-div">
+                    <input className="country-input" placeholder="search your country" onChange={handleChange} />
+                </div>
             </div>
             <div className="CountriesHome">
                 {showCountries ?
@@ -49,7 +51,7 @@ const CountriesHome = ({ FLAG_BASE_URI }) => {
                     <h1>No hay coincidencias</h1>}
             </div>
         </>}
-    </div>
+    </>
 }
 
 export default CountriesHome
