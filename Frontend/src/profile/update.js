@@ -1,5 +1,6 @@
 import { useState } from "react"
 import './update.css'
+import jwt_decode from 'jwt-decode'
 
 const url = 'http://localhost:5000/api/login/register'
 
@@ -13,12 +14,17 @@ const Update = ({ showUpdate }) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
+        const token = localStorage.getItem('token')
+        let decoded = jwt_decode(token)
+        const id = decoded.id
+
         const mes = {
+            id: id,
             userName: userName,
             phone: phone,
             email: email,
             birth: birth,
-            abotuMe: aboutMe,
+            aboutMe: aboutMe,
             skills: skills
         }
         console.log(mes)
@@ -27,7 +33,8 @@ const Update = ({ showUpdate }) => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(mes)
         })
-        const data = response.json()
+        const data = await response.json()
+        console.log(data)
     }
 
     return <div>
@@ -58,7 +65,7 @@ const Update = ({ showUpdate }) => {
                         <input className='login-inptus'
                             placeholder='insert your Birthday'
                             onChange={(e) => setBirth(e.target.value)}
-                            type='string' />
+                            type='date' />
                     </div>
                     <div>
                         <label className='login-text'>Phone</label>

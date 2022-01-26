@@ -25,7 +25,6 @@ const users = [
 router.route('/').post(async (req, res) => {
     const { userName, password } = req.body
     const { mes, user } = await validation(userName, password)
-    console.log(mes, user)
     if (user) {
         const token = jwt.sign(
             {
@@ -34,7 +33,7 @@ router.route('/').post(async (req, res) => {
                 id: user[0]._id
             },
             'secret123',
-            { expiresIn: '20m' }
+            { expiresIn: '6h' }
         )
         res.json({ status: mes, user: token })
     } else res.json({ status: mes, user: false })
@@ -61,6 +60,23 @@ router.route('/register').post(async (req, res) => {
         console.error(error);
         res.status(400).json('email already exist')
     }
+})
+
+router.route('/register').put(async (req, res) => {
+    const { userName, email, phone, birth, aboutMe, skills, id } = req.body
+    console.log(userName, email, phone, birth, aboutMe, skills, id)
+    try {
+        const user = await User.findByIdAndUpdate(id, {
+            userName: userName,
+            email: email,
+            phone: phone,
+            birth: birth,
+            abotuMe: aboutMe,
+            skills: skills
+        }, { new: true })
+        res.status(200).json('User updated' + user)
+    } catch (error) { res.json(error.message) }
+
 })
 
 module.exports = router
