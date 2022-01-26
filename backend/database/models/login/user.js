@@ -10,7 +10,7 @@ const UserSchema = new Schema({
     birth: { type: String, required: false },
     phone: { type: Number, required: false },
     skills: { type: Array, required: false },
-    abotuMe: { type: String, required: false }
+    aboutMe: { type: String, required: false }
 })
 
 

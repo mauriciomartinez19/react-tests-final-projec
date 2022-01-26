@@ -1,16 +1,41 @@
 import './profile.css'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import jwt_decode from 'jwt-decode'
+
 import { data } from './data'
 import Update from './update'
 
+
 const Profile = () => {
+
+    const [userData, setUserData] = useState([])
+    const [skills, setSkills] = useState([])
+
+    const getUserData = async () => {
+        const token = localStorage.getItem('token')
+        let decoded = jwt_decode(token)
+        const id = decoded.id
+        const response = await fetch(`http://localhost:5000/api/login/${id}`)
+        const user = await response.json()
+        setUserData(user)
+        console.log(user)
+    }
+
+    useEffect(() => {
+        getUserData()
+    }, [])
 
     const [update, setUpdate] = useState(false)
     const showUpdate = () => {
         setUpdate(!update)
     }
 
-    const { portraitImage, profileImage, name, skills, email, phone, birthday, about } = data
+    const { portraitImage, profileImage } = data
+    const { userName, birth, email, phone, aboutMe } = userData
+    if (!skills.length && userData.skills) {
+        setSkills(userData.skills)
+    }
+    console.log(skills)
 
     return <>
         <a className='edit-logo-box' onClick={showUpdate}>
@@ -29,14 +54,14 @@ const Profile = () => {
                 <div className='profile-text'>
                     <div className='text-zone-1'>
                         <div className='user-data-box'>
-                            <h4 className='profile-name'>{name}</h4>
+                            <h4 className='profile-name'>{userName}</h4>
                             <div className='undername'>
                                 <div className='skills-box'>
                                     <label className='skills-title'>Skills</label>
                                     <ul>
-                                        {skills.map((skill, i) => {
+                                        {skills.map((skill, index) => {
                                             return <>
-                                                <li key={i}>{skill}</li>
+                                                <li key={index}>{skill}</li>
                                             </>
                                         })
                                         }
@@ -53,7 +78,7 @@ const Profile = () => {
                                     </div>
                                     <div className='label-box'>
                                         <label className='profile-label'>Birthday</label>
-                                        <h5 className='content-profile'>{birthday}</h5>
+                                        <h5 className='content-profile'>{birth}</h5>
                                     </div>
                                 </div>
                             </div>
@@ -62,10 +87,9 @@ const Profile = () => {
                     <div className='text-zone-2'>
                         <div>
                             <h1 className='text-profile'>About Me</h1>
-                            <p className='personal-description'>{about}</p>
+                            <p className='personal-description'>{aboutMe}</p>
                         </div>
                     </div>
-
                 </div>
             </section>
         </div>

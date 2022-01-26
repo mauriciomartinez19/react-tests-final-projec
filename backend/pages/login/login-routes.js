@@ -3,6 +3,9 @@ const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt');
 const router = express.Router()
 
+var mongoose = require('mongoose');
+
+
 const User = require('../../database/models/login/user')
 
 //
@@ -71,12 +74,22 @@ router.route('/register').put(async (req, res) => {
             email: email,
             phone: phone,
             birth: birth,
-            abotuMe: aboutMe,
+            aboutMe: aboutMe,
             skills: skills
         }, { new: true })
-        res.status(200).json('User updated' + user)
+        res.status(200).json(user)
     } catch (error) { res.json(error.message) }
 
+})
+
+router.route('/:id').get(async (req, res) => {
+    const { id } = req.params
+    const { userName, email, age, phone, skills, aboutMe, birth } = await User.findById(id)
+    const userData = {
+        userName, email, age, phone, skills, aboutMe, birth
+    }
+    console.log(userData)
+    res.status(200).json(userData)
 })
 
 module.exports = router
