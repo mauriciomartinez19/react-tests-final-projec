@@ -1,0 +1,145 @@
+.profile-page{
+    min-height: 100vh;
+    background: linear-gradient(83deg, #010125 6%,hsl(193deg 31% 73%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-section{
+    width: 70vw;
+    height: 80vh;
+    background-color: white;
+    border: solid grey 2px;
+    box-shadow: 7px 6px 16px 0px black;
+}
+
+.portrait-box{
+    width: 100%;
+    height: 35%;
+    border-bottom: solid grey 2px;
+
+}
+
+.portrait-picture{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-pic-section{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+
+.profile-pic-box{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: solid grey;
+}
+
+.profile-pic{
+    border-radius: 100px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-text{
+    padding: 0;
+    margin-top: 2vw;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    color: white;
+    height: 55%;
+}
+
+.text-zone-1{
+    border: solid grey 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 50px;
+    background: linear-gradient(#8383d5 22%,hsl(193deg 74% 54%));
+}
+
+.user-data-box{
+    width: 100%;
+}
+
+.name{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.undername{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.skills-box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    border-left: solid 1px;
+    align-items: center;
+}
+
+.skills-title{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.contact-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-box{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.profile-label{
+    margin-left: 0;
+    font-weight: bolder;
+}
+
+.content-profile {
+    margin: 0;
+    font-weight: lighter;
+}
+
+.text-zone-2{
+    background: linear-gradient(hsl(193deg 74% 54%) 22%,#8383d5);
+    border: solid grey 1px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.text-profile{
+    margin-top: 0;
+}
+
+.personal-description{
+    color: white;
+}

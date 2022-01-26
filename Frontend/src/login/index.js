@@ -22,7 +22,6 @@ const Login = () => {
         })
         const data = await response.json()
         if (data.user) {
-            alert(`${data.status} Login successful`)
             localStorage.setItem('token', data.user)
             window.location.href = '/'
         } else {

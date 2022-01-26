@@ -51,7 +51,7 @@ const TopNavbar = () => {
         <div className='help-drop-box'>
           <div className="dropdown-content">
             <div className='link-box'>
-              <a href='/'> my Profile</a>
+              <a href='/profile'> my Profile</a>
               <a href='/' onClick={() => logout()}>Logout</a>
             </div>
           </div>

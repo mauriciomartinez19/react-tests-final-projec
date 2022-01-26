@@ -17,6 +17,7 @@ import Countries from './countries';
 import Login from './login';
 import Register from './login/register'
 import Footer from './Footer'
+import Profile from './profile'
 
 
 //Loading page
@@ -91,6 +92,11 @@ function App() {
         <Route path='/admin-contacts'>
           {isAunthenticated
             ? <AdminContact />
+            : <Redirect to='/login' />}
+        </Route>
+        <Route path='/profile'>
+          {isAunthenticated
+            ? <Profile />
             : <Redirect to='/login' />}
         </Route>
         <Route path='/login'>
