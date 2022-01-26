@@ -1,0 +1,71 @@
+
+.update-box{
+background-color: #c4dfe7;
+box-shadow: 5px 5px 10px;
+padding: 20px;
+border: solid #010122 3px;
+border-radius: 30px;
+
+}
+
+.scroll-update-box{
+    padding: 20px;
+    max-height: 70vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+.close-btn-box{
+    margin-right: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-btn{
+    font-size: 20px;
+    width: 5px;
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+
+.login-input-box{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.login-text{
+
+}
+
+.login-inptus{
+    border: solid gray 1px;
+}
+
+.login-button-box{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.login-button{
+    margin-top: 25px;
+    background-color: rgb(107, 107, 221);
+    border: rgb(37, 37, 37) solid 1px;
+}
+
+.create-new-account-btn{
+    background-color: rgb(2, 206, 2);
+    border: green solid 1px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
