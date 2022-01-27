@@ -148,6 +148,11 @@
     position: absolute;
     top: 13vh;
     right: 16vw;
+    background-color: white;
+    border-radius: 100px;
+    width: 55px;
+    height: 50px;
+    box-shadow: black;
 }
 
 .edit-logo{

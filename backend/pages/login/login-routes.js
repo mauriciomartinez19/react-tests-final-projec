@@ -11,20 +11,6 @@ const User = require('../../database/models/login/user')
 //
 const { validation, hashPassword } = require('./login-controllers')
 
-const users = [
-    {
-        userName: 'Mauricio',
-        password: 'testpassword'
-    }, {
-        userName: 'Pedro',
-        password: 'pedro123456'
-    }, {
-        userName: 'Jose',
-        password: 'miguel123456'
-    }
-]
-
-
 router.route('/').post(async (req, res) => {
     const { userName, password } = req.body
     const { mes, user } = await validation(userName, password)
@@ -66,8 +52,7 @@ router.route('/register').post(async (req, res) => {
 })
 
 router.route('/register').put(async (req, res) => {
-    const { userName, email, phone, birth, aboutMe, skills, id } = req.body
-    console.log(userName, email, phone, birth, aboutMe, skills, id)
+    const { userName, email, phone, birth, aboutMe, skills, profImage, portImage, id } = req.body
     try {
         const user = await User.findByIdAndUpdate(id, {
             userName: userName,
@@ -75,7 +60,9 @@ router.route('/register').put(async (req, res) => {
             phone: phone,
             birth: birth,
             aboutMe: aboutMe,
-            skills: skills
+            skills: skills,
+            profImage: profImage,
+            portImage: portImage
         }, { new: true })
         res.status(200).json(user)
     } catch (error) { res.json(error.message) }
@@ -84,9 +71,9 @@ router.route('/register').put(async (req, res) => {
 
 router.route('/:id').get(async (req, res) => {
     const { id } = req.params
-    const { userName, email, age, phone, skills, aboutMe, birth } = await User.findById(id)
+    const { userName, email, age, phone, skills, aboutMe, birth, profImage, portImage } = await User.findById(id)
     const userData = {
-        userName, email, age, phone, skills, aboutMe, birth
+        userName, email, age, phone, skills, aboutMe, birth, profImage, portImage
     }
     console.log(userData)
     res.status(200).json(userData)

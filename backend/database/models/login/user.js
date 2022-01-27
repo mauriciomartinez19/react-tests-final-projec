@@ -8,9 +8,11 @@ const UserSchema = new Schema({
     age: { type: Number, required: true },
     passwordHash: { type: String, required: true },
     birth: { type: String, required: false },
-    phone: { type: Number, required: false },
+    phone: { type: String, required: false },
     skills: { type: Array, required: false },
-    aboutMe: { type: String, required: false }
+    aboutMe: { type: String, required: false },
+    profImage: { type: String, required: false },
+    portImage: { type: String, required: false }
 })
 
 

@@ -2,7 +2,6 @@ import './profile.css'
 import { useEffect, useState } from 'react'
 import jwt_decode from 'jwt-decode'
 
-import { data } from './data'
 import Update from './update'
 
 
@@ -18,7 +17,7 @@ const Profile = () => {
         const response = await fetch(`http://localhost:5000/api/login/${id}`)
         const user = await response.json()
         setUserData(user)
-        console.log(user)
+        setSkills(user.skills)
     }
 
     useEffect(() => {
@@ -30,12 +29,8 @@ const Profile = () => {
         setUpdate(!update)
     }
 
-    const { portraitImage, profileImage } = data
-    const { userName, birth, email, phone, aboutMe } = userData
-    if (!skills.length && userData.skills) {
-        setSkills(userData.skills)
-    }
-    console.log(skills)
+    const { userName, birth, email, phone, aboutMe, profImage, portImage } = userData
+
 
     return <>
         <a className='edit-logo-box' onClick={showUpdate}>
@@ -44,11 +39,11 @@ const Profile = () => {
         <div className="profile-page">
             <section className='profile-section'>
                 <div className='portrait-box'>
-                    <img src={portraitImage} className='portrait-picture' />
+                    <img src={portImage} className='portrait-picture' />
                 </div>
                 <div className='profile-pic-section'>
                     <div className='profile-pic-box'>
-                        <img className='profile-pic' src={profileImage} />
+                        <img className='profile-pic' src={profImage} />
                     </div>
                 </div>
                 <div className='profile-text'>
@@ -96,7 +91,14 @@ const Profile = () => {
         {update
             ? <div className="update-background">
                 <Update
-                    showUpdate={showUpdate} />
+                    showUpdate={showUpdate}
+                    oldUserName={userName}
+                    oldBirth={birth}
+                    oldEmail={email}
+                    oldPhone={phone}
+                    oldAboutMe={aboutMe}
+                    oldSkills={skills}
+                    oldProfImage={profImage} />
             </div>
             : <></>}
     </>
