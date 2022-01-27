@@ -33,7 +33,6 @@ const Update = ({ showUpdate, oldUserName, oldBirth, oldEmail, oldPhone, oldAbou
     };
 
     const handleSubmit = async (e) => {
-        e.preventDefault()
         const token = localStorage.getItem('token')
         let decoded = jwt_decode(token)
         const id = decoded.id

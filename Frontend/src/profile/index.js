@@ -53,7 +53,7 @@ const Profile = () => {
                             <div className='undername'>
                                 <div className='skills-box'>
                                     <label className='skills-title'>Skills</label>
-                                    <ul>
+                                    <ul className='skill-list'>
                                         {skills.map((skill, index) => {
                                             return <>
                                                 <li key={index}>{skill}</li>

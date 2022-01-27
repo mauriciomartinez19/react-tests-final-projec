@@ -9,7 +9,7 @@
 .profile-section{
     width: 70vw;
     height: 80vh;
-    background-color: white;
+    background: linear-gradient( #081132 52%,rgb(159 158 158));
     border: solid grey 2px;
     box-shadow: 7px 6px 16px 0px black;
 }
@@ -69,7 +69,7 @@
     align-items: center;
     width: 50%;
     border-radius: 50px;
-    background: linear-gradient(#8383d5 22%,hsl(193deg 74% 54%));
+    background: linear-gradient(hsl(270deg 1% 60%),#081132 102%);
 }
 
 .user-data-box{
@@ -103,6 +103,12 @@
     font-weight: bolder;
 }
 
+.skill-list{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 .contact-box{
     width: 50%;
     display: flex;
@@ -127,7 +133,7 @@
 }
 
 .text-zone-2{
-    background: linear-gradient(hsl(193deg 74% 54%) 22%,#8383d5);
+    background: linear-gradient(hsl(270deg 1% 60%),#081132 102%);
     border: solid grey 1px;
     display: flex;
     justify-content: center;

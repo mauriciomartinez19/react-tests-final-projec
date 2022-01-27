@@ -75,7 +75,6 @@ router.route('/:id').get(async (req, res) => {
     const userData = {
         userName, email, age, phone, skills, aboutMe, birth, profImage, portImage
     }
-    console.log(userData)
     res.status(200).json(userData)
 })
 
