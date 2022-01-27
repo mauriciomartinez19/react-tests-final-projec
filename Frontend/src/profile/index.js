@@ -39,11 +39,11 @@ const Profile = () => {
         <div className="profile-page">
             <section className='profile-section'>
                 <div className='portrait-box'>
-                    <img src={portImage} className='portrait-picture' />
+                    <img src={portImage || './images/profile/default_portrait.png'} className='portrait-picture' />
                 </div>
                 <div className='profile-pic-section'>
                     <div className='profile-pic-box'>
-                        <img className='profile-pic' src={profImage} />
+                        <img className='profile-pic' src={profImage || './images/profile/default_profile.jpg'} />
                     </div>
                 </div>
                 <div className='profile-text'>

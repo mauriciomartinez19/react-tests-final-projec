@@ -62,7 +62,7 @@ const Update = ({ showUpdate, oldUserName, oldBirth, oldEmail, oldPhone, oldAbou
     return <div>
         <form className="update-box" onSubmit={(e) => handleSubmit(e)}>
             <div className="close-btn-box">
-                <button className="close-btn" onClick={showUpdate}>
+                <button className="update-close-btn" onClick={showUpdate}>
                     x
                 </button>
             </div>
