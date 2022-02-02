@@ -36,7 +36,6 @@ function App() {
       }
     })
     const data = await response.json()
-    console.log(data)
     if (data === 'the token is valid') {
       console.log('im here')
       setIsAuthenticated(true)

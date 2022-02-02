@@ -14,8 +14,6 @@ const Country = styled.section`
     width: 252px;
     height: 400px;
     position: relative;
-    ${props => !props.showFlag && 'transform: rotateY(180deg);'}
-    backface-visibility:${props => props.showFlag ? 'hidden' : 'visible'};
 `
 
 const Flip = styled.div`
@@ -27,8 +25,6 @@ const Flip = styled.div`
     transition: 1s;
     transform-style: preserve-3d;
     background: linear-gradient(to bottom, #96f790d9,hsl(222deg 91% 73% / 79%),#f9dede);
-    ${props => !props.showFlag && 'transform: rotateY(180deg);'}
-    backface-visibility:${props => props.showFlag ? 'hidden' : 'visible'};
 `
 
 export default Card;

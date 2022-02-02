@@ -21,12 +21,10 @@ const CountriesHome = ({ FLAG_BASE_URI }) => {
     }
 
     const handleChange = (e) => {
-        setIsLoading(true)
         const { value } = e.target
         const showCountry = countries.filter((country) => country.name.toUpperCase().includes(value.toUpperCase()))
         const newCountry = (showCountry.length ? (showCountry) : false)
         setShowCountries(newCountry)
-        setTimeout(() => setIsLoading(false), 500)
     }
 
     useEffect(() => {
